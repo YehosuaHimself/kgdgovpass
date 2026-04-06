@@ -1,0 +1,1374 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0,user-scalable=yes,viewport-fit=cover"><title>&#8203;</title><meta name="format-detection" content="telephone=no,date=no,email=no,address=no"><meta name="theme-color" content="#07090f"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="KGD Pass"><link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%230c1730'/%3E%3Ctext x='256' y='340' text-anchor='middle' font-size='320' fill='%23c9a84c' font-family='serif'%3E%E2%98%A8%3C/text%3E%3C/svg%3E"><link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiS0dEIERpcGxvbWF0aWMgUGFzcyIsInNob3J0X25hbWUiOiJLR0QgUGFzcyIsImRlc2NyaXB0aW9uIjoiS2luZ2RvbSBvZiBHb2QgRGlwbG9tYXRpYyBQYXNzIEo3NDgyMzcyMSIsInN0YXJ0X3VybCI6Ii4iLCJkaXNwbGF5Ijoic3RhbmRhbG9uZSIsImJhY2tncm91bmRfY29sb3IiOiIjMDcwOTBmIiwidGhlbWVfY29sb3IiOiIjMDcwOTBmIiwib3JpZW50YXRpb24iOiJwb3J0cmFpdCIsImljb25zIjpbeyJzcmMiOiJkYXRhOmltYWdlL3N2Zyt4bWwsJTNDc3ZnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgdmlld0JveD0nMCAwIDUxMiA1MTInJTNFJTNDcmVjdCB3aWR0aD0nNTEyJyBoZWlnaHQ9JzUxMicgZmlsbD0nJTIzMGMxNzMwJy8lM0UlM0N0ZXh0IHg9JzI1NicgeT0nMzQwJyB0ZXh0LWFuY2hvcj0nbWlkZGxlJyBmb250LXNpemU9JzMyMCcgZmlsbD0nJTIzYzlhODRjJyBmb250LWZhbWlseT0nc2VyaWYnJTNFJUUyJTk4JUE4JTNDL3RleHQlM0UlM0Mvc3ZnJTNFIiwic2l6ZXMiOiI1MTJ4NTEyIiwidHlwZSI6ImltYWdlL3N2Zyt4bWwiLCJwdXJwb3NlIjoiYW55IG1hc2thYmxlIn1dfQ=="><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Space+Mono:wght@400;700&family=Sacramento&family=Dancing+Script:wght@600&display=swap" rel="stylesheet"> <style>:root{--navy:#0c1730;--gold:#c9a84c;--gold2:#f0d080;--cream:#f4eed8;--tan:#e8dfc4;--mid:#3a5a9a;--vfy:#2ecc71;--red:#e74c3c;--si:env(safe-area-inset-top,44px);--sb:env(safe-area-inset-bottom,0px);--sl:env(safe-area-inset-left,0px);--sr:env(safe-area-inset-right,0px);--cp:15px;--cpl:19px;--cw:min(430px,calc(100vw - 12px))}*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%;overflow:hidden;background:#07090f;height:100%;height:-webkit-fill-available}body{background:#07090f;font-family:"Space Mono","Courier New",monospace;height:100dvh;min-height:-webkit-fill-available;overflow:hidden;-webkit-font-smoothing:antialiased;overscroll-behavior:none}img{display:block;max-width:100%}button,input{font-family:inherit;-webkit-appearance:none;appearance:none}#bgC{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35}#gate{position:fixed;inset:0;z-index:900;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 38%,#0d1a35,#07090f);padding:max(calc(env(safe-area-inset-top,44px) + 38px),82px) 20px max(env(safe-area-inset-bottom,20px),20px);overflow-y:auto;-webkit-overflow-scrolling:touch;gap:0;touch-action:pan-y}.gscan{position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,.32),transparent);pointer-events:none;animation:scanV 8s linear infinite}@keyframes scanV{0%{top:0}100%{top:100%}}.gc{display:none}.gc.tl{top:max(calc(var(--si)+12px),22px);left:max(12px,var(--sl));border-top:1px solid var(--gold);border-left:1px solid var(--gold)}.gc.tr{top:max(calc(var(--si)+12px),22px);right:max(12px,var(--sr));border-top:1px solid var(--gold);border-right:1px solid var(--gold)}.gc.bl{bottom:max(calc(var(--sb)+12px),22px);left:max(12px,var(--sl));border-bottom:1px solid var(--gold);border-left:1px solid var(--gold)}.gc.br{bottom:max(calc(var(--sb)+12px),22px);right:max(12px,var(--sr));border-bottom:1px solid var(--gold);border-right:1px solid var(--gold)}.gsym{font-size:clamp(32px,9vw,42px);color:var(--gold);line-height:1;margin-bottom:8px;filter:drop-shadow(0 0 22px rgba(201,168,76,.55));animation:symP 4s ease-in-out infinite}@keyframes symP{0%,100%{filter:drop-shadow(0 0 12px rgba(201,168,76,.4));transform:scale(1)}50%{filter:drop-shadow(0 0 32px rgba(201,168,76,.75));transform:scale(1.04)}}.gorg{font-family:"Cinzel",serif;font-size:clamp(12px,3.4vw,15px);letter-spacing:clamp(3px,1.4vw,6px);color:var(--gold);text-align:center;line-height:1.6;margin-bottom:2px}.gsub{font-size:clamp(8px,2vw,9px);letter-spacing:clamp(1px,.6vw,2px);color:rgba(201,168,76,.3);text-align:center;margin-bottom:24px}.grule{width:min(200px,68vw);height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:0 auto 10px;opacity:.42}.glbl{font-size:8px;letter-spacing:3px;color:rgba(255,255,255,.25);margin-bottom:8px;text-transform:uppercase}#gIn{width:min(280px,82vw);padding:14px 18px;background:rgba(201,168,76,.04);border:1px solid rgba(201,168,76,.2);border-radius:8px;color:var(--gold2);font-size:16px;letter-spacing:2px;text-align:center;text-transform:uppercase;outline:none;caret-color:var(--gold);-webkit-tap-highlight-color:transparent;transition:border-color .25s,box-shadow .25s}#gIn::placeholder{font-size:10px;letter-spacing:2px;opacity:.45;text-transform:uppercase}#gIn:focus{border-color:rgba(201,168,76,.5);box-shadow:0 0 0 3px rgba(201,168,76,.07)}.gacts{display:flex;gap:10px;margin-top:14px}.gbtn{min-height:48px;padding:0 20px;background:none;border:1px solid rgba(201,168,76,.18);border-radius:7px;color:rgba(201,168,76,.55);font-size:10px;letter-spacing:2px;-webkit-tap-highlight-color:transparent;transition:all .2s;display:flex;align-items:center;justify-content:center;cursor:pointer}.gbtn:active{border-color:var(--gold);color:var(--gold);background:rgba(201,168,76,.07)}#gErr{margin-top:14px;font-size:10px;letter-spacing:2px;color:var(--red);opacity:0;transition:opacity .3s;text-align:center;min-height:16px}@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-8px)}40%{transform:translateX(8px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}#xpd{display:none;position:fixed;inset:0;z-index:910;flex-direction:column;align-items:center;justify-content:center;padding:calc(var(--si)+20px) 20px calc(var(--sb)+20px);background:radial-gradient(ellipse at 50% 38%,#120808,#07090f);gap:14px;text-align:center;overflow-y:auto}.xi{font-size:clamp(44px,13vw,56px);color:var(--red);animation:xpP 2s ease-in-out infinite}@keyframes xpP{0%,100%{opacity:.6}50%{opacity:1}}.xt{font-family:"Cinzel",serif;font-size:clamp(15px,4.5vw,19px);letter-spacing:5px;color:var(--red)}.xr{width:min(180px,68vw);height:1px;background:linear-gradient(90deg,transparent,rgba(231,76,60,.4),transparent)}.xs{font-size:clamp(8px,2vw,9px);letter-spacing:1.5px;color:rgba(255,255,255,.28);line-height:2}#xIn{width:min(280px,82vw);padding:14px 18px;background:rgba(231,76,60,.04);border:1px solid rgba(231,76,60,.2);border-radius:8px;color:#f0a0a0;font-size:16px;letter-spacing:2px;text-align:center;text-transform:uppercase;outline:none;caret-color:var(--red);-webkit-tap-highlight-color:transparent;transition:border-color .25s}#xIn:focus{border-color:rgba(231,76,60,.5)}#xIn::placeholder{font-size:11px;letter-spacing:1px;opacity:.5}.xbtn{min-height:40px;padding:0 16px;background:none;border:1px solid rgba(231,76,60,.22);border-radius:7px;color:rgba(231,76,60,.65);font-size:8px;letter-spacing:1.5px;-webkit-tap-highlight-color:transparent;transition:all .2s;display:flex;align-items:center;cursor:pointer}.xbtn:active{border-color:var(--red);color:var(--red);background:rgba(231,76,60,.07)}#xErr{font-size:10px;letter-spacing:2px;color:var(--red);opacity:0;transition:opacity .3s;min-height:16px}#wallet{display:none;flex-direction:column;align-items:center;height:100dvh;overflow:hidden;position:relative;z-index:10;padding:max(calc(env(safe-area-inset-top,44px) + 38px),82px) max(2px,var(--sl)) max(calc(env(safe-area-inset-bottom,34px) + 6px),34px) max(2px,var(--sr));gap:0}.sbar{width:var(--cw);display:flex;align-items:center;flex-wrap:wrap;gap:6px;padding:7px 11px;background:rgba(8,14,32,.92);border:1px solid rgba(201,168,76,.28);border-radius:8px;font-size:9px;letter-spacing:1.5px;color:rgba(240,208,128,.88);margin-bottom:6px;flex-shrink:0;margin-top:4px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}.sdot{width:6px;height:6px;border-radius:50%;background:var(--vfy);flex-shrink:0;box-shadow:0 0 6px var(--vfy);animation:dotP 2s ease-in-out infinite}@keyframes dotP{0%,100%{transform:scale(1);box-shadow:0 0 6px var(--vfy)}50%{transform:scale(1.5);box-shadow:0 0 12px var(--vfy)}}.si2{display:flex;align-items:center;gap:5px;color:rgba(240,208,128,.88)}.stmr{margin-left:auto;color:var(--gold2);font-size:10px;letter-spacing:2px;font-weight:700}.sgeo{width:100%;font-size:9px;letter-spacing:1px;color:rgba(255,235,160,.95);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.cdots{width:var(--cw);display:flex;align-items:center;justify-content:center;gap:8px;padding:4px 0 3px;flex-shrink:0}.cdot{width:6px;height:6px;border-radius:50%;background:rgba(201,168,76,.22);transition:background .3s,transform .3s,box-shadow .3s}.cdot.on{background:var(--gold);transform:scale(1.3);box-shadow:0 0 8px rgba(201,168,76,.6)}.cstack{width:var(--cw);flex:1;overflow-y:scroll;overflow-x:hidden;scroll-snap-type:y mandatory;scroll-padding-top:0;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;scroll-behavior:auto;scrollbar-width:none;-ms-overflow-style:none;border-radius:14px;touch-action:pan-y pinch-zoom;transform-origin:top center;will-change:scroll-position;-webkit-overflow-scrolling:touch}.cstack::-webkit-scrollbar{display:none}.cgap{width:100%;height:28px;flex-shrink:0;scroll-snap-align:none}.wcard{width:calc(100% + 2px);flex-shrink:0;border-radius:14px;overflow-y:hidden;overflow-x:hidden;position:relative;scroll-snap-align:start;scroll-snap-stop:always;margin-left:-1px;box-shadow:0 2px 0 rgba(255,255,255,.04),0 8px 32px rgba(0,0,0,.6),0 24px 64px rgba(0,0,0,.4);transform:translateZ(0);contain:layout style paint}.wcard::after{content:"";position:absolute;inset:0;background:rgba(255,255,255,.028);pointer-events:none;z-index:100;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(201,168,76,.18),inset 0 0 0 4px rgba(201,168,76,.05)}.wcard::-webkit-scrollbar{display:none}#c1{background:var(--cream);border:2px solid rgba(201,168,76,.55);position:relative;padding-bottom:2px}#c1::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.045;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");background-size:200px}#guillo{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:1}#mpCv{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}#frameCanvas{position:absolute;inset:-2px;width:calc(100% + 4px);height:calc(100% + 4px);pointer-events:none;z-index:6;border-radius:14px;transition:opacity .15s ease}.gport{position:absolute;left:0;right:0;top:0;bottom:0;width:100%;pointer-events:none;z-index:0;overflow:hidden;opacity:.11;will-change:transform;transform:translateZ(0);backface-visibility:hidden}.gport img{width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block}.band{height:6px;position:relative;z-index:4}.band.top{background:repeating-linear-gradient(90deg,rgba(201,168,76,.9) 0,rgba(201,168,76,.9) 3px,rgba(201,168,76,.18) 3px,rgba(201,168,76,.18) 5px,var(--navy) 5px,var(--navy) 9px,rgba(201,168,76,.18) 9px,rgba(201,168,76,.18) 10px);opacity:.92}.c1h{background:linear-gradient(158deg,var(--navy) 0%,#152244 55%,#1b2f5c 100%);padding:8px var(--cp) 7px var(--cpl);display:flex;align-items:flex-start;justify-content:space-between;position:relative;z-index:5;border-bottom:2px solid var(--gold)}.hl{display:flex;flex-direction:column;gap:0;flex:1}.hl h1{font-family:"Cinzel",serif;font-weight:700;color:#fff;font-size:clamp(13px,3.8vw,17px);letter-spacing:clamp(2px,.9vw,3.5px);line-height:1.2;text-shadow:0 1px 0 rgba(255,255,255,.08),0 -1px 0 rgba(0,0,0,.3);border-top:0.5px solid rgba(255,255,255,.12);border-bottom:0.5px solid rgba(255,255,255,.12);padding:3px 0}.hl h2{font-family:"Cinzel",serif;font-weight:400;color:rgba(255,255,255,.7);font-size:clamp(8.5px,2.3vw,12px);letter-spacing:clamp(1px,.7vw,2.5px);margin-top:2px}.hl .de{font-size:clamp(6px,1.4vw,7.5px);letter-spacing:clamp(.8px,.4vw,1.8px);color:rgba(255,255,255,.27);margin-top:4px}.hcross{display:flex;align-items:center;gap:6px;margin-top:5px;opacity:.65}.hcl{flex:1;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}.hcl.r{background:linear-gradient(90deg,transparent,var(--gold))}.hr{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;margin-left:8px}.hsym{font-size:clamp(26px,7.5vw,40px);color:var(--gold);line-height:1;filter:drop-shadow(0 0 9px rgba(201,168,76,.45));animation:symG 5s ease-in-out infinite}@keyframes symG{0%,100%{filter:drop-shadow(0 0 5px rgba(201,168,76,.3))}50%{filter:drop-shadow(0 0 18px rgba(201,168,76,.7))}}.hbadge{background:var(--gold);color:var(--navy);font-family:"Cinzel",serif;font-weight:700;font-size:clamp(5.5px,1.4vw,7px);letter-spacing:1.5px;padding:2px 8px;border-radius:3px;white-space:nowrap}.tstrip{background:rgba(9,18,46,.96);padding:3px var(--cp) 3px var(--cpl);display:flex;gap:clamp(8px,2.5vw,16px);align-items:center;position:relative;z-index:5;border-bottom:1px solid rgba(201,168,76,.18);overflow:hidden}.ts{font-size:clamp(6px,1.5vw,7.5px);color:rgba(255,255,255,.38);letter-spacing:1px;line-height:1.7;flex-shrink:0}.ts strong{display:block;font-size:clamp(9px,2.3vw,12px);color:#fff;letter-spacing:1.5px;font-weight:700}.tsg{flex:1}.hb2{font-size:6px;color:rgba(255,255,255,.75);letter-spacing:.7px;text-align:right;line-height:1.6;overflow:hidden;flex:1;min-width:0;max-width:160px}.hb2 span{display:block;font-size:5.5px;color:rgba(255,255,255,.45);letter-spacing:1.5px}.c1body{padding:6px var(--cp) 0 var(--cpl);display:grid;grid-template-columns:clamp(95px,24vw,140px) 1fr;gap:6px;position:relative;z-index:5;align-items:stretch}.phcol{display:flex;flex-direction:column;gap:0;align-self:stretch}.phwrap{width:clamp(90px,22vw,130px);height:clamp(110px,28vw,160px);margin-top:6px;border:1px solid rgba(255,255,255,.7);border-radius:7px;overflow:hidden;position:relative;background:#c0b090;color:transparent}.phwrap::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(244,238,216,.18) 0%,transparent 30%,transparent 70%,rgba(244,238,216,.12) 100%);pointer-events:none;z-index:11}.phwrap::after{content:"";position:absolute;inset:0;background:rgba(14,27,58,.08);pointer-events:none;z-index:8}.phwrap img{width:100%;height:100%;object-fit:cover;object-position:center 12%;display:block;will-change:transform;transform-origin:center center;transition:transform .22s cubic-bezier(.25,.46,.45,.94);border-radius:3px}.phholo{position:absolute;inset:0;pointer-events:none;background:linear-gradient(135deg,rgba(255,0,120,.32) 0%,rgba(255,165,0,.28) 18%,rgba(240,255,0,.26) 33%,rgba(0,255,100,.28) 50%,rgba(0,180,255,.32) 66%,rgba(140,0,255,.28) 82%,rgba(255,0,180,.32) 100%);mix-blend-mode:screen;animation:holoR 5s linear infinite;opacity:.62}@keyframes holoR{0%{transform:rotate(0deg) scale(2.2)}100%{transform:rotate(360deg) scale(2.2)}}.scanb{position:absolute;top:0;left:0;right:0;height:1px;pointer-events:none;z-index:10;background:linear-gradient(90deg,transparent 0%,rgba(255,215,80,.08) 25%,rgba(255,215,80,.32) 50%,rgba(255,215,80,.08) 75%,transparent 100%);box-shadow:0 0 4px 2px rgba(255,215,80,.18);animation:bD 7s linear infinite;animation-play-state:running;will-change:transform;backface-visibility:hidden;opacity:.88}.scanb-strong{position:absolute;top:-2px;left:0;right:0;height:4px;pointer-events:none;z-index:9;background:linear-gradient(90deg,transparent 0%,rgba(255,215,80,.01) 30%,rgba(255,215,80,.04) 50%,rgba(255,215,80,.01) 70%,transparent 100%);box-shadow:0 0 3px 1px rgba(255,215,80,.03);animation:bD 7s linear infinite;animation-delay:.06s;animation-play-state:running;will-change:transform;backface-visibility:hidden;opacity:.6}.phwrap.scanning{box-shadow:0 0 0 2px rgba(201,168,76,.55),0 0 18px rgba(201,168,76,.4)}@keyframes bD{0%{transform:translateZ(0) translateY(-4px)}100%{transform:translateZ(0) translateY(190px)}}.pass-vert{position:absolute;right:4px;top:0;bottom:0;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:8}.pass-vert span{font-family:"Space Mono",monospace;font-size:8px;letter-spacing:3px;color:rgba(255,235,160,.95);writing-mode:vertical-lr;text-orientation:mixed;font-weight:700;text-shadow:0 0 10px rgba(201,168,76,.65),0 0 2px rgba(0,0,0,.5)}.pcorner{position:absolute;width:9px;height:9px;pointer-events:none}.pcorner.tl{top:3px;left:3px;border-top:1.5px solid var(--gold);border-left:1.5px solid var(--gold)}.pcorner.tr{top:3px;right:3px;border-top:1.5px solid var(--gold);border-right:1.5px solid var(--gold)}.pcorner.bl{bottom:3px;left:3px;border-bottom:1.5px solid var(--gold);border-left:1.5px solid var(--gold)}.pcorner.br{bottom:3px;right:3px;border-bottom:1.5px solid var(--gold);border-right:1.5px solid var(--gold)}.emblem-ov{position:absolute;bottom:3px;left:3px;width:clamp(28px,7vw,38px);height:clamp(28px,7vw,38px);z-index:11;pointer-events:none;border-radius:3px;overflow:hidden}.emblem-ov img{width:100%;height:100%;object-fit:contain;display:block;filter:grayscale(1) brightness(1.4) contrast(.55);opacity:.16;mix-blend-mode:luminosity}.biofloat{display:none}.biofloat .bi{font-size:10px;color:var(--vfy);opacity:.85}.biofloat .bt{font-size:clamp(7px,1.8vw,9px);color:rgba(255,255,255,.92);letter-spacing:.8px;line-height:1.4;-webkit-font-smoothing:antialiased}.dc{display:flex;flex-direction:column;overflow:visible}.fg{display:grid;border-bottom:1px solid rgba(14,27,58,.09);min-height:0}.fg.c1{grid-template-columns:1fr}.fg.c2{grid-template-columns:1fr 1fr}.fd{padding:clamp(2px,0.8vw,4px) clamp(5px,1.4vw,8px);border-right:1px solid rgba(14,27,58,.07)}.fd:last-child{border-right:none}.fl{font-size:clamp(5px,1.1vw,6px);letter-spacing:2px;color:var(--mid);text-transform:uppercase;display:flex;justify-content:space-between;font-weight:600;opacity:.78}.fl .de{color:#bbb;font-style:italic;font-size:clamp(5px,1.1vw,6px)}.fv{font-family:"Cinzel",serif;font-weight:600;color:var(--navy);letter-spacing:.5px;margin-top:1px;line-height:1.25;font-size:clamp(10px,2.4vw,12px);border-bottom:0.5px dotted rgba(14,27,58,.2);padding-bottom:1px}.fv.lg{font-size:clamp(10.5px,2.5vw,12.5px)}.fv.sm{font-size:clamp(10.5px,2.5vw,12.5px);letter-spacing:.5px;white-space:nowrap}.fv.mn{font-family:"Cinzel",serif;font-size:clamp(10.5px,2.5vw,12.5px)}.sigrow{display:flex;align-items:center;justify-content:flex-end;gap:8px;padding:2px clamp(5px,1.4vw,8px) 4px;position:relative;z-index:5;margin-top:auto;overflow:visible;clip-path:none}.siglbl{font-size:clamp(5px,1.1vw,6px);letter-spacing:1.2px;color:var(--mid);text-transform:uppercase;line-height:1.4}.sigbox{background:transparent;padding:2px 0 6px 8px;display:flex;align-items:flex-end;overflow:visible;min-width:110px;border-bottom:1px dotted rgba(14,27,58,.3)}.sig-yh{display:none}.arow{display:flex;align-items:center;justify-content:space-between;gap:6px;border-top:0.5px solid rgba(14,27,58,.12);padding:clamp(2px,0.7vw,4px) var(--cp) clamp(2px,0.7vw,4px) var(--cpl);border-top:1px solid rgba(14,27,58,.07);background:rgba(14,27,58,.02);position:relative;z-index:5;flex-wrap:wrap;grid-column:1/-1}.aseal{width:clamp(26px,6vw,38px);height:clamp(26px,6vw,38px);border-radius:50%;border:1.5px solid rgba(14,27,58,.2);display:flex;align-items:center;justify-content:center;flex-shrink:0;will-change:transform}.aicon{font-size:clamp(11px,2.6vw,15px);color:rgba(14,27,58,.25)}.ainfo{font-size:clamp(5px,1.1vw,6px);letter-spacing:.9px;color:rgba(14,27,58,.43);line-height:1.85}.ar2{display:flex;flex-direction:column;align-items:flex-end;gap:3px}.vpill{background:rgba(46,204,113,.12);border:1px solid rgba(46,204,113,.38);border-radius:3px;padding:3px 9px;font-size:clamp(5.5px,1.2vw,7px);letter-spacing:1.5px;color:var(--vfy);font-weight:700}.pref{font-size:clamp(5px,1.1vw,6px);letter-spacing:1px;color:rgba(14,27,58,.36);text-align:right;line-height:1.8}.diplo{font-size:clamp(5.5px,1.3vw,6.5px);letter-spacing:.8px;color:rgba(14,27,58,.52);line-height:1.85;padding:clamp(3px,0.9vw,5px) var(--cp) clamp(3px,0.9vw,5px) var(--cpl);border-top:1px solid rgba(14,27,58,.09);background:rgba(14,27,58,.02);position:relative;z-index:5;grid-column:1/-1}.kine{height:20px;background:linear-gradient(90deg,var(--navy) 0%,#1b2f5c 50%,var(--navy) 100%);overflow:hidden;position:relative;z-index:5;display:flex;align-items:center;grid-column:1/-1;border-top:0.5px solid rgba(201,168,76,.22);border-bottom:0.5px solid rgba(201,168,76,.22)}.kinet{white-space:nowrap;font-size:clamp(7px,1.7vw,8.5px);letter-spacing:3px;color:rgba(255,255,255,.88);text-transform:uppercase;font-weight:700;animation:kgS 55s linear infinite;display:inline-block;line-height:1;flex-shrink:0;opacity:.7}@keyframes kgS{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}100%{transform:translateX(-50%)}}.kine::after{content:"";position:absolute;top:0;bottom:0;width:55px;background:linear-gradient(90deg,transparent,rgba(201,168,76,.22),transparent);animation:kgSh 4s ease-in-out infinite;pointer-events:none}@keyframes kgSh{0%{left:-55px}100%{left:calc(100%+55px)}}.mrzzone{background:linear-gradient(180deg,#e2dbc7 0%,var(--tan) 15%);border-top:1px solid rgba(14,27,58,.18);position:relative;z-index:5;overflow:hidden;grid-column:1/-1;padding:0 0 4px 0;margin-bottom:0;border-radius:0 0 10px 10px}.mrzhd{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px;padding:clamp(3px,1vw,5px) var(--cp) clamp(3px,0.9vw,4px) var(--cpl);position:relative;z-index:1}.mrzlbl{font-size:clamp(6px,1.4vw,7px);letter-spacing:2px;color:var(--mid);text-transform:uppercase}.mrzok{display:flex;align-items:center;gap:4px;font-size:clamp(7px,1.6vw,8px);letter-spacing:1.5px;color:var(--vfy)}.mrztick{width:10px;height:10px;border-radius:50%;background:var(--vfy);flex-shrink:0;animation:tickPulse 2s ease-in-out infinite;box-shadow:0 0 5px rgba(46,204,113,.6)}#mrzCv{display:block;position:relative;z-index:1;image-rendering:crisp-edges;image-rendering:pixelated;margin:0 0 4px 0;padding:0;flex-shrink:0;min-height:50px}#c2{background:#080f24;border:1px solid rgba(201,168,76,.14);display:flex;flex-direction:column;overflow-y:auto;overflow-x:hidden;position:relative}#guillo2{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:1}.c2h{background:linear-gradient(90deg,rgba(201,168,76,.12) 0%,rgba(201,168,76,.07) 60%,rgba(201,168,76,.12) 100%);border-top:1.5px solid rgba(201,168,76,.5);border-bottom:1.5px solid rgba(201,168,76,.5);padding:8px var(--cp) 6px var(--cpl);display:flex;flex-direction:column;gap:1px;position:relative;z-index:2}.c2title{font-size:clamp(8px,1.9vw,10px);letter-spacing:2.5px;color:var(--gold2);text-transform:uppercase;font-weight:700;text-shadow:0 0 8px rgba(201,168,76,.3)}.c2sub{font-size:clamp(6px,1.4vw,7px);letter-spacing:1.2px;color:rgba(201,168,76,.38);line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.secgrid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,1fr);position:relative;z-index:2;flex:1;min-height:0}.sc{padding:clamp(12px,2.5vw,16px) clamp(10px,2.2vw,14px);border-right:1px solid rgba(255,255,255,.045);border-bottom:1px solid rgba(255,255,255,.045);overflow:hidden;display:flex;flex-direction:column;justify-content:center}.sc:nth-child(2n){border-right:none}.sclbl{font-size:clamp(8px,1.8vw,9.5px);letter-spacing:1.5px;color:rgba(201,168,76,.62);text-transform:uppercase;margin-bottom:6px;line-height:1.5}.scval{font-size:clamp(9px,2.1vw,11.5px);letter-spacing:.6px;color:rgba(255,255,255,.88);line-height:1.55;word-break:break-all}.scval.grn{color:var(--vfy);font-weight:700}.scval.gold{color:var(--gold2);font-weight:700}.scval.mono{font-family:"Space Mono",monospace;font-size:clamp(5px,1.2vw,6.5px);word-break:break-all}.hstr{font-family:"Space Mono",monospace;font-size:clamp(8px,1.8vw,10px);color:rgba(46,204,113,.82);letter-spacing:.7px;overflow:hidden;white-space:nowrap;width:100%;margin-top:6px}.sealrow{display:flex;align-items:center;gap:6px;margin-top:4px}.sealring{width:32px;height:32px;border:2px solid rgba(201,168,76,.85);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;animation:sS 7s linear infinite;flex-shrink:0;color:rgba(201,168,76,.9)}@keyframes sS{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.sealtxt{font-size:clamp(5.5px,1.3vw,7px);color:rgba(201,168,76,.55);letter-spacing:1px;line-height:1.85}.pbwrap{margin-top:5px}.pbtop{display:flex;justify-content:space-between;font-size:clamp(7px,1.5vw,8px);color:rgba(255,255,255,.26);letter-spacing:.7px;margin-bottom:4px}.pb{height:3px;background:rgba(255,255,255,.07);border-radius:2px;overflow:hidden}.pbfill{height:100%;border-radius:2px;width:0%;transition:width 1.4s ease}.pbfill.grn{background:linear-gradient(90deg,var(--vfy),#1e8449)}.pbfill.gold{background:linear-gradient(90deg,var(--gold),var(--gold2))}.alog{font-family:"Space Mono",monospace;font-size:clamp(7.5px,1.6vw,9px);color:rgba(255,255,255,.3);letter-spacing:.7px;line-height:2}.alr{display:flex;gap:4px}.alt{color:rgba(201,168,76,.48);flex-shrink:0}.ale{color:rgba(255,255,255,.48);flex:1}.alo{color:var(--vfy);flex-shrink:0}.treaty{border-top:1px solid rgba(201,168,76,.1);padding:clamp(6px,1.6vw,9px) var(--cp) clamp(6px,1.6vw,9px) var(--cpl);position:relative;z-index:2;background:rgba(201,168,76,.025)}.treatytitle{font-size:clamp(6.5px,1.5vw,7.5px);letter-spacing:2px;color:rgba(201,168,76,.5);text-transform:uppercase;margin-bottom:7px}.treatygrid{display:grid;grid-template-columns:1fr 1fr;gap:7px}.treatyitem{font-size:clamp(7px,1.5vw,8.5px);letter-spacing:.6px;color:rgba(255,255,255,.45);line-height:1.9}.treatyitem strong{display:block;color:rgba(201,168,76,.72);font-size:clamp(7.5px,1.6vw,9px);letter-spacing:1px;margin-bottom:3px}.tseal{display:flex;align-items:center;gap:8px;padding:clamp(6px,1.5vw,8px) var(--cp) clamp(6px,1.5vw,8px) var(--cpl);border-top:1px solid rgba(201,168,76,.08);position:relative;z-index:2}.tsring{width:clamp(34px,8vw,46px);height:clamp(34px,8vw,46px);border-radius:50%;border:1.5px solid rgba(201,168,76,.5);display:flex;align-items:center;justify-content:center;flex-shrink:0;background:rgba(201,168,76,.08);animation:sS 9s linear infinite}.tssym{font-size:clamp(14px,3.8vw,20px);color:rgba(201,168,76,.6)}.tstxt{font-size:clamp(7px,1.5vw,8.5px);letter-spacing:.8px;color:rgba(255,255,255,.32);line-height:1.9}.tstxt strong{color:rgba(201,168,76,.5);font-size:clamp(6px,1.3vw,7px);display:block;letter-spacing:1.5px}.c2foot{padding:4px var(--cp) 16px var(--cpl);border-top:1px solid rgba(255,255,255,.05);display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:5px;position:relative;z-index:2}.c2ft{font-size:clamp(5.5px,1.2vw,6px);color:rgba(255,255,255,.22);letter-spacing:.9px;line-height:1.85}.c2fh{font-family:"Space Mono",monospace;font-size:clamp(5px,1.1vw,6px);color:rgba(201,168,76,.2);letter-spacing:.7px;word-break:break-all}@-webkit-keyframes ghostSpin{0%{-webkit-transform:perspective(400px) rotateY(0deg)}100%{-webkit-transform:perspective(400px) rotateY(360deg)}}@media(max-width:380px){:root{--cp:12px;--cpl:15px}.c1body{grid-template-columns:1fr;gap:0}.phwrap{width:100%!important;height:clamp(180px,50vw,230px)!important}.phwrap img{object-position:center 5%}.hb2{display:none}.treatygrid{grid-template-columns:1fr}}.bio-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--vfy);box-shadow:0 0 5px var(--vfy);animation:dotP 2s ease-in-out infinite;vertical-align:middle;margin-right:2px}@keyframes bioPulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.6)}}@keyframes tickPulse{0%,100%{transform:scale(1);opacity:1;box-shadow:0 0 5px rgba(46,204,113,.6)}45%{transform:scale(1.5);opacity:.5;box-shadow:0 0 18px rgba(46,204,113,.95)}55%{transform:scale(1.5);opacity:.5;box-shadow:0 0 18px rgba(46,204,113,.95)}}@keyframes inputShake{0%,100%{transform:skewX(0deg) translateX(0px)}45%{transform:skewX(-3deg) translateX(4px)}60%{transform:skewX(4deg) translateX(-3px)}75%{transform:skewX(-2deg) translateX(2px)}90%{transform:skewX(3deg) translateX(-1px)}}.pin-display{display:flex;flex-direction:row;gap:14px;margin:6px 0 2px;align-items:center;justify-content:center;position:relative;padding:0 28px}.pin-display::before,.pin-display::after{content:"";position:absolute;width:14px;height:14px;opacity:.45}.pin-display::before{left:2px;top:50%;transform:translateY(-50%);border-top:1.5px solid var(--gold);border-left:1.5px solid var(--gold)}.pin-display::after{right:2px;top:50%;transform:translateY(-50%);border-top:1.5px solid var(--gold);border-right:1.5px solid var(--gold)}.pin-dot{width:18px;height:18px;border-radius:50%;border:1.5px solid rgba(201,168,76,.55);background:transparent;transition:background .15s,border-color .15s,box-shadow .15s}.pin-dot.filled{background:var(--gold);border-color:var(--gold);box-shadow:0 0 10px rgba(201,168,76,.7)}.pin-dot.error{background:var(--red);border-color:var(--red);box-shadow:0 0 10px rgba(231,76,60,.7);animation:shake .3s ease}.numpad{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;width:min(252px,76vw);margin-top:6px}.npk{height:clamp(56px,15vw,66px);border:1px solid rgba(201,168,76,.28);border-radius:12px;background:rgba(201,168,76,.03);color:rgba(201,168,76,.92);font-family:"Cinzel",serif;font-size:clamp(20px,5.5vw,26px);font-weight:700;letter-spacing:2px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background .1s,border-color .1s,transform .07s,box-shadow .1s;user-select:none;-webkit-user-select:none;touch-action:manipulation;box-shadow:inset 0 1px 0 rgba(255,255,255,.04)}.npk:active,.npk.pressed{background:rgba(201,168,76,.18);border-color:var(--gold);transform:scale(.93)}.npk-clear{font-size:clamp(18px,5vw,24px);color:rgba(255,255,255,.45);border-color:rgba(255,255,255,.1)}.npk-ok{background:rgba(46,204,113,.1);border-color:rgba(46,204,113,.45);color:var(--vfy);font-size:clamp(22px,6vw,28px);transition:background .2s,box-shadow .2s,border-color .2s}.npk-ok.ready{background:rgba(46,204,113,.25);border-color:var(--vfy);box-shadow:0 0 18px rgba(46,204,113,.45)}.npk-ok:active{background:rgba(46,204,113,.2)}#mrzLandscape{display:none;position:fixed;will-change:display;top:0;left:0;right:0;bottom:0;z-index:9999;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 30%,#0d1a35 0%,#07090f 70%);overflow:hidden;padding:env(safe-area-inset-top,0px) max(44px,5vw) env(safe-area-inset-bottom,0px) max(44px,5vw);box-sizing:border-box}
+.mrz-land-corner{position:absolute;width:28px;height:28px;opacity:.5}
+.mrz-land-corner.tl{top:14px;left:14px;border-top:2px solid var(--gold);border-left:2px solid var(--gold)}
+.mrz-land-corner.tr{top:14px;right:14px;border-top:2px solid var(--gold);border-right:2px solid var(--gold)}
+.mrz-land-corner.bl{bottom:14px;left:14px;border-bottom:2px solid var(--gold);border-left:2px solid var(--gold)}
+.mrz-land-corner.br{bottom:14px;right:14px;border-bottom:2px solid var(--gold);border-right:2px solid var(--gold)}
+.mrz-land-header{display:flex;align-items:center;justify-content:space-between;width:100%;max-width:860px;padding:0 4px 4px;flex-shrink:0}
+.mrz-land-title{font-family:"Cinzel",serif;font-size:clamp(11px,2.2vw,16px);letter-spacing:6px;color:var(--gold);font-weight:700;text-shadow:0 0 20px rgba(201,168,76,.4)}
+.mrz-land-badge{display:flex;align-items:center;gap:5px;font-size:clamp(9px,1.8vw,11px);color:#f0d080;letter-spacing:2.5px;font-weight:700;text-shadow:0 0 8px rgba(240,208,128,.5)}
+.mrz-land-badge-dot{width:7px;height:7px;border-radius:50%;background:var(--vfy);box-shadow:0 0 7px var(--vfy);animation:dotP 1.5s ease-in-out infinite;flex-shrink:0}
+.mrz-land-sub{font-size:clamp(6px,1.1vw,8px);letter-spacing:3px;color:rgba(201,168,76,.35)}
+/* passport document window */
+.mrz-doc-outer{position:relative;width:100%;max-width:860px;background:linear-gradient(160deg,#eae6d8 0%,#f2edd8 40%,#ede8d2 100%);border-radius:12px;box-shadow:0 0 0 1px rgba(201,168,76,.6),0 0 0 2px rgba(0,0,0,.4),0 12px 48px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,255,255,.3);overflow:hidden;flex-shrink:0}
+.mrz-doc-inner-header{padding:clamp(5px,1.2vh,10px) clamp(14px,2.5vw,24px) clamp(3px,.8vh,6px);display:flex;align-items:center;justify-content:space-between}
+.mrz-doc-issuer{font-family:"Cinzel",serif;font-size:clamp(7px,1.3vw,11px);letter-spacing:2px;color:#1a2e5a;font-weight:600}
+.mrz-doc-passtype{font-size:clamp(5px,.9vw,8px);letter-spacing:1.5px;color:#3a5a9a}
+.mrz-doc-rule{height:1px;background:linear-gradient(90deg,rgba(14,27,58,.15),rgba(14,27,58,.4),rgba(14,27,58,.15));margin:0 clamp(10px,2vw,20px)}
+/* THE MRZ ZONE — pure white, black text, maximum contrast */
+.mrz-zone{background:transparent;margin:clamp(4px,1vh,10px) clamp(14px,2.5vw,24px) clamp(5px,1.2vh,10px);border-radius:6px;position:relative;overflow:hidden;border:none}
+.mrz-zone-scan{position:absolute;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,rgba(201,168,76,.85),transparent);box-shadow:0 0 10px rgba(201,168,76,.6);animation:mrzScanGold 2.2s ease-in-out infinite;pointer-events:none;z-index:2}
+@keyframes mrzScanGold{0%{top:-3px;opacity:1}85%{opacity:1}100%{top:100%;opacity:0}}
+#mrzLandscapeCv{display:block;image-rendering:crisp-edges;image-rendering:pixelated;width:100%;height:auto}
+.mrz-zone-label{position:absolute;bottom:3px;right:6px;font-size:clamp(5px,.8vw,6.5px);letter-spacing:2px;color:rgba(0,0,0,.18);font-family:"Space Mono",monospace;pointer-events:none;z-index:3}
+/* footer below document */
+.mrz-land-footer{display:flex;align-items:center;justify-content:space-between;width:100%;max-width:860px;padding:5px 4px 0;flex-shrink:0}
+.mrz-land-icao{font-size:clamp(6px,1vw,7.5px);letter-spacing:2px;color:rgba(201,168,76,.28)}
+.mrz-land-checksum{display:flex;align-items:center;gap:4px;font-size:clamp(6px,1vw,7.5px);letter-spacing:1.5px;color:var(--vfy)}
+.mrz-land-tick{width:10px;height:10px;border-radius:50%;background:var(--vfy);box-shadow:0 0 6px rgba(46,204,113,.6);animation:dotP 2s ease-in-out infinite;flex-shrink:0}.hcjc-watermark{position:absolute;inset:0;pointer-events:none;z-index:3;overflow:hidden;opacity:1}.hcjc-watermark canvas{position:absolute;inset:0;width:100%;height:100%}/* orientation handled by JS only — no CSS media rule to avoid conflicts */.ghost-photo{width:clamp(90px,22vw,130px);height:clamp(110px,28vw,160px);overflow:hidden;border-radius:8px;margin-top:10px;flex-shrink:0;color:transparent}#ghostImg{width:100%;height:100%;display:block;object-fit:cover;object-position:center 2%;filter:grayscale(1) contrast(0.9) brightness(.7);opacity:.13;animation:ghostSpin 22s linear infinite;animation-play-state:running!important;transform-origin:center;-webkit-animation:ghostSpin 22s linear infinite;backface-visibility:hidden}
+.lang-toggle{position:absolute;right:10px;bottom:6px;z-index:50;user-select:none;-webkit-user-select:none}
+.lang-btn{background:rgba(46,204,113,.12);border:1px solid rgba(46,204,113,.35);border-radius:4px;padding:2px 7px;font-size:8px;letter-spacing:1.5px;color:var(--vfy);font-family:"Space Mono",monospace;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.lang-drop{display:none;position:fixed;right:10px;background:#0a1428;border:1px solid rgba(201,168,76,.3);border-radius:6px;overflow-y:auto;overflow-x:hidden;min-width:130px;max-height:220px;z-index:9999;box-shadow:0 4px 20px rgba(0,0,0,.8);-webkit-overflow-scrolling:touch}
+.lang-drop.open{display:block}
+.lang-opt{display:block;padding:6px 12px;font-size:8px;letter-spacing:1.5px;color:rgba(255,255,255,.7);font-family:"Space Mono",monospace;cursor:pointer;border-bottom:1px solid rgba(255,255,255,.06);-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.lang-opt:last-child{border-bottom:none}
+.lang-opt:hover,.lang-opt.active{background:rgba(201,168,76,.15);color:var(--gold2)}
+
+/* Gyro motion permission prompt */
+
+
+
+50%{transform:rotate(15deg)}}
+
+
+#c2::before{content:"";position:absolute;top:45%;left:50%;width:min(80vw,340px);height:min(80vw,340px);transform:translate(-50%,-50%);background:repeating-conic-gradient(rgba(201,168,76,.12) 0deg,transparent 2.5deg,rgba(201,168,76,.12) 5deg);border-radius:50%;pointer-events:none;z-index:0}
+.sig-svg{display:none;width:clamp(95px,26vw,140px);height:auto;overflow:visible;transform:rotate(-2.5deg);transform-origin:left bottom}
+.sig-svg path{stroke-linecap:round;stroke-linejoin:round;fill:none}
+@keyframes sigLoop{0%,100%{opacity:1}92%,94%{opacity:1}95%{opacity:0}96%{opacity:0}}
+
+.sig-jc{font-family:"Sacramento",cursive;font-size:clamp(28px,7vw,38px);font-weight:400;color:#1a2e5a;letter-spacing:1px;opacity:.9;display:inline-block;line-height:1;transform:rotate(-2deg);transform-origin:left bottom}
+@media (orientation:landscape){
+  #mrzLandscape{display:flex!important;}
+  #wallet{visibility:hidden!important;pointer-events:none!important;}
+}
+@media (orientation:portrait){
+  #mrzLandscape{display:none!important;}
+  #wallet{visibility:visible!important;pointer-events:auto!important;}
+}
+
+/* Kinegram strip gentle transparency overlay */
+.kine::before{content:"";position:absolute;inset:0;background:rgba(7,9,15,.45);pointer-events:none;z-index:6}
+
+/* Ghost image always animates — insurance rule */
+to{opacity:.10}}
+
+/* Landscape fullscreen insurance */
+@media (orientation:landscape){
+  #mrzLandscape{
+    width:100vw!important;height:100vh!important;
+    top:0!important;left:0!important;right:0!important;bottom:0!important;
+  }
+  .mrz-doc-outer{max-width:min(800px,90vw)!important;width:90vw!important;}
+}
+
+/* Page stability: cards always visible when wallet shown */
+#wallet{isolation:isolate}
+#c1,#c2{opacity:1!important;visibility:visible!important}
+.wcard{opacity:1!important;visibility:visible!important}
+#hstream{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.fv.sm{white-space:nowrap}
+
+/* Disable text selection/copy on all cards */
+#wallet,.wcard,.c1body,.c2h,.c1h,
+.fv,.fl,.fd,.fg,.arow,.diplo,.kinet,
+.mrzzone,.mrzhd,.mrzlbl,.alog,.sc,.sclbl{
+  -webkit-user-select:none!important;
+  -moz-user-select:none!important;
+  user-select:none!important;
+  -webkit-touch-callout:none!important;
+}
+
+@keyframes ghostSpin{0%{transform:perspective(400px) rotateY(0deg)}100%{transform:perspective(400px) rotateY(360deg)}}
+</style> </head><body><canvas id="bgC"></canvas><div id="gate"><div class="gscan"></div><div class="gc tl"></div><div class="gc tr"></div><div class="gc bl"></div><div class="gc br"></div><div class="gsym">&#9768;</div><div class="gorg">KGD-HCJC</div><div class="grule"></div><div class="glbl" id="gatePinLabel">Enter Access PIN</div><div class="pin-display" id="pinDisplay"><div class="pin-dot" id="pd0"></div><div class="pin-dot" id="pd1"></div><div class="pin-dot" id="pd2"></div><div class="pin-dot" id="pd3"></div><div class="pin-dot" id="pd4"></div></div><div id="gErr">&#9888; INCORRECT PIN</div><div class="numpad" id="numpad"><button class="npk" data-k="1">1</button><button class="npk" data-k="2">2</button><button class="npk" data-k="3">3</button><button class="npk" data-k="4">4</button><button class="npk" data-k="5">5</button><button class="npk" data-k="6">6</button><button class="npk" data-k="7">7</button><button class="npk" data-k="8">8</button><button class="npk" data-k="9">9</button><button class="npk npk-clear" data-k="del">&#8592;</button><button class="npk" data-k="0">0</button><button class="npk npk-ok" data-k="ok">&#10003;</button></div></div><div id="xpd"><div class="xi">&#9940;</div><div class="xt">SESSION EXPIRED</div><div class="xr"></div><div class="xs">Secure session timed out.<br>Re-authenticate to regain access.</div><input type="password" id="xIn" inputmode="text" placeholder="re-enter" maxlength="32" autocomplete="off"><button class="xbtn" onclick="reauth()">&#8635;&ensp;RE-AUTHENTICATE</button><div id="xErr">&#9888; INCORRECT CREDENTIAL</div></div><div id="mrzLandscape">
+  <canvas id="landWmCv" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:1"></canvas>
+  <div class="mrz-land-corner tl"></div><div class="mrz-land-corner tr"></div>
+  <div class="mrz-land-corner bl"></div><div class="mrz-land-corner br"></div>
+  <!-- Header bar -->
+  <div class="mrz-land-header">
+    <div>
+      <div class="mrz-land-title">KGD&#8202;&ndash;&#8202;HCJC</div>
+      <div class="mrz-land-sub">DIGITAL DIPLOMATIC PASS &middot; ICAO 9303 TD3</div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px">
+      <div class="mrz-land-badge" id="landBadge">READY TO SCAN</div>
+      <div style="font-size:clamp(6px,1vw,7.5px);letter-spacing:2px;color:rgba(201,168,76,.35)">J74823721</div>
+    </div>
+  </div>
+  <!-- Passport document window -->
+  <div class="mrz-doc-outer">
+    <div class="mrz-doc-inner-header">
+      <div>
+        <div class="mrz-doc-issuer" id="landIssuer">KINGDOM OF GOD &middot; HCJC</div>
+        <div class="mrz-doc-passtype" id="landPasstype">DIGITAL DIPLOMATIC PASS &middot; TYPE PD</div>
+      </div>
+      <div style="font-family:'Cinzel',serif;font-size:clamp(16px,3vw,24px);color:rgba(14,27,58,.35);line-height:1">&#9768;</div>
+    </div>
+    <div class="mrz-doc-rule"></div>
+    <!-- THE MRZ ZONE — white bg, black text, max contrast -->
+    <div class="mrz-zone">
+      <div class="mrz-zone-scan"></div>
+      <canvas id="mrzLandscapeCv"></canvas>
+      <div class="mrz-zone-label" id="landMrzLabel">MACHINE READABLE ZONE</div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="mrz-land-footer">
+    <div class="mrz-land-icao" id="landIcao">ICAO DOC 9303 &middot; PART 3 &middot; TD3 SPECIFICATIONS</div>
+    <div class="mrz-land-checksum"><div class="mrz-land-tick"></div><span id="landChecksum">CHECKSUM VALID</span></div>
+  </div>
+</div><div id="wallet"><div class="sbar" id="sbar"><div class="si2"><div class="sdot"></div><span id="integrityTxt">INTEGRITY VERIFIED</span></div><div class="si2"><div class="sdot"></div><span id="custodyTxt">CUSTODY INTACT</span></div><div class="stmr"><span id="sCk">03:00</span></div><div class="sgeo" id="sGeo">LOCATION: <span id="cityd">DETERMINING&hellip;</span></div></div><div class="cdots"><div class="cdot on" id="dot0"></div><div class="cdot" id="dot1"></div></div><div class="cstack" id="cstack"><div class="wcard" id="c1"><canvas id="guillo"></canvas><canvas id="mpCv"></canvas><canvas id="frameCanvas"></canvas><div class="gport"><img id="gportImg" src="" data-copy="photo" alt="" loading="eager" decoding="sync" fetchpriority="high"></div><div class="band top"></div><div class="c1h"><div class="hl"><h1 style="font-weight:700;letter-spacing:4px">KGD-HCJC</h1><div style="color:#ffffff;font-family:'Cinzel',serif;font-size:clamp(7px,1.8vw,9px);letter-spacing:4px;margin-top:3px;font-weight:400;opacity:0.82;text-transform:uppercase" id="cardSubtitle">DIGITAL DIPLOMATIC PASS</div><div class="hcross"><div class="hcl"></div><span style="color:rgba(201,168,76,.65);font-size:clamp(8px,2vw,11px)">&#10013;&ensp;&#9768;&ensp;&#10013;</span><div class="hcl r"></div></div></div><div class="hr"><div class="hsym">&#9768;</div><div class="hbadge">DIPLOMATIC PASS</div></div></div><div class="tstrip"><div class="ts"><span id="typeLbl">TYPE</span><strong>PD</strong></div><div class="ts"><span id="codeLbl">CODE</span><strong>KGD</strong></div><div class="ts"><span id="passnoLbl">PASS NO.</span><strong>J74823721</strong></div><div class="tsg"></div><div class="hb2"><span id="shaLbl">SHA-256</span><span id="hstrip">computing&hellip;</span></div></div><div class="c1body"><div class="phcol"><div style="position:relative;display:inline-block;width:clamp(95px,24vw,140px)"><div class="phwrap" id="phWrap"><img alt="Holder" id="phImg" src="data:image/webp;base64,UklGRm5CAABXRUJQVlA4IGJCAADw9ACdASosAY4BPpVAmUklo6IoqzhL4RASiWduul0sz86AqfcD1VSoBLV/jffP5dfn/8L6MeZ/ta/4PQr+c/nnJay3edeoRjF2bABv1rvOdWvxr7Af88/wHqF39v4D/e/tZ8An9K/0H7U+7f/p/uD6G/r/2DP6N/mOtp++HtCo4KUpSlJmZTga4iiVpbxOc5znOc5znM1d2aT6Oide7ZOBLCkhGKYxVfo23v6fDv2F1Hkkh8eJwRf9Nb3vfQpjFWfg/2gM+tfiJzXbPEXpcGaJYShg7/RR9nsubFsQrPAw2S/7G9Y49rrNeJNrlCEIQhB+F/c87Mleb8Ok1b+P2omaR+bMmbraqiWGGWInzCKBmvT5CaLtQKkrNhQoCkh+oMbZlGMYxjFSNXa+Ary3BXK1hwLXj/NmaKC/dnHCIA+38O4rnsKvYELr9wXVRopo73ve971pPkSnEoQPqsEIpKUOjAh8bjUrPkT+WVSgTi/Ux7aSshuROLvMZEH6PzRt8mof+Y2fgUQhBiA+My7qb2wKhOPVh1874jiP95izrkvI03q/YadQClBf36QGXUZuRiohwynJAHZ492Q9i99snIPshIkKCG3MyoIQhBHdgeIbDs9VHRLkjcddOyQLTXVpkSsqGe9iDZ+qPAkqeTtLZYPagQTLftY2NVgFVjtEvrOKgxschf/6BJmLpzDfy1J63cfjHeVhEUun67Zo/Jfrc3//cbrMGBh8Qq5JVKnOnkSUPK6VZeDI1WtPh6U3BJHt3klk5GddBgriDx2VTdayzHjbKoM5dsLnpDniAxx8ZUAciPjGwqrkosg3CyI3FoQXNoHjHzl63gmW96x2fbK0GZ05B1FAPQzUBMDXVqhxXQdBHcebTPbo7v4jeCzwIR43NLGAMHHL45iN2rw3P8kBMVWMd0VHusbkygXF0iVnxs/DgFyFGCFjhn67gbXBDSdNxhHi0iaJvfm3FxL0Q1mnF9E9IWFhFI2PVYdGkYcnbK/oxZEgK3ISVTe8Oa/HILF6jY5XGZ88t57l7WzrlvbVWzrXHxW8T82fzOfhydPMVW9S+IehI2HC/ag3t741+uQrbTtGN1a9VgkwuNqbkdHrYZfmHzAUUSCeU4S0e6/eUIThtwWS/Qsw1j6CralkySjt0d2GK6/bhpBC/A4qf1cF1w0vAWIyoclRINPX7eTswoPSky0ZD2L1ytrLpNND3Fn7dq+dH0uaxTtcsf4S7jzxecHsJZTr0/sKkEOREa6nl7C+kleqCqwCAN+uUTk3lQNK/hDfgt/Ax0ir26VrSP5KULsLQYi+7h3ziAjEVGRKvon6K0easm2AOvzkIhk9On2u7+gFFGbbVSEnjVMqBv7hK9d8rvozbKMgfbpY2Wp9xXmRkQMn+xFBbz2drBJFc+jXi1Xp6HSc98WbNGMI4SXG+EYOHB3yhFJV4dvUm4Mx9sGdtp3+Evn97f/sOSg6pEJyBJQTM+NSqDSa0Y1UVt1wOWd8buXHBEpWgEN92zbvA9CMjkHvntWcl/5cku8SG6ymmWxpz1prQKr3EJnJWdMTSv63yrk2Uj7KmpGQnbLdchCnVuvmPk1aM2HBMa/aD14svHODTD7uBGl057um36jXRbSJJ6g0cMVKx45MuuTsoEVtoM/uCpA6QClkyKnMQwtYj5pAPnTsNpnnCGCrmXlIalujoTm4qfgRlHoK5AxXrPJ7olVd1DjBc56aK2SVD0yVrSR3z1i6vX7P16MDw0AmAA4ZfZvmLSUH7tqwXvmMhsu7EF9Oojg15EY05RKvckEKN5MB2wyTYdX1ufTCFDVb6H9Y6ULycDougMQDkEMgtaaqv/1hVfuO75/3Q7aM2DytHcKVhER264DLHnC+hcCu3/bFEIUeuZGolENHpXkP5nrf2o3oGFhWeEXoUfiCyHM8fazEExg1uCeySWFFyHX1UVKBMx1y9OCA3VVkKu64n1ivWwKV/O9BcOezAH4FTTkB7J94r2ppEMRbJfsHvHzZOSXwr4jpBmqFEvdilRBESAgAs2glJwynHNfGsKh1BknY0jnA9wpH+QNyyaozgD7EHWpRYp/NzHdS/f0fVCWg6m/IN/9n+XPg1mJj87fIhPDbkOf+uk8iEaAl5HwNqaPEW3YNiFUb0BjYN1x3llOenpaVvcIWk+qAq4xvHhY7lbMOYcaYVxv2QDRhcySpP8J4j8qRNSqhFIUd+W4rOVoT+3yj+0dYpXMbrpLPx6eyKTHsTLcsJ2Uwje295WyYeKcdMxpiZ/n/1qrpj7pToRw8JqU2OeiqTo1vDZCtRe4rM+bEu97Blj/krS7aKMW7kewB/12+bbTtTGtKVmneznurqc8W1cG0+cLT1L6m8WXFnUlcCti31GpwIkpoJe3bVXwm9cOdXhH+FeOkCMquy3apFU/Y3cAQLZE8P6ZvrXa8bKJbY30o8gOTtG4M/VBTrDP+xw2tvbyUkYiBZFoqVqfOD6G0Av55WGacKTSkYql8+Cc1G5uFKBeaCGDzfnexFG0BgGK+ctJUsWirzhE8I8DKcJND3nv1F7cROuO1rN/PUevxs4BYokwSYhpx3iJY6SAkRzvCe64A4D0gFJ1snijIzVEuqGNWmKCvxWjDEdTuuys83AAA/vkRf+WSQcgNq6JgAACuEztTZsMMkyrx1gEA6Pz2sAAFVJwAgyQr7WS1WwsESDPQTJubdSUZ5F0Ko9Uo8ASv0fG9Qypd+y7iXc7ZM1tx6PeusY6QuQxfz2d4EH/yaAm4QbecPnRWVi9EU2Kv3cYwkjbmPapU2n0MU8w16jDR621gk5ST2vyqaaEyDITzO90jG21UO4B/p+0wWmB5obhtLe6ctBQ8dtnNenajYjML9rs2E9nkLLuO2BDRBMLlsTQunho7lQRC0zzIBfxabSuDwhEpwjGUDnmTiTYW595sEDvGI7TqZphXXU9p/xk2lYbyIQ3lzNRFKg4+E6Sqm3kpjaEPGGIc0Akjn6QSOiezVFklY0bywW+1/0idLW6UZvERvbCTBp+6aoXTCYRA6pcPnpQ+n1dY/lxLD9ovnhcxvIS1OWZlYcGp7unngMMoC1F0fZ1SPBZ4vjK+tgQ8fgRG6nJ5kt6VaO1zsXYgCusBkBDzKfFcqrulDeBHxTPansz6vby+JLvDtkBM7W6uoeS0G4wg+di5vKUtcLl805BwsH4/KD0OQpKYCoqGtIJW3Wkt1difjmx3xg3nEhxkyoxPqj1FsWFyc7Y/1AAjT6rpEAQifILp+h1KIz5KM4Ldfy05EcoBlml56niq3ZpKNbSxWDjEamdda45qQlq5QhxPdC3fmS8vwwne8UdCMpifwBNFZeYBRXQ5aVPPRRE5JEitFWZ8OLXjm929vp1VvU2n8rAxU8XKC+LvWUEU9Hq6MXStp5DskaLGx44Z3Vrr8NbpWM6r59VQ6tu/NNB0+Ma9CdTjC/x0bBbJNWSTstEwxrgXttjp15916EfeIckXQtL8t4AAADCBC0t5WMxAw5rCPNZX4pYpVlWlhOUgNLhgzaxj/ZH2TshG69h0O3ovM8tA4ugr+725WYctqUTpW+1kmiSvxqHpSiy9A67In8zuw0VPglzYE9H7+dnbWq517sRsfoM2x98TGgGvi8IOgGVUmOkA4/SVzqlSHvcIcSsKB03IHxepu7yrzkzosHlNYlC/MWzkQBNK0mC+ncAYnW/29EMz9zjHlGw+11LHJo13CeAi/vzp/7oexuj5rPD60zAl5ijIRaDQWh8cLjpql6BZFbgFUkNZBY6lKh0qqu/3gmxhuzpg30NH5Alq4wbqRg8ssnByZWjIccBzZ4bc31ZXWMgbut8vaWVmhZgOnUlw2YWO92BzKxvG61dRszGKEd+WmWw1wRqyvAe8iwqaAAt/YP0bLr7JbGDHYiqZSiTfP4QfVn+J5ffeek1zzJB8htHVWvnUvBIOvvq2jAbzHanSD64pxfQzSeOMoHJ3aScQasQvWDBW+gkhVAH1ATbJrJkpR5dswYdYZpySKOD+XBbozo2x2WWkLKVVPxbHerSYkzTWZzq6UXvH2TMuZobgD2hmBUQEUBLOqh+aVO5acR/wG+QS+c3y/xenKT6mcp2o2QT0HgBAEwxhKV3JzZRds17hpZBMEXTeDOQ1zuaBj6BpRwyYs/JSxb2e3iS0t9NVBpEMjPM453chmvvH4fSJaOwqQiouLCcfVF7cImbbUHBdzrLVcGDHCs85YsuWzJoNDG6FWJKsOnzurmpkVqSjrkwBx275CW3RmQyAAJ3Yg4ND21+wxzoktSdEEgp77g7+j9ndukQxBZHR42W4kHuBFshCLUph7xwwG5ePet8ilWVCFACMzZ5WVG0jiI606+h0ItkfTzZZbt3pk4RVVsWBmyc2v3IsfrJRr21tJWgbXSEyyTyatJbIjppWsjhUfC6vALdXVZvxOpFgn/Yj+oA9b+y88pUQUJ09uVKagEbsArQb8ZbND12rsqWVhNJWxBWdL0BN2cQDvvp8bcbFEn9M/uTl0S4fHyc1x61rLnaH610oX2Q0s0nmvjpXEr0SjJKCMSpkcuuSVtWa+HBFDJSR/2GHKJNf41/mM1m7EgzsasURMejXPWHD5R+g8gH8o/oBvKa9NcCPGdZqUkKZbZoPW6E9u2Yod63bsL2760OyUFwPHB8hpVuHKrAAD3HLAFzwCiCQTZ6rPb67viT3irjYKpQJoM7084p4QmaJ3fILcuczOXQxNugJY87scJf7dJQR9kLYos+PFO9fSdBEcOKn2xivrBx2sddjTCJNsMy/HvWwyd6iMjS4FRVrtjquxoWAJyrb7TRh3c2tYG7g7IWZr4h80jm9nZteBJ8hNR5ryPkSVhchZHiFc16fodQnvjx8lcBQpR5FWaw/PT4xAjCjRakyyOY6X4tWqXGhdrN3c6vNjiDvpxal/xmQlJPuJImuuFtAHuvdvOkNiHblzelLN0Y+33EET2dF+MPXP2amJ0TXxoFvV7vs5ZS7qhIxTdPtfygFTR96SqBUZ73dOEsSwnDzS0uTFW5L/osQycOylhNiGbyaRlVVnBPyLGMey8N741cSz29UXNX/Q8E2QrTnRddGdjBeahmOYk8p9aq/oFN0tpcWUbqz7zp4VTJvtW17BBab0Ih7uaHLzW6FgQmkcaqo4Rbu0hS6mPeR2oXM4ybuZtAU/XtP3FNiyn4u2RYqJo2xCZzMEUJ4RcHRyLy9Wtp38xVaySKPbi8L9PbTYthq/RO2GBZnpR/cDcK1aBklIiabQu21lj0S98lO1Njech4w1FY6wAkJE07S1HmlrdDyrI+i/XiuM/I9bhgIXApou8wezh6FqJxp14C8xKqvfIFJZNRwhyr0ccp87yP6975fjkdGSUDm8X/RZKihjHlFIjutBYig91Jj1nD30AcXEU/+FTrTYhEcCln3xIpzo4fxhD+xKE3LhgqyBDhSJtpbQMArJFdkvQufviTsQa5Z5BzG8NV8KLNuWBFh3P7ECGzsAFzYBcHo8L+bpJ0RQfCkpmJgJsIFp7eibujsZ+UjmYWAyb5xzbAEWz3QQhCk3JQJ930npCJ0xNYrhryVb8u+wuhPqTcqpXEDMfEuq/FvSf6cUJ1zs2sVdSZ1OvU1bfPQ009mmIGJXlz3/NvogJD0EH9tiQ7AEZDiyFYfH7txiCwwXpAsJGYEVWKEhzs3kRHGhlqdp02eJBmAJTdW5iLejv5EQrb4tB8IWl9p5f5sGr54QFn8erJ6h9JwtNhyzGIxTnU0sFDMk4ghs5kkf9zuot9g7pxUMJ2xt9P1AuNUqyjoTViH6vxIivin4zJvy17+heAtwAuSGEKPnxNp+BPB06FFnzN16Ck9ly03yMTWfr05a45KNptxgmZssDrDqhkM9HIaz7stbzy21jF2e8p9Q06dk+ktbpJarkmAEmHQ4YJG5iOgrOJj7n5XcxAoyXCpOpEpimKDq5TA7W/yP75NAsNz+0gD3kX5xJF1YDtY8y5ZQWNOqbcAbw5JSAUmlpev3LpmVcHGmxzPjv89Zq8TTP+e/cdwphtjTNq9+BRFLPGPZAmflVPag+cu41UaIPNOY0EDr2tsvO+JRmJgQdwmdZZbSPlt2xQ9Nlypvq8S73T/pBf5z/tsCic1QUXrm7Y2Nuu7O0wCmLdJEqVoIglnq3lolIBDH6sIy1WPxcoayIlLR0OqkvH7+f5oi1HDp7roK8ST32ea2LXRc7YxUVJaGAPWqL91b4tTvoHS6LIJ5yZP/OeRdRMz3Ov0vVvHbzjt3UEf0wISWtQnVPbgeP9qkikuGdoxpzyulGC0z+dqoYCihM6VpI9tSCEC7WMBcjcDt+Wd0+AgkccD1PtpxJGde0o9SquUoT0w+YjkAoDu6VxtkXC8vgytmktQqeAIX/cCs/7UeiqqRFJwC8f1+3qRUGd/225mWu2jg5dwhTY5TInyMJiwBf6r4SDt5KC2aHkLYARey05tKLVdFWFEqikOcwbeVgEdcMAhFEMwsDh1DuToUj1s8jg5pcDpXltOT67GYMAfjb09ye8Z6Yjh+acIyKxpCFXPLPEYCyqnxPomRs6akbzUCZk2QgJ+H5uIKosbxsT0oJvLnHC20VX2Q0Y2JkX4cTcs81WlGthmyC083+1OD5s3gOOtBpWEH8Yhbvq/DjRSb7DVNwRwFrYUqnLi15c++e5r3yQn3I0MkyfhccIj5p+g9b+tPtDgdtpPqEtFsDFB9WGVojQ1QZz8E1LwfKOXDGobo9tIxDHV6bbSKwGH/O+D9x4F9vJaEAKnteMom1R+Kn1kBHMrtrXqDYJuaAxEDnfi8e1MnvymA/JeY90ek4lU7sVRrGafSDRbjk03cjlm7aLUpwxcbZcXtg35zGrglTjO/912GO3VPdphH0ejxpA7cKRu7yqF+7knmf/OlzxOm+ldERXKblI4GxyZlDEFTgR+OT7X/QhQiBlQ90Bto+RERTpjA/3x0FQiy+sPzhjSxSqvZ2d0lHM3Y4M9M0MHTAKyG/YhKBPxBrlGVe7tqFJQhbexG/TRjx/xqVDXEPOcL2nMSKJ6GJNS6z5+rRLYm/sGoGAgFY8CqSb2qwfVKVv0CYSNr5ZdQoL7G9rtEosKnwFMNpb32a0N8zXFOKXsb19/DDvY/iTIsTI1aZ7mXIFu4i5ZfrIOn2Uvu7TaySAb+FvDKGt2bO6FAMpN6SCm9TpIN0aSmm5yJXhplscfnwwesMMlqIiWttcu5AX3fBErxTN4CDdETyr1UpSKYh7785lRwUvg31bQtfSxqY7ZIECwjb7vSoLkm5slhJw7mOQnp0VQSsSziFR/AkkJNOnZTe3ejmJa8f4vBVCcfgbhPCsYZHFK6SDCA0PehXrmVAVq7EbfI6breIR9fIq9wT81h3m6prg9gVHAkr1/r1YmlrTcUb46u4OHxZRtsqneNRwAPeubSt9Av/7imTUTe4numzVkLs5oBLkzrZaSQisQYx78Eqg42znP8wwFJJPZ1DTZX73cDcrB5XDgWQb9LtaJwLhDe1GkGQB7lqvX5S5IgI/dL9k4DF1iZVlpOoT/bzjwXKMB9mvheaETq051Pt/+rUeEA9x4+jVJxUtgiJ3TyJd2WbmVTIETiB12w7ULYEKyGarWBqzVupJdcFLVdKExZ7OkaaPcL5dBYWaVpnySalKjQkNrAoXayA353WbID+bAVKt4lbxSu6dpocDwoqlTVv+j1ptG7NKcFec7ruk5WgjtgU+u75S/9PLhAJXxBBLZz65IgK96khSpxyWL8kOG97tPfeIz0+WfGp8yb7HlpP7XoQf6HhqAgWFYatjpsRRZ4+VS9CNuG0LKTenk7mjlCmW3FDw40JplyUlwsDuckQYdSXmB1z0a6J09gbLBpFZyFXG2Ry5vhASE4dclgljR6HFqzfAo8JGVoS2sEt2SVLo5LlVVILXR0LhGW/HeDIPY2/WGLAZmorkOUJ0TrwwIFzSoRssp2BcdkC7EYOkg8P+ujs76Gmw+FbPCluy/OYzK22ax4PODnYn2YvGuesSyBJlJrP5E/mlHQNlxJq4FHY4cTvmOloodCdkhr6gyVcbG9alonWLNRIN+D00POHoRm7YSWB2lcCnfViqh1dKN3RGQIZHNCy2zaXDTmMnvV7RQ3kDZQS5HI711P/cX/tBFbY9841uSu8V1tBYFEZmXtAGycQRO7zXCdmoS/B02GELktPFQXOVCWOtxpCt7yCASY6yQykLLZAcIWB+jrlqMzSIuBRfOje08LlQIDezyN9SKkZT3Ifrf3AYghrXnVhvOVZaVHn3aeOWKgGcCVnU/4OtzD9VISMPZhrnYakiuHLlVhkJPeXJyin9+NlAwyvLOwULITUvP+w/XIMRrBNxoSy4kyYLOy5DhoAlVDkEmFywvLjVJhAGCoFPq0aCESrOwLFErV9P/ygJ+MxEQoHwg7KdiM6P81vMnKzRe4+w38uJT3U+as+0hMVn9BZWsfkDdowBznmoN1ttTefSwXDQj48E2nMGiqKl+q+Z0Pyu4kzoiayyrLIsfcZg2XRs0rzXQTPwA7UBODXY9HATV2snT4unOhnm/eT5LATWojmTjvs3yzXSQm4E20YnE+vaiDPe1ei9HhQI43u2KRvEpibdST/G5IVJYtn7QX+CIA/IdeO/kORd8E5Nc4va0N7htrnmdR5V6Hm9HL0PCuuI78yjtyV9fMgO44ix1ScxOIKuE8PqJQD2Lgod30zpqPdAJDP1fKcQWa21QCKdjPUc5XLzx+LwULC32smw8o8GmVeXdCcG6PevIkZ+GyGtPWUcThEEO3k7ITh3ZnpuEk87LaTQTa1eHXRoXTI2rPL5Tn1RR9RQY87o21ULM/Udjps1qFhvBpUFoeEww/mMJDQPMd9ii86uzTP0zrKSFUtW7O1WNC+hbmgE8Aj41uWokM8M92OTaS8GxzKtT9xUk+8HC3OdgYmUHS3w1R0awzgKng4qQwMOGvtD/Q6EOl5BlxdRWijGVwQE7kerdAWbDphmS2125gcCIrhIQV/+bNfPJ1fZz/6CUKLuJmFkBMORnetBmbRYu+uoAFbKgedx9yBDKu+YysXKb/z9T0fBi3VeZPC1vRGyuP7RYPTLbq9OuxU9ql7KneCrTIKNod9RobfK/aq+UHTcuX425+WM81kTNy0FQ51/sEE7xLKExfDLw60xUTT5K3v2SA0nYC34eqnH36vtH2NtY9JvzGcahzUadBntQ/bcI6Fo/J26bPq8dGC8wP9nqAzKF0ja36FtfmJPwdkRMjZ/G1/7hc/+v0JfUJcAythiCXn1YHub9vBH4vSmMB99Q4+nOMSqpxYzQK8SslSLW3YTDBGynS8Lyh2y0SjDnw7BPy0yselpHGYE5eog3YaKWTHgzvChGr5qJWRsPf0/+iNizbyTRy18Qx6UT15EGrMp+ZR9JTUx2Nw8tVsc9NFrb2blAuBTdgRYyGmjGKyXiZ7agTeW7Vs++UKRvVeysT5rS5Q6nTMt2+T8swU2utlkch8GUQzj+6eQt3gXYyBAsU/4UHisPoatFNDPOm5zlc8ZjSeRJoxIOz+nkW+C/iNFu5a0u0HWTYjXujHUMQkDFi0xGx/f/RlBblUL7p4KJi/CExsylqWCD82IvtOT3GGvF72E0PPgX7tM1ryT0JPFx29qFO8VKZ40e7j38aaLk6ZcUp6a4RjGsMJ9oRwa2eO3uyyJG4yYv8Phs7wYJH6BOTwqx4z7oEFss/5SakOKvD4vZEtTv040YR/DdkNDKOCEIGnOpEglCJteFjBmyOBkd7imz94/HKnnkeJcb2hCcSBjRCE16OHjIIf7nC+iVifLy2ovgnnE8q6Ivu/msyI86fNmVn5X9UuUy8mwh2Q5sTxNyApQmmcdsb4cUj6vG35eExRorDvTcuIm7dnJHpir9NhmQOSfLOETICBz2SNBJ6ZoKKY4NAp8smRQU2A4ost2gQPkVeHO6hVHl5NSC7OA/UGtun7AEmmcTv6pDEoGPnbUIjdQuga04fQwlI9kms+nmp/X5kdrHCBkzt2IuL9q0aqHdd2MrowseU+EszH7uREsmUkmnoPvFSbhez2GEzPFX2eH4Bj23ZQEc5V5gbyvGuv1g01Oxd+IdkBr6qWfRBJN+GDm25uJgW6c0MpRRuk1Cu74qt6U4xqflt2YVreEUTRkG6Z+/NH5ZazuPBQ5lrQJVTfKH/Vl5ybaWPzlNEWM6nhRQ54Tfn86iv5+o5nlmmAllYg6KzeJxXqMaSe7bJpFGAkEZIDR7e6gqs4vrcAyXdn67JkRwIhGpTN7GccRA5Zb5zCLUOFuJ6ycGKvinQzlRxB5QGUlhRrIrvd4bgk2Hxin48iLKUANsSmKijU5uL2a9er2Pa5WQ10HMou90vcg8wU+uZZOSqPQYwGvXdiYRaIF6VkUX9CmPkeJ7Oda5XlIeqI0rhOLo4FINVjUswrxX5BE78YMiONnjJbcQL6fM3xGPhzTw27uobBQNyPROx3dyOw9RsTV3oC51+cIocw1f9a15WwXc5lZx8NEq/BCuLHJcTqgpepl2m9fWckk8wjVkqj1hUbSNZ5AJ9nOLZVWEMnje6Htq7FWRxkBCIAHt7r7cSEQ4jM4oQu4GZJh/a3z2Sh4fqSxTyrwsJcvjjPcQqmTgzvJMIneC1IVb2SGxa3I39Pu84tMx+aIX+TKhBRdAvXklg8PqWu20mWK0k5mSvZrUc6RifZIVW2Hnav+Ipxjdio0iQ49chwOSPNKM7+ke0EFBGnL3PKa5dbve0XfpsI847ocx31EKjqolTmuX8Q1diXei4ZzFtS29iBe9omgTLneV08Pc/kk9lnLxjKR13NiZE5C4QovvQLOiyhR6231L7jNM69LUcm/NFtLKxGt3Q6kQQfdmHw1U/iIvMa4M6x58pgDzj/nXv5eXBRHi0QITsDSHNCgXxwTTLPRPuFlGVF4cXWtxj4LQCdj/mPtO1Xl01yMzxoh2Zwt0WE5/2kthYJdRi2RiO3MAVG06yjjlrUl4qltwGwuvfOEzi60zjQpHyRAp8CZr/4ZV7KJVyIWED/REe1j/XvHujNoy1FJGjbivJ5Ls9j5q6/wsYJkcriCMmAk0Tx4IEHjs1eekv9UrPksFYJoYhyuDL1owOX8K9XCU9pSwfyOqz6u7MjADBF5KFPIrka9cYRtHN5JLLTJC96PuwTtRamPs/Aj+6n/YaF9wZP1VAdhExeu1UuUgRvtpAeDI7RwgEn60B0NVCT/EUtulShQ3goUYYbqvjiQFtz91NF8yeenV/TlWmwPbudJm04Pv7c0k6bWnw0UnKlrx3ss83EZ+c2uHLjHv4bX8TJ/F+Rnh4C9eRU7VQVcKU/ZaeRaReqKbdnk1qFzIcMx69NvUcIP6n4SCtwdJ9eIbD0LMXexxlmHlasyhGE6sI29lKqugbISgIJpvYHHHEbNMbdgY/48XhTfGl8t3D5zVJoiQBW6graPsbsZ3yLstNe87Pyb4zFi++l5IjSKR6r98tjQLp+25QKsl7OdI5x88aJQHfUvGQWZVQSHsHM2i9W4+rPFM4NPWZeZ0iqVB2ca5UmsZTjS6ShJ7tZmkI6g7qu+C+cDKullpMEo0HbmEJFJGO+VEqoz7kz5D1s2j4/sFIW+Tx/hJ1jX0cCBsxKKS/Pvl3hMxJpeey5BAFY7dNHKdu5N/0QSxzDhaxAMkhktJeBhy9l1qexWCZF4mGV1xJ1tfsqDlRvul0oj6anZ2eyRd1eO50l0Gy+iInx5NZWz1gjUCfDyuXU0NlvBqjMFeS4fkbQinnO0qwkvwIqraKQsJNxMSlgMyd20EMAAeDzRa5kTlNf30w69H0ydov0J/Sy9UEtm6NoBVB+a0Z5rq69M92R6jxmCVOMU2b6Ccmd/X8j1uPM1LG8aPZAFag48xqyeVQjEGIjtc/D0lKmCKKtCuMM59Laof/eLSR8gHd5g8Fdd/4oJOSSRtwpzAppAlSQbrotQThMGSxqtbO8ilsjpAxE3izEQRrtnYZhRKrM8UBOlaqm2Wec2rnZrpX5MYiJ2a6VI2OEsUMGj4adKQP51/2TyefJjUqdtwJEidWpDXxuVbduJ0ucuT6lLcxSOUdozaWclYzYUU3Cn6QdpgnUKDD1JhV3Q/yNM4dh5cqNUOENY53sy/jFZOGIzAaAami19D61XrvZmLxQTE7/KJxmwkp0zU6i1Kr1bG0vBS0T5I97+E2AIh8yYWR+Ro6yvjBdDP+o5OI9yo9wlh0nDrP6DwXbfSvzg8fMyCp36hYxunn8pu2Ee3Iquo9XulNQkzNEz5HvVkHWaLDCSg8zXy7/De9Kqc/wX0dt1SmCvKlMOWRmTbcjFqugkA9XRXBxriW7uQDmT22FMnKyGQKkbi4RDlskuib0Uf/0Zerc4DczRRbFShI6GiFytRjhjq83Iq2Z0cubJ+v8gcnExY1ebiHbDFTXX+PFUra4uzyJ2ws7oKUQGC7+HxkN5CP9EHxwWP7l5W+C++9fL3qsqTgZ8+wqmGi4axG+Iys7aHWs1qXYI9xJC59YR8PrI1fEQ5z3DYRsGI3RAEObBfOxWbywRgdOY+kq/IwFvv1p7TXiZvLAxejUKKZesAPhqJNuB1T3iL3NP6OvcX2Cgs6gFYjEevqGexXAl+UPrGmIN7qBMBAiEtLpS0mUNL8Ulpj4YjT5W9UuHNVlvpHN5KlFRfwVTRTYagzRlq6+VuPasxL7Qn5stR+PJVMZUyb/shN5jumJO6d6mxUZ/TsQtpiLY1SD7Eg8sahYSPBtuRq4PsjPwSflbiL3tmy3q7YK3wMIqN2HhUd7mbQRrgEN7UMH3boWYwc3Hw7F5lsJR5yYdvKzYMfI73eJOn8xr5dJHXqaATRUcO/moxyCM8sSmTqTDTCxTJxXUJYq8N0wJvxVOpTZ0flJCNh5kb+QQ6rvvB/I8qs5ytJlDiQbMehuvFHFy3r36jBG0ZeztnxancjvdUavONse0QfkDJSpf83WHIymUHQVIfTk2X6LoTcqbIafc1g9KXlW6Y8k01qRbWkWLuodbWAhSDanlsi19iJeovf3RsQC0kmonAx7NYsYW5o+yFh2QuwlgeTm3CWynW9FLYzcu7OlsP9fuDVFUTN9d6FKsZP7kL6S0oqah+q1fAvfYsuhlNSqz/f5z8o2yyyKCoPGmxmeHI2x/Fp/kuZ9rCqy05PbwQCmQfyV011AjycP7oqe+1Kyn/WusqDAdvxorcxL13kvq+MNQLH9UsFlMfPlJpR2dRYLT11TC3j3RSNrqP6AVnaxf8bQzqe9K6HqoDjgAGoTcPcr6FWLaQrrzjIvV/naghUqWqZn2K4FYs9+eqo9q5cG6rRyPbhspsWV5q+WlVZqcPp6kwocbSbkrvl5iMu51pTKJXQZp1Iy5S+gHrIOSU9L5JpM55MnS9+DxRTyRecTq+XrIpEUPVl790K2zUPh5glPqIXiBstelhueCkAccMXe8/vlq1RWGA8D4r2pzrKCPnYbuJI02ybiEQVOtGYBDPFoSsA7NdaNwEXDvjhBi2gdHlNcoeSWgZCIvdUr1bEVAvZBgEmWTCNViPvtBf2xh1AKaovrqRZO2v9g78+nulV4XhfLyyZKOK7gwCiCRhu+/7UmqVgzmSuly0Da5FV7UAII5JDo64QduC3xvFBydUtcjiwkWkkhsNon44XYO+yzB+kkMoBQ4iZvZURohhkH+1zvKUifkuENLp9Lo+aA0AsWODhdcLMavy/QZit0BBfABCo6qfnxMDb7pI1XUh081wfdVF4F3SWFiQRCTrGs8X8N42t8MyE6C862iKwC9QbqBmDKJw8ACQ5ylGJ02m1PKxYw96RpGT30c5KlJKkLSVRwebtIx19y4sjKee886oEfWkCudToiUPnNj1367wTfwCSbqyL++2EBPzTbCpfkEBKiWR8+84n5nM8ts7MOzUsX9uqHjVbLKOIeyX7wU/pcZHZOlgSHln0TFK2k9zsJnpQzqhQFKa9daisp8Y3vynFUnuHH4qT4aSHUnhNdpvwAJQ9AC7ygB9DhX+PjAsivMyNGeDdClon2J28zLsznNZpslMQEnbrw5f0cwgyMPSOGXEOXVvDjlgjUtbs3d53Jd8YnSGtqRyYQ2ul9X/FgVLMIBQzU2Oz1KT69B1FnJOSuY6otPkhunEEBw2Ctp45+AyNZ6zolCn5YOakrab7g8rKWNdBsErRU9OxbaNWKJu69sCbylvLFo5cgyc52BJ/UGhZQigPmocc6lMBiRrk20GSfMUuRi02D1WHU9s0Nr43KmTs/zNsSYv5FDiYcvpyHOfIg/y83h2uNn1a+l/EXX48QIs/tGNsJAHMOcJ23A9Rg4svi42nSM3jlKiE9U9M2NnH8RbzTPL/I0mToac3yhjQeWI7GVooZYBYOpTdfHLgBXksEpbfQWhgNnVKtpsQwVzamPi1OGgJjCip93VIP8v2ZALt1O0oRpCDREdQLn9ftrRwaZ1vbpaoa+xNrim//5L1yf7Lr61QFPAjbyWuj7pjUTw9ZDzEmVBw4RntD4pIGx3WmQdc9on4Si8hMgNFw9Nqd84ftwMQmGDG87tmoKqT19arUX03anr5nEMa6V7GosnZlOu4IbKSG5b8sbv0/ChsWO6hQu0z7ytcE/Nfgk/bh3GWJRgXY/w72p5EApui6oj20a53hcx+9/Q5kHMPfCTyc8GGYx79oxwh7qcgFrd9iDPxeVOd8DJOQZIXhuCY5uOjuad0/EeNxiUGg39zVBQUkIfMS188clFeah24FJgUrYcCzEhdevcy8US/NMGWC4aTtJ5OppivNj982vPk4CUsXmZJU3ZHwXDIANReeo/w3BR3EKYhC2B4+P3uaX7j2vuzjOxFXVfKTB4My7Ruduvz03Cerv5turZcXGY7gJNOH3pEnXMhciyPEAU7WZ6XIaiH48ISYAxjIZdFnDgXqR3l1/+GWiQHBk5mS1PtvsssMqIO/d+jFuxSqkECPFPah4qBg0sIKhDtxSqF5xMwyn1gcVNTqQXrqKwmVsI9lqmCyrFEn/3Fn5oOWuddzKq3X5jUcKSBPFgcjAADzLvWAcaCmHP5QVTXIEUwDVbyT+4kXf2So+Zx1azYcHAvEFG+W7a3bCQcsogRyJuaS+y9g6iga5c7NYu7kizvyyDEyNvR/2k0HC75sAdAHkVl2XanCDyTKjoc9CXY6F1aC4UPy0SNSsXjNAb2RHj3rjptahbbVjCWpmcSQPcc60EED6Z8F2SETqbzGTfsV7vURnj7WYhu3kfMHX5JMSyXVmP2F77rPTLxke7x1iQKkETc+tcn6oiwYy/5nJhFP5C+vGknzJOfXJ52IEgRlNEY84Hbx0y/7fdVAtGizOs7pxUXvyk+EGMfnDm4q4xgPOJ4KKvPKPndPvyfceQJKAjhACuDmHViJyPkLlGc3eXZXSsqVkmS7GuwC7y2o2AER4yuOeowDkzAoMPJFBsvj3Bd5mpTtp9oP5rScGE40LHlx/Hpz3ZPwgSWNxkuOZAMAcajTrfG0dWXHcOoUNO4d/DXt2XCobtDyWCQwtSug6GhZearAY+dSDmJNAAHIZZoRkfR+PpSTOWbO2YT0KKD/qm2XTRTiCqGf/f3VClz2etzvQ+sU5MgpCm79w894XIVSI+uqFwTtSOHjSOdoXzU8BXkJLrdrZs2RyTVyfYtgywa6DPJlwDW3AG2I0Q2W6g+tSXCSm3MhtI1dXCpFy2t3aZUmH6CAujgPCPacI0Bmu2ovXu+CicyT8PjXoGpImWba1/Vi9w8JXtrpAuW65lXku+X9V7wp5ZgMonr1dXORQOWaazdIjVDkr2Xa/13Y7rUKtg+rYyJrC5D0iZ3HEvJjPI+N91iywHDnkmr4AQ1/4E7KDcrmwl1o4cy52+qdOyUlQSG8NNCzUwLrJh1RkZQ0M3zaqJixp4DG7jDuhCN2Aw94b1zEPtEWZX2N9cIdw7EzF9s/q0kDfFIIjsW5FNBflhcpc7GZh/Nb6Oid+uH8twTww/s7CEJv9MgNYqHX/F5PVGFnfDyfX3dJtxsQazRr32sLWNbYJeFk9xaxxfdvGWpDkkEwmXrsRzsCed3J5dymjoo+FqXw9lBuKquQqw19C2uRrEWOc5hMb6w7A6tZEAo8uMzzSufiF4nr/uOWABrev+LMrli8juYU+ak/qxGmERJ2TY/f3kY0ztfcfcLajrUpb+SVevCSpcGe6piRmBDBacYfyyfC73/ape3CxGH2v08EbZFH1iScUxFIAItlsbzzKyBJFKn9OHjBf6DMFSbp6n+YSVvVPZ2t39qcUSNmyskeiiwrvED1RCl8Xrtu+rhR4Avolqx8speLA9BR+hGk72lAT9BTXcUFiw+TQ2nygNRzNMI1krT4ysjeWGAXIoPkfhv7Gsxi11IhYG9uwkRrjC5PFWs9IKGWziHHaqJf5X38vnSPWJDbtrMd7t73qeReBTcDWzw9JbpCrXtU5LL8dbLpQv6Ta5/6TV7mWa0cMaeSoQBnHfWRRxysiG15mlROO8+SKgrmKXUy5lmBZXfInQ69tIZAjTfGRW9nqNh1A0GqHaxD1mtHakPsDFTXrmjEtPVAUsi33rBkctcsb1aLInpbLkQqdcwIYpNdVEmBOkO04lF6gtf/5I9yJIEHxC9kpZ1JT0QbBjXrAmIT1DK1diyZ2JL2YpBdqON/CIdnQjmBWgMCwK4AE/bcg9LMnR/KqZpjx/iz99S5hyTzSH7JrItQhHzvtxB0uxbHyDK38ymvPs1sHFr7y6BsD40Bm4DflKfXMEwfLI39tIeEbvYGXOaG09mRvBBG3DNgbh+1n3gqvAIgxNvBZAetZRPjvMiEnfAQe5+6DbtcfSqQtd6IzEWyRQHUvp2PD8Od+KcHHV+B1zygoHKDTx0msQRcNCuGEabwf24BuFGWS6vZ9vlbNz3mWCd+ng8tQ2V9G+a9NnXCdmI6OgFH6Sj/q4xRVqwjmWBMzJI32p3PNhV+N2EruE/tqxXXN0NlSxYVBXwrZ3nUN55K481qzJ3GZTLG5EQzqF4wG/TrlbK8TDVBexMWwqa5e4hry9UjxuAnQC7QzbBu3tvSAsp1B/+5iftag8i+6RVvgrJJtnp3zW8zfI22ZEViiSYzXY2FpVAMMHK8Mdul8Xd+vUzXw5PgWI1LwqCooCogd6SyfAt9F3tpXomVDNBNTmidapYktMcyWrPaQlYMpsEbsdqcJsfTZ5uAfi/GSdFDtMJEQiCLla+eLBQRGhw2imjNkZX8Q6tFYNsLYPYS2OBGHuAHduKeHSSyz1p/EDGp7k3cdaIU3KU1tdJvEJhzw85WWxFEuU6YUvI31AeUhuWBkPQHUKbqURedmAibHK/n20cp26n25iAXFH+jjghJIow0Ib7OjCxQDOFnIJFCfygrtdAixAls3M73JsJ0vgAJyon9URQBlpMSFJA0MctQJTXogq4ci/+apWKeNlYup1faxmlmRpb39bIDZnOyrYNuSKNyCsGkos6QoyBNKe3rDFGV9zb+cs3/BlHQeiF+BkOf2FK8DkvHp+KTdyWg0T3Rz2PzjosyTQ7wCn+9SNd789Ev4Piv1Ry0NVzhT4Rr1LZ2ucxTcgP/v6/ItE/pBQg+svfY6gFVSfIT55G527ppN6RDbNp14KA150w4UfrqJtlHeDdU7deI0vaGFr5wKojCy0iYnVmGMLk47UvBRFHzfB4IoVx8RPfeCH0slxpuUe7mwUM0G253hMQV+k0EbaBNtsvHLFsrp+yQUDl4o512TDlwQmBhg8HL0BHCHZaYtTG0sQUAgXngNbCRUyt9NrrcKhZyTyoFscyBxlnwLTI7v5ZtVgb6qQLw0KOywJ+b36c2shiHR1MDYghni0+H01/z72bKsKvfJy9jNYT64Sm5nNGefBLUMBwgEzS3t5nN+PPQlHvj346wofNa3PHS2d3IcxD2pA+lKuGk8DAU3mLnajdNo+gm2nQTfjbTqMcSPt+jHMKWxSj9YDaDSHW4sDW4R9s9O/kVdBYP/j9fkzBxbjJCRaZcf+7mA2kZWOsVWOL7QPjAMo7MXF4+medb5/BkKCFKWhVhuwdWAVKuUQWecFnaobyWBTHxEVICWFdwxqJui9sRuslZQf7Q7gbzbdKAb0HZT8YyfwLq6pRd+Nuq3b75nqk6ELm0Qjl4PWtFkXS3lRuC1gYbgGUWZSH+bwcrmW8H62mc85oK3O58NYYdcCnE/rPjEfYl7DSPpj8NyT9K4sVII2QYP6NFmm69NkrR/1uvE9kNSMmgZ5FMrHMve6s9Dcbn1rzvkece/ofRIppLzDj7XX5YnvjL1plB6ScBMQJNEvUUIsnZTrK0zi53LYdSMHsdtq/SPNCAOlMaeywdU4ScBrc9YCJvGEhMkZ4TMaj+3zu1JTQ60pDi2HJRuaaxVvvPq88NiQgtam1pWaKn/JcOT0ZSAk1VJgtkSEyXdeVcZidGsQGHQII/A1JI+OI6RG1hN5QJFgABRVFjCJv0AHEl57IVu3C/ipMEfk+1dViNAerZc0yJs45DsPBqbhz0f+kXCbiG6B0S/PIeLOt8QwhLE5yYVmUMTw94VvhkoicU7wEXUaCVmJvpuOrjPEi5u+4Hm2SUvXMoRWd596Ie1/5rh28FU8eqwkjwmKiX/JAlEK9rzA6slu7EmJrop3XZlYEN67SaTlE+Cpi6SU0QxkUlt+4Uj0ic6d36Mh7fYw3pif7Qunay5r2+5kIzl2LTrzFv8wFxXiFlj2Dv1Z3hsxePdlk89/jNyjXjccqxres46NN4AAc0iBT22JeYHEkSTGyfV5qSW2tFM27ZUMNhcdGGWqAm4a0FjtIq3jXjPBbPo8zTRG+bV9Hiv8DSUwcCy3YZB6CZUVbnAO433djAcb6wtpsyYGGQ/VLBtgR2GpHSBNIhrlZpAM4Exksjyga7D0i+2LB/jjowLDvshuW3JiwCazVXlEHnoaJicewJbzGTBbD2nhfKRNKFVu2EUZZvY7raJCUcE2pO8KNVtFsgkPQgivyvVI+jy9W0qNXfRHZNlJKf+4uEfuCKDVTLumQ0IlAqvc09kRs9mJQTXnQe4y4MKsRB7l1XsF15uayYA2+J8V/SkscBxATVyCt9fFWzXUvLioiu0rDEHgwdubjZ3WicOJbXnxO6eUbf36hBF3E/1sjjksSEOxRly5dkuCX9U0YTa+fZ6kESXouC+CkA3pat/WtotyGbms1L24s9mDPOE0pn3rDmwjT6PD6l0ubnkh7PzE5ITp2Q1mWH0uE7tk4sqkCZKiu0jjUrMufk6vVg/tOQM+ulk1Bp9XCG8DjSU0SWIUC9jtjBynHv6Z6pB2qv4lBarc937royQBRDQQVeYTONSv33JiH3gFEx2TTXZycquPbXLpB3ySJ9qNunR3LP9ilETB1x2NtgEtBApXvqH7b/qZdUKM88U5nWVaD/L/jMdTjZiD2GX9mNoh+F29PYXKAax+hhHLsfWaJ3WZTN90Q1eWFRQgO9rLybS3xrOF9XqpH1HYbSuiaAQ8fLr7DXnTlJkoXEdeNqtpUVHVoFq38I+IHS9DQ7rcCuo6XvnBixaupobRMnGCEHojhuxsgdmv+A+8bquXeVkb6ahBRA+g8qlTkNwSvZ++T2wzusZ1QhvPOyDuBep5B20wn/nYqdyhDDahS/bEiOhvKlf2iTYFfpU1E+5cgpVKkv1LSltUbcx6BnLN+d3EsiqEEDpD4xsUslo0NMkgcVYUREpuGIgyt8OHtVRK6ngrSakFui5rNEVTkJFsyXcVZpBm3s6ZCpW7ejMOvUEZi34qCIJ+cENuJdpgrX1nP1kJVcx/KkAAt/dyk6SfyFcbOSwsd49irhK3uEr/2VLI9HM9dC12mpcRI6EdLVAFea5pHiuNMArBUk4F10Z9Btn6oZkuoppu/EDF+XzjVYKlZNrsd6gUaednusgSh9aoFiaH+vDXMgkR7vQ+0Zq9HhK+MO/7xJuS4VjBEu28SOTSvuP36ukwM61fDX3zDRnTd5RDiJw460CEXlhzmKbAS/ix8thkNVKc+q1CjJ+UB1Gq5jpUzx9L2tTMIHlDn8ISjFo0nO0Lj1KELE1We4yYPTZHOo2EbvBQjPNMSfwYPzJHFs459H085AnpH8r2tlFvByb1h0aqdnrE4uYLCpRfOQBxwyTd9MDK8eKkhcCrA8qelNZJJePQ7q0HMnqOYWxHY9Bqwk5UCyzhAIq44dERlZkoMTIq5x9eGOMXDqlukL/hkix9X6jetST719eym67FeuZnhLO0LVqPsgLg6vfz9ov6sVDsbHcYltVTXAcKj1NiD3v7X3a/Ej71nIB/mtIezOSUvlsBY6nXQkT8n1EAl60auPBH3f85XSHUAl+5lwiBu9yQt3avCE1kaw86ECJjzJvHocZndSruyHUvy61HTGWU7QPikxKBMoJQKJOxHqq0sHlCK/GofurItojL26l8H0AVy1fb4RPVrGw5Lv9cfJ4gTfwu6LVgEERtbce1em3C0LU6HlWz/X+q5AqHOljh+FwzvIb8h+IrJMA013AStLz78BSIMJ+TkoCubF3tt/yhr3p+ltGbzV3bQYn4b2vhJadhg/aEQVffGzJzNnUGR12deqpOxs1DD/USNvqLvpZiYDBLS2MapxPXUNi+1msC4KQoHBeJoJqyC1zWTM4QQNr0yVGp3/w6fjyIIvR6RshJTvc2Y4D2EnhnNPda2ZWNicbD9meDAe4aubkp3MU1Z8N3ZknU6n+k2UUsOHNTBiNGMCDO86R0nDrL8evcH/Xm6CHDdxAfnfWTCJFvdp99SmwehIQTyAaFMVNbT8RZesB5eIlHyCe833f2JXpxFEc/0K3Pjgd9v3PbLsBU/E5SGcXzaPIvHKI/UEfIrq3mtgnSh4/kqS2bC7y85FEsvtzLPwtQA4zKRf4ARjIDjUflF0bj6ZNuC8rvQ75d1iKFEqpBxE0uDzfhbHxWZmPX7DhuVElGKu3QWawvupJeSmAc+GDl/0AYVDEBqMnkPbjnN7Sj4tuHB33jw62CYu3JWW1aolm6+0xpuYNQOXaMksm2RAtxPYRuKrVOQC+NKGRRYVtZUiA0y+CpUROC1JcDVIxuQP9V3ayUORM7bDsff+O9ooelwxk2W27M0KJvpP6aMLZtnu74EMsmt0pXNeD6dBu5j6eS4rZEy/D/ibp+/0/4IDKRb9qVWXTQfWCOt7g4Q/Ci+9pseIugJZw3RSl7NYcHK9JU5Eb1b+gbNgryt0D4f95h2ZgYr9ltO8osKgrEXk4l8GM/S1Vw95Q5bEQC91Ap02P2vPFjY/6J8BXGXESCQ27OXocCuzFiGaBMPP62MGI9MhrHMJ5LN4j0n4HA34dFHa30D8EXQJJa9f8rpccR2AgE6heRQBehHIzWZ6UJL9hKqxAzY9vT+25+RL18YZ2No3DRuYu9ShWsq958T7WeMWS6O0E4KWoCL+dqAHHANUpMBqhawrKcvh25x/bqEihcePkffuKuDFd+etumC5pGH9nFnYBHpIi0CA/97lOauVm8BWihdgdcoQvVqyvzQpNdp6r/x+Z/xZ4UMa24Z7nYjaxtB5xxqtFfijYDhxQQnWa/GoR9N59qlap2elFH7UnoCSPTRKwc84YUUeA6i28RWIw/RS4AOXpCpJkTZNRWSKsrak0CDjrveiG/29k5xfaRDsGLRnsEQPKzIYQCxoFvQFXkJRm9uuBrgh3cq3lGlI7iMNcALKu0mNiu0L96c9YoG/tJgD0MlWzWreOFYFGLZFRLnS51FeuaIndGZxPERd1Amt1fLKTnZEWh0Py6WiFqIE/x90iPrdEcZyD4Fo0HnwBvaUjxZ5pRArdM6wyeqbNqH/KE68BOEbGhra9GzbVBdxcI3Kqf+6S9MoqB4qXAQeOwU1XpzRVGWcvjL+PPmiDVRjCiZ6Yq20P65Utvia0Qnq7ked7VIU3UsaHo2H7yx8L90jdYF+SkPni8ixrk3mwzfTQOEE/H5ijzHVh7F9HlrYTT3brnssaYFso1aKVZ+5mU+ZMm8FKaIQduVta7pUZCWo00fSZnkgaOWmIBO8mpicUVKB4r3iWcr3F5TwZccUc7qxsoHwcaIgZ3f4CKfRIvHQ9EEa/kqakry7/cyNFcue2ea7EHDOrcLzZrUigq3tzYZldtEIXiZg9ehGSCuQvW+8ss9Ax9s5u7r8yObuVFsIcSdKYGfwRfrkFniW0EUFQN2GXArVpNNHk1RYz9Lv+srYqcotLooon37rwsV0Xn2s4uXqvrB0zSq/ZNe3cYqwNg8KTjM/ks9VVJq8g9I+mNwf9rYuGodTc82k5Jr3uwST7/0JEg5Qs8Zvg1jW5WGke4paa2BDkIY1PpxP0wS/9QKvcNBhDHZn1v3UDS0XjyoOgCWbz9Fgd1Rpao/dvZvL+CMievZDpwjwhxumzNEg/CVHpu2iBfMR3KuLrfzXTWnBvj7emIqXqt1mUPnJygOuL3FhIiW1TEGLqmEO2k3+x/iXPeVZ+d5lFkCW1JMu5EIP1HMaAMM0gouBWD7As4BlwES7pA2vLKJWHyTvGokMsT50IqpG7Qdepcn4Dx6Utc3BLG56SlTDxEzV0xgI2W0hjQgYM4vUGocayWUIho6CNVUVn3ch/UJ6Y1JKesZ68MH4vjZU40HzUZSGyL2AfJ2jpaIIkSq8AjAYwHIlNblTwfCbZWklLN3xH4VoahZrrou/vhDo3wqJOzOTd/IPBxSYNVy1DAKSPwAA=="><div class="phholo"></div><div class="scanb"></div><div class="scanb-strong"></div><div class="pass-vert"><span style="color:rgba(255,255,255,0.85)">J74823721</span></div><div class="pcorner tl"></div><div class="pcorner tr"></div><div class="pcorner bl"></div><div class="pcorner br"></div><div class="emblem-ov"><img src="" alt=""></div></div><div class="biofloat" style="display:none"><div class="bi">&#8853;</div><div class="bt">BIOMETRIC<br><span style="color:var(--vfy);font-size:6.5px"><span class="bio-dot"></span>VERIFIED</span></div></div></div><div class="ghost-photo" id="ghostPhoto"><img id="ghostImg" src="" data-copy="photo" alt=""></div></div><div class="dc"><div class="fg c1"><div class="fd"><div class="fl">1. Surname</div><div class="fv lg">CHRIST</div></div></div><div class="fg c1"><div class="fd"><div class="fl">2. Given Name</div><div class="fv lg" id="givenName">YEHOSUA</div></div></div><div class="fg c2"><div class="fd"><div class="fl">3. DOB</div><div class="fv mn">01.01.1992</div></div><div class="fd"><div class="fl">4. Sex</div><div class="fv lg">M</div></div></div><div class="fg c2"><div class="fd"><div class="fl">5. Nationality</div><div class="fv sm">KGD</div></div><div class="fd"><div class="fl">6. Country Code</div><div class="fv lg" style="font-size:clamp(9px,2.1vw,11px);letter-spacing:.3px">AT – AUSTRIA</div></div></div><div class="fg c1"><div class="fd"><div class="fl">7. Place of Birth</div><div class="fv sm">BERG AM HOCHKOENIG, DIENTEN</div></div></div><div class="fg c2"><div class="fd"><div class="fl">8. Issued</div><div class="fv mn">01.01.2025</div></div><div class="fd"><div class="fl">9. Expires</div><div class="fv mn">01.01.2030</div></div></div><div class="fg c1"><div class="fd"><div class="fl">10. Authority</div><div class="fv sm" style="font-size:clamp(8.5px,2vw,10.5px);letter-spacing:.2px;line-height:1.3">KGD &mdash; Holy Church of Jesus Christ [NYC]</div></div></div><div class="sigrow"><div class="siglbl">11. Signature</div><div class="sigbox"><span class="sig-jc">Christ</span></div></div></div><div class="arow"><div style="display:flex;align-items:center;gap:7px"><div class="aseal-img" style="margin-left:-4px;flex-shrink:0;"><img src="data:image/webp;base64,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" alt="seal" style="width:clamp(28px,7vw,40px);height:clamp(28px,7vw,40px);border-radius:50%;display:block;opacity:.95;box-shadow:0 0 0 2px rgba(201,168,76,1),0 0 0 4px rgba(201,168,76,.35),0 0 8px rgba(201,168,76,.4),0 2px 8px rgba(0,0,0,.5)"></div><div class="ainfo">ISSUED: NEW YORK CITY, USA<br><span style="font-size:5.5px;color:rgba(14,27,58,.28)">W&Uuml;D ART.29&ndash;31 WIEN 1969</span></div></div><div class="ar2"><div class="vpill">&#10003;&ensp;VALID</div><div class="pref" id="prefInd">PAGE 1 / 2 · J74823721</div></div></div><div class="diplo" id="diploText">Holder enjoys privileges and immunities per Vienna Convention on Diplomatic Relations (1969), Art.&nbsp;29&ndash;31.</div><div class="kine"><div class="kinet">KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;KGD-HCJC&#xB7;DIPLOMATIC&#xB7;J74823721&#xB7;</div></div><div class="mrzzone"><div class="mrzhd"><div class="mrzlbl">Machine Readable Zone &mdash; ICAO 9303</div><div class="mrzok"><div class="mrztick"></div>CHECKSUM OK</div></div><canvas id="mrzCv"></canvas></div></div></div><div class="cgap"></div><div class="wcard" id="c2"><canvas id="guillo2"></canvas><div class="c2h"><div class="c2title" id="c2Title">&#11041;&ensp;Digital Security Matrix</div><div class="c2sub" id="c2Sub">KGD Cryptographic Protocol v1.0 &middot; Digital Diplomatic Pass</div></div><div class="secgrid"><div class="sc"><div class="sclbl">SHA-256 Fingerprint</div><div class="scval mono grn" id="lhash">computing&hellip;</div><div class="hstr" id="hstream"></div><div class="pbwrap"><div class="pbtop"><span id="integrityBarLbl">INTEGRITY</span><span>100%</span></div><div class="pb"><div class="pbfill grn" id="intBar"></div></div></div></div><div class="sc"><div class="sclbl">Issuer Seal</div><div class="sealrow"><div class="sealring">&#10013;</div><div class="sealtxt">KINGDOM OF GOD<br>SOVEREIGN AUTH.<br><span style="color:var(--vfy)">&#9679; VALID</span></div></div><div style="margin-top:6px;font-size:clamp(5.5px,1.3vw,7px);color:rgba(201,168,76,.38);letter-spacing:.8px;line-height:1.9">CERT: KGD-ROOT-CA-2025<br>ALGO: ECDSA P-384<br>2025-01-01T00:00:00Z</div></div><div class="sc"><div class="sclbl">Session Log</div><div class="alog"><div class="alr"><span class="alt" id="lt1">--:--:--</span><span class="ale" id="logAuth">AUTH</span><span class="alo">OK</span></div><div class="alr"><span class="alt" id="lt2">--:--:--</span><span class="ale" id="logCred">CREDENTIAL</span><span class="alo">OK</span></div><div class="alr"><span class="alt" id="lt3">--:--:--</span><span class="ale" id="logRend">RENDERED</span><span class="alo">OK</span></div><div class="alr"><span class="alt" id="lt4">--:--:--</span><span class="ale" id="logBio">BIOMETRICS</span><span class="alo">OK</span></div></div></div><div class="sc"><div class="sclbl">Timestamp &amp; Location</div><div class="scval gold" id="tsd">--</div><div style="margin-top:5px;font-size:clamp(6.5px,1.5vw,8px);color:rgba(255,255,255,.36);letter-spacing:.7px;line-height:2.1"><span id="tzLbl">TZ:</span>&ensp;<span id="tzd" style="color:rgba(255,255,255,.6)">--</span><br><span id="gpsLbl">GPS:</span>&ensp;<span id="coordd" style="color:rgba(255,255,255,.6)">--</span><br><span id="countryLbl">Country:</span>&ensp;<span id="cityd2" style="color:rgba(240,220,140,.95)">--</span></div></div><div class="sc"><div class="sclbl">Validity Countdown</div><div class="scval gold" id="expcount">COMPUTING&hellip;</div><div class="pbwrap" style="margin-top:6px"><div class="pbtop"><span id="remainingLbl">REMAINING</span><span id="valpct" style="color:var(--gold2)">--</span></div><div class="pb"><div class="pbfill gold" id="valbar"></div></div></div><div style="margin-top:6px;font-size:clamp(5.5px,1.3vw,7px);color:rgba(255,255,255,.2);letter-spacing:.8px;line-height:1.8"><span id="valIssuedLbl">ISSUED:</span> 01.01.2025<br><span id="valExpiresLbl">EXPIRES:</span> 01.01.2030</div></div><div class="sc"><div class="sclbl">Document Auth.</div><div class="scval grn" id="authenticVal" style="font-size:clamp(8px,1.9vw,10px);letter-spacing:1px">&#10003; AUTHENTIC</div><div style="margin-top:6px;font-size:clamp(5.5px,1.3vw,7px);color:rgba(255,255,255,.3);letter-spacing:.8px;line-height:1.9">TYPE:&ensp;<span style="color:rgba(201,168,76,.7)">PD &middot; KGD</span><br>PASS:&ensp;<span style="color:rgba(201,168,76,.7)">J74823721</span><br>HOLDER:&ensp;<span style="color:rgba(201,168,76,.7)">CHRIST, Y.</span></div></div></div><div class="treaty"><div class="treatytitle" id="treatyTitle">&#9768;&ensp;Diplomatic Treaty Framework</div><div class="treatygrid"><div class="treatyitem"><strong>PRIMARY BASIS</strong>Vienna Convention on Diplomatic Relations, 23 April 1961</div><div class="treatyitem"><strong>IMMUNITIES</strong>Art. 29&ndash;31 W&Uuml;D: Inviolability of person, residence &amp; correspondence</div><div class="treatyitem"><strong>JURISDICTION</strong>Art. 31: Exempt from criminal, civil &amp; administrative jurisdiction</div><div class="treatyitem"><strong>FREE MOVEMENT</strong>Unrestricted. All borders. All transport. No charge.</div></div></div><div class="tseal"><div class="tsring"><div class="tssym">&#9768;</div></div><div class="tstxt"><strong id="kgdAuthTitle">KGD SOVEREIGN AUTHORITY</strong><span id="kgdAuthBody"> Issued under supreme authority of the Creator of Heaven and Earth. Sealed in the presence of the heavenly army. Inviolable under all earthly jurisdiction.</span></div></div><div class="c2foot"><div class="c2ft">Session-bound digital layer for Diplomatic Pass J74823721. Non-transferable.</div><div class="c2fh">PAGE 2 / 2 &middot; <span id="fhash">DOC-SIG: &hellip;</span></div></div></div></div></div> <script>
+(function(){
+  function copyPhoto(){
+    const src=document.getElementById('phImg');
+    if(!src||!src.src||src.src.length<100)return;
+    const g=document.getElementById('gportImg');
+    const gh=document.getElementById('ghostImg');
+    if(g&&g.getAttribute('data-copy')==='photo')g.src=src.src;
+    if(gh&&gh.getAttribute('data-copy')==='photo')gh.src=src.src;
+  }
+  function copyWithRetry(){
+    copyPhoto();
+    /* Retry after a short delay to catch async src assignment */
+    setTimeout(copyPhoto, 200);
+    setTimeout(copyPhoto, 600);
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',copyWithRetry);
+  } else {
+    copyWithRetry();
+  }
+})();
+(function(){
+  function setGateH(){
+    const g=document.getElementById('gate');
+    if(!g||g.style.display==='none'||g.style.display==='')return;
+    const vh=window.visualViewport?window.visualViewport.height:window.innerHeight;
+    const vt=window.visualViewport?window.visualViewport.offsetTop:0;
+    g.style.height=vh+'px';
+    g.style.top=vt+'px';
+    g.style.position='fixed';
+  }
+  if(window.visualViewport){
+    window.visualViewport.addEventListener('resize',setGateH);
+    window.visualViewport.addEventListener('scroll',setGateH);
+  }
+  window.addEventListener('resize',setGateH);
+})();
+const PINS={
+  '00030':{given:'YEHOSUA',mrz1:'PDKGDCHRIST<<YEHOSUA<<<<<<<<<<<<<<<<<<<<<<<<',mrz2:'J748237219KGD9201017M3001019<<<<<<<<<<<<<<03'},
+  '00010':{given:'JESUS',mrz1:'PDKGDCHRIST<<JESUS<<<<<<<<<<<<<<<<<<<<<<<<<<<',mrz2:'J748237219KGD9201017M3001019<<<<<<<<<<<<<<03'},
+  '00020':{given:'JOSHUA',mrz1:'PDKGDCHRIST<<JOSHUA<<<<<<<<<<<<<<<<<<<<<<<<<',mrz2:'J748237219KGD9201017M3001019<<<<<<<<<<<<<<03'}
+};
+let currentProfile=PINS['00030'];
+let authTime;
+function mrzCheck(s){const W=[7,3,1];let t=0;for(let i=0;i<s.length;i++){let v=s[i]==='<'?0:s[i]>='0'&&s[i]<='9'?parseInt(s[i]):(s[i].charCodeAt(0)-55);t+=v*W[i%3];}return t%10;}
+function buildMRZ2(given){
+  let r1='PDKGDCHRIST<<'+given.toUpperCase().replace(/ /g,'<');
+  while(r1.length<44)r1+='<';r1=r1.slice(0,44);
+  const pn='J74823721';const pnc=mrzCheck(pn);
+  const dob='920101';const dobc=mrzCheck(dob);
+  const exp='300101';const expc=mrzCheck(exp);
+  const opt='<<<<<<<<<<<<<<<';
+  const composite=pn+pnc+'KGD'+dob+dobc+'M'+exp+expc+opt;
+  const compc=mrzCheck(composite);
+  let r2=pn+pnc+'KGD'+dob+dobc+'M'+exp+expc+opt+compc;
+  r2=r2.slice(0,44);
+  return {r1,r2};
+}
+function applyProfile(p){
+  const gn=document.querySelector('#givenName');if(gn)gn.textContent=p.given.toUpperCase();
+  /* Signature always shows last name "Christ" */
+  const sigEl=document.querySelector(".sig-jc");if(sigEl)sigEl.textContent="Christ";
+  const {r1,r2}=buildMRZ2(p.given);
+  p.mrz1=r1;p.mrz2=r2;
+  if(typeof renderMRZ==='function')renderMRZ();
+}
+(function(){
+  const c=document.getElementById('bgC');if(!c)return;
+  const ctx=c.getContext('2d');
+  let W,H,pts=[];
+  const rz=()=>{W=c.width=innerWidth;H=c.height=innerHeight;};
+  rz();addEventListener('resize',rz);
+  const N=innerWidth<500?30:55;
+  for(let i=0;i<N;i++)pts.push({x:Math.random()*3e3,y:Math.random()*2e3,vx:(Math.random()-.5)*.13,vy:(Math.random()-.5)*.13,r:Math.random()*1.1+.3,a:Math.random()*.6});
+  const draw=()=>{
+    ctx.clearRect(0,0,W,H);
+    pts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fillStyle=`rgba(201,168,76,${p.a*.4})`;ctx.fill();});
+    if(innerWidth>500)pts.forEach((p,i)=>{for(let j=i+1;j<pts.length;j++){const dx=p.x-pts[j].x,dy=p.y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy);if(d<90){ctx.beginPath();ctx.moveTo(p.x,p.y);ctx.lineTo(pts[j].x,pts[j].y);ctx.strokeStyle=`rgba(201,168,76,${.05*(1-d/90)})`;ctx.lineWidth=.5;ctx.stroke();}}});
+    requestAnimationFrame(draw);
+  };draw();
+})();
+/* ── PIN ENGINE (fixed) ── */
+let _pin='';
+let _pinBusy=false;  /* blocks re-entry while animating result */
+
+function _updatePinDots(state){
+  /* state: undefined=normal, 'error'=shake red */
+  for(let i=0;i<5;i++){
+    const dot=document.getElementById('pd'+i);
+    if(!dot)continue;
+    dot.classList.remove('filled','error');
+    if(state==='error'){dot.classList.add('error');}
+    else if(i<_pin.length){dot.classList.add('filled');}
+  }
+  /* Glow the ✓ button when all 5 digits entered */
+  const okBtn=document.querySelector('.npk-ok');
+  if(okBtn){okBtn.classList.toggle('ready',_pin.length===5&&state!=='error');}
+}
+
+function _pinReset(){
+  _pin='';
+  _pinBusy=false;
+  _updatePinDots();
+}
+
+var _gyroRequested=false;
+function pinKey(d){
+  if(_pinBusy||_pin.length>=5)return;
+  /* Request gyro permission on very first key tap — earliest possible user gesture */
+  if(!_gyroRequested){
+    _gyroRequested=true;
+    try{
+      if(typeof DeviceOrientationEvent!=='undefined'&&
+         typeof DeviceOrientationEvent.requestPermission==='function'){
+        DeviceOrientationEvent.requestPermission()
+          .then(function(s){
+            if(s==='granted'&&typeof window._requestGyro==='function') window._requestGyro();
+          }).catch(function(){});
+      }
+    }catch(e){}
+  }
+  _pin+=d;
+  _updatePinDots();
+}
+
+function pinClear(){
+  if(_pinBusy)return;
+  if(_pin.length>0){_pin=_pin.slice(0,-1);_updatePinDots();}
+}
+
+/* Numpad: works on both touch and desktop, no double-fire */
+(function(){
+  function initNumpad(){
+    const pad=document.getElementById('numpad');
+    if(!pad)return;
+    
+    pad.querySelectorAll('.npk').forEach(function(btn){
+
+      var _touched=false;
+      /* Touch: instant response, prevent ghost click */
+      btn.addEventListener('touchstart',function(e){
+        e.preventDefault();
+        _touched=true;
+        btn.classList.add('pressed');
+        _handleKey(btn.getAttribute('data-k'));
+      },{passive:false});
+      btn.addEventListener('touchend',function(e){
+        e.preventDefault();
+        setTimeout(function(){btn.classList.remove('pressed');_touched=false;},150);
+      },{passive:false});
+      btn.addEventListener('touchcancel',function(){
+        btn.classList.remove('pressed');_touched=false;
+      },{passive:true});
+      /* Click: fires on desktop; skip if touch already handled it */
+      btn.addEventListener('click',function(){
+        if(_touched)return;
+        _handleKey(btn.getAttribute('data-k'));
+      });
+    });
+  }
+  function _handleKey(k){
+    if(k==='del')pinClear();
+    else if(k==='ok'){
+      /* Try permission request on ok button press (synchronous user gesture) */
+      try{
+        if(typeof DeviceOrientationEvent!=='undefined'&&
+           typeof DeviceOrientationEvent.requestPermission==='function'&&
+           !window._gyroActive){
+          DeviceOrientationEvent.requestPermission()
+            .then(function(s){if(s==='granted'&&window._requestGyro)window._requestGyro();})
+            .catch(function(){});
+        }
+      }catch(e){}
+      if(!_pinBusy)pinSubmit();
+    }
+    else pinKey(k);
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initNumpad);
+  else initNumpad();
+})();
+function pinSubmit(){
+  try{
+    const profile=PINS[_pin];
+    if(profile){
+      currentProfile=profile;
+      authTime=new Date();
+      const g=document.getElementById('gate');
+      if(g){g.style.transition='opacity .25s';g.style.opacity='0';}
+/* gyro removed */
+      setTimeout(()=>{
+        try{
+          if(g)g.style.display='none';
+          const w=document.getElementById('wallet');
+          if(w){
+          w.style.display='flex';
+          /* Set top padding via JS — bypasses env() CSS parsing in Safari */
+          (function(){
+            var sat=0;
+            try{
+              var tmp=document.createElement('div');
+              tmp.style.cssText='position:fixed;top:env(safe-area-inset-top,0px);left:0;width:1px;height:1px;';
+              document.body.appendChild(tmp);
+              sat=tmp.getBoundingClientRect().top||0;
+              document.body.removeChild(tmp);
+            }catch(e){}
+            /* iPhone 12 status bar = 44px in Safari, 47px in standalone */
+            /* We need at minimum 44px + 20px gap = 64px, ideally 82px */
+            var minPad=82;
+            var pad=Math.max(sat+38, minPad);
+            w.style.paddingTop=pad+'px';
+            /* Also store for fitCards to use */
+            window._walletTopPad=pad;
+          })();
+          w.style.opacity='0';w.style.transition='opacity .7s';setTimeout(()=>w.style.opacity='1',40);
+          /* Unlock zoom when wallet shows */
+          try{/* viewport meta not touched */}catch(e){}
+        }
+          initAll();applyProfile(currentProfile);
+        }catch(ex){console.error('initAll error:',ex);}
+      },200);
+    }else{
+      const gErr=document.getElementById('gErr');
+      if(gErr)gErr.style.opacity='1';
+      _updatePinDots('error');
+      setTimeout(()=>{
+        if(gErr)gErr.style.opacity='0';
+        _pinReset();
+      },900);
+    }
+  }catch(ex){
+    console.error('pinSubmit error:',ex);
+    _pinReset();
+  }
+}
+function auth(){pinSubmit();}
+function reauth(){
+  const v=document.getElementById('xIn').value.trim();
+  const profile=PINS[v];
+  if(profile){
+    currentProfile=profile;
+    authTime=new Date();
+    document.getElementById('xpd').style.display='none';
+    const w=document.getElementById('wallet');
+    if(w){
+      w.style.opacity='1';w.style.pointerEvents='';
+      if(window._walletTopPad) w.style.paddingTop=window._walletTopPad+'px';
+    }
+    const sb=document.getElementById('sbar');
+    if(sb)sb.innerHTML='<div class="si2"><div class="sdot"></div>INTEGRITY VERIFIED</div><div class="si2"><div class="sdot"></div>CUSTODY INTACT</div><div class="stmr"><span id="sCk">15:00</span></div><div class="sgeo" id="sGeo">LOCATION: DETERMINING…</div>';
+    initTimer();geoLocate();stampLog();applyProfile(currentProfile);
+    const xi=document.getElementById('xIn');if(xi)xi.value='';
+  }else{
+    const xe=document.getElementById('xErr');if(xe){xe.style.opacity='1';setTimeout(()=>xe.style.opacity='0',2600);}
+  }
+}
+document.addEventListener('DOMContentLoaded',()=>{
+  const xi=document.getElementById('xIn');
+  if(xi)xi.addEventListener('keydown',e=>{if(e.key==='Enter')reauth();});
+});
+/* Zoom: gentle reset only on orientation change, not on scroll */
+(function(){
+  /* zoom reset removed — viewport meta is HTML-only */
+})();
+
+/* Ghost animation insurance — restart if it stops */
+(function(){
+  function restartGhost(){
+    const g=document.getElementById('ghostImg');
+    if(!g)return;
+    /* Remove inline overrides so CSS animation takes over */
+    g.style.animationName='';
+    g.style.animationPlayState='';
+    g.style.webkitAnimationName='';
+    g.style.webkitAnimationPlayState='';
+    void g.offsetWidth; /* reflow */
+    /* Let CSS handle it — only override if explicitly paused */
+    if(window.getComputedStyle(g).animationPlayState==='paused'){
+      g.style.animationPlayState='running';
+      g.style.webkitAnimationPlayState='running';
+    }
+  }
+  /* Restart ghost every 25s */
+  setInterval(restartGhost, 25000);
+  /* Restart after any visibility change */
+  document.addEventListener('visibilitychange',function(){
+    if(!document.hidden)setTimeout(restartGhost,200);
+  });
+  window._restartGhost=restartGhost;
+})();
+
+/* swipe: handled by fitCards */
+
+function initAll(){
+  /* ── Phase 0: critical UI first (sync, immediate) ── */
+  _initLangToggle();
+  fitCards();
+  initParallax();
+  initPhotoTouch();
+  initTimer();
+  initOrientationWatch();
+  /* Reset scroll to page 1 */
+  const _cs=document.getElementById('cstack');
+  if(_cs){_cs.scrollTop=0;}
+
+  /* ── Phase 1: copy photo (needed for visual) ── */
+  /* Copy photo synchronously — no delay, prevents blank flash */
+  (function(){
+    const s=document.getElementById('phImg');
+    const g=document.getElementById('gportImg');
+    const gh=document.getElementById('ghostImg');
+    if(s&&s.src&&s.src.length>100){
+      if(g&&g.getAttribute('data-copy')==='photo')g.src=s.src;
+      if(gh&&gh.getAttribute('data-copy')==='photo')gh.src=s.src;
+    }
+  })();
+
+  /* ── Phase 2: canvas draws — P1 first, P2 deferred ── */
+  requestAnimationFrame(function(){
+    drawGuilloche();   /* P1 background — immediate */
+    setTimeout(drawFrame, 40);
+    setTimeout(drawMicroprint, 80);
+    setTimeout(drawHCJCWatermark, 120);
+    setTimeout(drawGuilloche2, 400);  /* P2 background — deferred, user sees P1 first */
+  });
+
+  /* ── Phase 3: MRZ render, data, trim ── */
+  setTimeout(renderMRZ,120);
+  setTimeout(renderMRZLandscape,180);
+  setTimeout(function(){
+    initSec();
+    initHashStream();
+    stampLog();
+    computeExpiry();
+    geoLocate();
+    trimC1();
+  },80);
+
+  /* ── Phase 4: ensure P1 on load ── */
+  if(_cs) setTimeout(()=>{if(_cs&&_cs.scrollTop>0)_cs.scrollTop=0;},200);
+}
+function fitCards(){
+  const doFit=()=>{
+    /* FROZEN after initial snapshot — portrait layout is permanent */
+    if(window._layoutSnap) return;
+    /* SKIP when in landscape */
+    if(window.innerWidth>window.innerHeight) return;
+    const sbar=document.querySelector('.sbar');
+    const dots=document.querySelector('.cdots');
+    const safeT=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--si'))||0;
+    const safeB=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--sb'))||0;
+    const sH=sbar?sbar.getBoundingClientRect().height+6:50;
+    const dH=dots?dots.getBoundingClientRect().height+3:18;
+    const stackH=Math.max(window.innerHeight-safeT-safeB-16-sH-dH-8,200);window._lastStackH=stackH;
+    const stack=document.getElementById('cstack');
+    if(stack)stack.style.height=stackH+'px';
+    const c1=document.getElementById('c1');
+    const c2=document.getElementById('c2');
+    if(c1){c1.style.height='';c1.style.minHeight='';}
+    /* c2 locked to stack height */
+    if(c2){c2.style.height=stackH+'px';c2.style.minHeight=stackH+'px';c2.style.overflowY='auto';}
+    if(typeof sizeGhostPhoto==='function')sizeGhostPhoto();
+  };
+  doFit();
+  window.addEventListener('resize',doFit);
+  /* orientationchange: handled by initOrientationWatch snapshot/restore — no heights here */
+  const stack=document.getElementById('cstack');
+  if(!stack)return;
+  stack.addEventListener('scroll',()=>{
+    const c2=document.getElementById('c2');
+    const threshold=c2?c2.offsetTop*0.4:stack.getBoundingClientRect().height*0.4;
+    const on2=stack.scrollTop>threshold;
+    /* Re-snapshot on scroll-snap settle (debounced) */
+    clearTimeout(window._scrollSnapTimer);
+    window._scrollSnapTimer = setTimeout(function(){
+      if(window.innerWidth < window.innerHeight) window._snapshotLayout && window._snapshotLayout();
+    }, 400);
+    const d0=document.getElementById('dot0');
+    const d1=document.getElementById('dot1');
+    if(d0)d0.classList.toggle('on',!on2);
+    if(d1)d1.classList.toggle('on',on2);
+  },{passive:true});
+  let ty=0,tx=0,sw=false;
+  stack.addEventListener('touchstart',e=>{
+    ty=e.touches[0].clientY;tx=e.touches[0].clientX;sw=true;
+  },{passive:true});
+  stack.addEventListener('touchend',e=>{
+    if(!sw)return;sw=false;
+    if(window.matchMedia('(orientation:landscape)').matches)return;
+    const dy=ty-e.changedTouches[0].clientY;
+    const dx=Math.abs(tx-e.changedTouches[0].clientX);
+    if(Math.abs(dy)<35||dx>Math.abs(dy)*0.8)return;
+    const c2=document.getElementById('c2');
+    const page2Top=c2?c2.offsetTop:stack.getBoundingClientRect().height;
+    const onPage2=stack.scrollTop>page2Top*0.4;
+    if(dy>0&&!onPage2){
+      stack.scrollTo({top:page2Top,behavior:'smooth'});
+    } else if(dy<0&&onPage2){
+      stack.scrollTo({top:0,behavior:'smooth'});
+    }
+  },{passive:true});
+  document.addEventListener('keydown',e=>{
+    const st=document.getElementById('cstack');if(!st)return;
+    const c2=document.getElementById('c2');
+    const p2=c2?c2.offsetTop:st.getBoundingClientRect().height;
+    if(e.key==='ArrowDown'||e.key==='PageDown'){e.preventDefault();st.scrollTo({top:p2,behavior:'smooth'});}
+    else if(e.key==='ArrowUp'||e.key==='PageUp'){e.preventDefault();st.scrollTo({top:0,behavior:'smooth'});}
+  });
+}
+function guillochePattern(ctx,W,H,mode){
+  const isNavy=mode==='navy';
+  ctx.clearRect(0,0,W,H);
+  const baseCol = isNavy ? [14,35,90] : [180,140,50];
+  const baseAlpha = isNavy ? 0.022 : 0.025;
+  const clusterDefs = isNavy ? [
+    {cx:W*0.5, cy:H*0.5, maxR:Math.min(W,H)*0.50, rings:20},
+    {cx:W*0.12, cy:H*0.18, maxR:Math.min(W,H)*0.26, rings:11},
+    {cx:W*0.88, cy:H*0.18, maxR:Math.min(W,H)*0.26, rings:11},
+    {cx:W*0.12, cy:H*0.82, maxR:Math.min(W,H)*0.24, rings:10},
+    {cx:W*0.88, cy:H*0.82, maxR:Math.min(W,H)*0.24, rings:10},
+    {cx:W*0.5,  cy:H*0.14, maxR:Math.min(W,H)*0.20, rings:8},
+    {cx:W*0.5,  cy:H*0.86, maxR:Math.min(W,H)*0.20, rings:8},
+    {cx:W*0.25, cy:H*0.5,  maxR:Math.min(W,H)*0.18, rings:7},
+    {cx:W*0.75, cy:H*0.5,  maxR:Math.min(W,H)*0.18, rings:7},
+  ] : [
+    {cx:W*0.5, cy:H*0.5, maxR:Math.min(W,H)*0.48, rings:19},
+    {cx:W*0.15, cy:H*0.2, maxR:Math.min(W,H)*0.25, rings:10},
+    {cx:W*0.85, cy:H*0.2, maxR:Math.min(W,H)*0.25, rings:10},
+    {cx:W*0.15, cy:H*0.8, maxR:Math.min(W,H)*0.22, rings:9},
+    {cx:W*0.85, cy:H*0.8, maxR:Math.min(W,H)*0.22, rings:9},
+    {cx:W*0.5,  cy:H*0.12, maxR:Math.min(W,H)*0.18, rings:7},
+    {cx:W*0.5,  cy:H*0.88, maxR:Math.min(W,H)*0.18, rings:7},
+    {cx:W*0.3,  cy:H*0.5,  maxR:Math.min(W,H)*0.17, rings:6},
+  ];
+  clusterDefs.forEach(function(cl){
+    for(let ring=1;ring<=cl.rings;ring++){
+      const frac=ring/cl.rings;
+      const r=cl.maxR*frac;
+      const dotsN=Math.max(8,Math.round(2*Math.PI*r/4.0));
+      const dotR=Math.max(0.45,Math.min(1.1,r/dotsN*0.65));
+      const alpha=baseAlpha*(1-frac*0.45)*(ring===1?0.5:1);
+      ctx.fillStyle=`rgba(${baseCol[0]},${baseCol[1]},${baseCol[2]},${alpha.toFixed(4)})`;
+      for(let d=0;d<dotsN;d++){
+        const angle=(d/dotsN)*Math.PI*2+(ring%2)*Math.PI/dotsN;
+        const x=cl.cx+r*Math.cos(angle);
+        const y=cl.cy+r*Math.sin(angle);
+        ctx.beginPath();ctx.arc(x,y,dotR,0,Math.PI*2);ctx.fill();
+      }
+    }
+  });
+}
+function drawGuilloche(){
+  const card=document.getElementById('c1'),cv=document.getElementById('guillo');
+  if(!card||!cv)return;
+  requestAnimationFrame(()=>{
+    const dpr=window.devicePixelRatio||1;
+  /* Use the explicitly set height from trimC1 for accurate frame dimensions */
+  const W=Math.round(cv.offsetWidth||card.offsetWidth)||420;
+  const H=Math.round(parseInt(card.style.height)||card.offsetHeight)||700;
+    cv.width=W*dpr;cv.height=H*dpr;cv.style.cssText='position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0';
+    const ctx=cv.getContext('2d');ctx.scale(dpr,dpr);guillochePattern(ctx,W,H,'navy');
+  });
+}
+function drawGuilloche2(){
+  const card=document.getElementById('c2'),cv=document.getElementById('guillo2');
+  if(!card||!cv)return;
+  const dpr=window.devicePixelRatio||1;
+  /* Use the explicitly set height from trimC1 for accurate frame dimensions */
+  const W=Math.round(cv.offsetWidth||card.offsetWidth)||420;
+  const H=Math.round(parseInt(card.style.height)||card.offsetHeight)||700;
+  cv.width=W*dpr;cv.height=H*dpr;cv.style.cssText='position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0';
+  const ctx=cv.getContext('2d');ctx.scale(dpr,dpr);guillochePattern(ctx,W,H,'gold');
+}
+function drawMicroprint(){
+  const card=document.getElementById('c1'),cv=document.getElementById('mpCv');
+  requestAnimationFrame(()=>{
+    const dpr=window.devicePixelRatio||1;
+  /* Use the explicitly set height from trimC1 for accurate frame dimensions */
+  const W=Math.round(cv.offsetWidth||card.offsetWidth)||420;
+  const H=Math.round(parseInt(card.style.height)||card.offsetHeight)||700;
+    cv.width=W*dpr;cv.height=H*dpr;cv.style.cssText='position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2';
+    const ctx=cv.getContext('2d');ctx.scale(dpr,dpr);ctx.font='4.5px "Space Mono",monospace';ctx.fillStyle='rgba(14,27,58,0.18)';
+    const txt='KGD\u00b7KINGDOM\u00b7OF\u00b7GOD\u00b7HOLY\u00b7CHURCH\u00b7J74823721\u00b7DIPLOMATIC\u00b7',tw=ctx.measureText(txt).width;
+    let x=0;while(x<W+tw){ctx.fillText(txt,x,6);x+=tw;}x=0;while(x<W+tw){ctx.fillText(txt,x,H-2);x+=tw;}
+    ctx.save();ctx.translate(6,H);ctx.rotate(-Math.PI/2);x=0;while(x<H+tw){ctx.fillText(txt,x,0);x+=tw;}ctx.restore();
+    ctx.save();ctx.translate(W-2,0);ctx.rotate(Math.PI/2);x=0;while(x<H+tw){ctx.fillText(txt,x,0);x+=tw;}ctx.restore();
+  });
+}
+function drawFrame(){
+  const card=document.getElementById('c1'),cv=document.getElementById('frameCanvas');
+  if(!card||!cv)return;
+  const dpr=window.devicePixelRatio||1;
+  /* Use the explicitly set height from trimC1 for accurate frame dimensions */
+  const W=Math.round(cv.offsetWidth||card.offsetWidth)||420;
+  const H=Math.round(parseInt(card.style.height)||card.offsetHeight)||700;
+  cv.width=W*dpr;cv.height=H*dpr;cv.style.width=W+'px';cv.style.height=H+'px';
+  const ctx=cv.getContext('2d');ctx.scale(dpr,dpr);
+  const TILE=10,THICK=5;
+  for(let x=0;x<W;x+=TILE){const w=Math.min(TILE,W-x);ctx.fillStyle=(Math.floor(x/TILE)%2===0)?'rgba(201,168,76,.78)':'rgba(14,27,58,.72)';ctx.fillRect(x,0,w,THICK);ctx.fillStyle=(Math.floor(x/TILE)%2===0)?'rgba(14,27,58,.65)':'rgba(201,168,76,.52)';ctx.fillRect(x,H-4,w,4);}
+  for(let y=0;y<H;y+=TILE){const h=Math.min(TILE,H-y);ctx.fillStyle=(Math.floor(y/TILE)%2===0)?'rgba(201,168,76,.72)':'rgba(14,27,58,.65)';ctx.fillRect(0,y,THICK,h);ctx.fillStyle=(Math.floor(y/TILE)%2===0)?'rgba(14,27,58,.55)':'rgba(201,168,76,.48)';ctx.fillRect(W-THICK,y,THICK,h);}
+}
+function renderMRZ(){
+  function draw(){
+    const zone=document.querySelector('.mrzzone'),cv=document.getElementById('mrzCv');
+    if(!zone||!cv)return;
+    const dpr=window.devicePixelRatio||1;
+    const zW=zone.getBoundingClientRect().width||zone.offsetWidth;
+    if(zW<40)return;
+    const padL=19,padR=15,avail=zW-padL-padR;
+    if(avail<40)return;
+    const CHARS=44;
+    /* Fit 44 monospace chars perfectly into available width */
+    const fs=Math.max(7,Math.min(avail/CHARS/0.601,14));
+    const cw=avail/CHARS; /* exact cell width per character */
+    const lineH=Math.round(fs*2.4);
+    const padTop=Math.round(fs*0.6);
+    const totalH=lineH*2+padTop;
+    cv.width=Math.round(zW*dpr);
+    cv.height=Math.round(totalH*dpr);
+    cv.style.width=Math.round(zW)+'px';
+    cv.style.height=Math.round(totalH)+'px';
+    const ctx=cv.getContext('2d');
+    ctx.scale(dpr,dpr);
+    ctx.clearRect(0,0,zW,totalH);
+    /* Background tint */
+    ctx.fillStyle='rgba(12,23,48,0.06)';
+    ctx.fillRect(0,0,zW,totalH);
+    ctx.font='700 '+fs.toFixed(2)+'px "Space Mono",monospace';
+    ctx.textBaseline='alphabetic';
+    const prof=typeof currentProfile!=='undefined'?currentProfile:PINS['00030'];
+    const {r1,r2}=buildMRZ2(prof.given);
+    /* Ensure exactly 44 chars */
+    const line1=r1.slice(0,44).padEnd(44,'<');
+    const line2=r2.slice(0,44).padEnd(44,'<');
+    /* Draw each char individually for pixel-perfect spacing */
+    for(let i=0;i<44;i++){
+      const x=padL+i*cw;
+      const c1=line1[i];const c2=line2[i];
+      /* Colour: angle-brackets dimmer, alphanumeric full opacity */
+      ctx.fillStyle=c1==='<'?'rgba(12,23,48,0.45)':'rgba(12,23,48,1.0)';
+      ctx.fillText(c1,x,padTop+lineH*0.82);
+      ctx.fillStyle=c2==='<'?'rgba(12,23,48,0.45)':'rgba(12,23,48,1.0)';
+      ctx.fillText(c2,x,padTop+lineH*1.82);
+    }
+  }
+  requestAnimationFrame(function(){draw();setTimeout(draw,350);});
+  if(!window._mrzR){
+    window._mrzR=true;
+    addEventListener('resize',function(){setTimeout(renderMRZ,150);});
+    addEventListener('orientationchange',function(){setTimeout(renderMRZ,300);});
+  }
+}
+/* motion removed */
+function initParallax(){}
+function initPhotoTouch(){}
+function initTimer(){
+  let rem=180;
+  const tick=setInterval(()=>{
+    rem--;
+    const cl=document.getElementById('sCk');
+    if(cl)cl.textContent=`${String(Math.floor(rem/60)).padStart(2,'0')}:${String(rem%60).padStart(2,'0')}`;
+    if(rem<=0){
+      clearInterval(tick);
+      const isLand=window.matchMedia('(orientation:landscape)').matches;
+      const ml=document.getElementById('mrzLandscape');
+      const w=document.getElementById('wallet');
+      if(w){w.style.display='none';w.style.opacity='1';w.style.pointerEvents='';}
+      if(ml){ml.style.display='none';}
+      if(isLand){
+        /* Show landscape session-expired overlay */
+        let lexp=document.getElementById('landExp');
+        if(!lexp){
+          lexp=document.createElement('div');
+          lexp.id='landExp';
+          lexp.style.cssText='position:fixed;inset:0;z-index:999;background:radial-gradient(ellipse at 50% 50%,#120808,#07090f);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;';
+          lexp.innerHTML='<div style="font-size:clamp(28px,6vw,40px);color:#e74c3c">⊘</div>'
+            +'<div style="font-family:Cinzel,serif;font-size:clamp(12px,2.5vw,16px);letter-spacing:5px;color:#e74c3c">SESSION EXPIRED</div>'
+            +'<div style="font-size:clamp(8px,1.5vw,11px);letter-spacing:2px;color:rgba(255,255,255,.4);text-align:center">Please rotate to portrait to re-enter PIN</div>'
+            +'<div style="font-size:32px;color:rgba(255,255,255,.25);margin-top:8px">↺</div>';
+          document.body.appendChild(lexp);
+        } else { lexp.style.display='flex'; }
+        /* Auto-dismiss when rotated back */
+        window.addEventListener('orientationchange',function onRot(){
+          window.removeEventListener('orientationchange',onRot);
+          setTimeout(()=>{
+            const le=document.getElementById('landExp');
+            if(le)le.style.display='none';
+            const g=document.getElementById('gate');
+            if(g){g.style.display='flex';g.style.opacity='0';g.style.transition='opacity .6s';setTimeout(()=>g.style.opacity='1',40);}
+            _pinReset();
+          },300);
+        });
+      } else {
+        const g=document.getElementById('gate');
+        if(g){g.style.display='flex';g.style.opacity='0';g.style.transition='opacity .7s';setTimeout(()=>g.style.opacity='1',40);}
+        _pinReset();
+      }
+    }
+    if(rem===60){const sb=document.getElementById('sbar');if(sb)sb.style.borderColor='rgba(255,165,0,.35)';}
+  },1000);
+}
+function simHash(s){let h=0x811c9dc5;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=(h*0x01000193)>>>0;}let o='';[h,h^0xdeadbeef,h^0xcafebabe,h^0xf00dface].forEach(seed=>{let v=seed;for(let i=0;i<4;i++){v=(v^(v>>>16))*0x45d9f3b>>>0;v=(v^(v>>>16))*0x45d9f3b>>>0;v^=v>>>16;o+=v.toString(16).padStart(8,'0');}});return o.slice(0,64);}
+function initSec(){
+  const h=simHash('KGD-J74823721-CHRIST-YEHOSUA-19920101-BERG-20250101-20300101');
+  const e=(id,v)=>{const el=document.getElementById(id);if(el)el.textContent=v;};
+  e('lhash',h);e('hstrip',h.slice(0,14)+'...');e('fhash','DOC-SIG:'+h.slice(0,22));
+  e('tsd',new Date().toISOString().replace('T',' ').slice(0,19)+' UTC');
+  e('tzd',Intl.DateTimeFormat().resolvedOptions().timeZone);
+  setTimeout(()=>{const b=document.getElementById('intBar');if(b)b.style.width='100%';},400);
+}
+function initHashStream(){const el=document.getElementById('hstream'),ch='0123456789abcdef';setInterval(()=>{let s='';for(let i=0;i<24;i++)s+=ch[Math.floor(Math.random()*ch.length)];el.textContent=s;},110);}
+function stampLog(){const now=authTime||new Date(),fmt=d=>d.toTimeString().slice(0,8);[['lt1',-4000],['lt2',-1000],['lt3',0],['lt4',500]].forEach(([id,dt])=>{const el=document.getElementById(id);if(el)el.textContent=fmt(new Date(now.getTime()+dt));});}
+function computeExpiry(){
+  const issued=new Date('2025-01-01'),expiry=new Date('2030-01-01'),now=new Date();
+  const pct=Math.max(0,((expiry-now)/(expiry-issued))*100),days=Math.floor((expiry-now)/864e5),yrs=Math.floor(days/365),mths=Math.floor((days%365)/30),drem=days%30;
+  const e=(id,v)=>{const el=document.getElementById(id);if(el)el.textContent=v;};
+  const remWord=(typeof _lang!=='undefined'&&_T&&_T[_lang]&&_T[_lang].remaining_lbl)||'REMAINING';e('expcount',`${yrs}Y ${mths}M ${drem}D ${remWord}`);e('valpct',pct.toFixed(1)+'%');
+  setTimeout(()=>{const b=document.getElementById('valbar');if(b)b.style.width=pct.toFixed(1)+'%';},400);
+}
+function geoLocate(){
+  const tz=Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const setEl=(id,v)=>{const el=document.getElementById(id);if(el)el.textContent=v;};
+  setEl('tzd',tz);
+  let ipDone=false,gpsDone=false;
+  function showLoc(city,country,src){
+    if(src==='tz'&&(ipDone||gpsDone))return;
+    if(src==='ip'&&gpsDone)return;
+    if(!city||city.trim().length<2)return;
+    const loc=[city.trim(),country?country.trim():''].filter(Boolean).join(', ').toUpperCase();
+    if(src==='ip')ipDone=true;
+    if(src==='gps')gpsDone=true;
+    setEl('cityd',loc);setEl('cityd2',loc);
+    const g=document.getElementById('sGeo');
+    if(g){
+      /* Preserve child span structure — only update the text node */
+      const cd=document.getElementById('cityd');
+      if(cd){cd.textContent=loc;}
+      else{g.textContent='\u25ce '+loc;}
+    }
+  }
+  function fetchJ(url,cb){
+    const ctrl=new AbortController(),t=setTimeout(()=>ctrl.abort(),6000);
+    fetch(url,{signal:ctrl.signal,cache:'no-store'})
+      .then(r=>{if(!r.ok)throw 0;return r.json();})
+      .then(d=>{clearTimeout(t);cb(d);})
+      .catch(()=>clearTimeout(t));
+  }
+  if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(pos=>{
+      const {latitude:lat,longitude:lon,accuracy:acc}=pos.coords;
+      setEl('coordd',`${lat.toFixed(4)}\u00b0 ${lon.toFixed(4)}\u00b0 (\u00b1${Math.round(acc)}m)`);
+      fetchJ(
+        `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&zoom=10`,
+        d=>{
+          const a=d&&d.address||{};
+          const city=a.city||a.town||a.village||a.municipality||a.county||'';
+          if(city)showLoc(city,a.country||'','gps');
+        }
+      );
+    },()=>{},{enableHighAccuracy:true,timeout:12000,maximumAge:0});
+  }
+  [
+    ['https://ip-api.com/json',
+      d=>d&&d.status==='success'&&d.city?[d.city,d.country]:null],
+    ['https://ipapi.co/json',
+      d=>d&&!d.error&&d.city?[d.city,d.country_name]:null],
+    ['https://ipinfo.io/json',
+      d=>d&&!d.bogon&&d.city?[d.city,d.country]:null],
+    ['https://freeipapi.com/api/json',
+      d=>d&&d.cityName&&d.cityName!=='-'?[d.cityName,d.countryName]:null],
+  ].forEach(([url,parse])=>{
+    fetchJ(url,d=>{
+      if(ipDone||gpsDone)return;
+      const r=parse(d);
+      if(r&&r[0]&&r[0].length>1)showLoc(r[0],r[1],'ip');
+    });
+  });
+  setTimeout(()=>{
+    if(!ipDone&&!gpsDone){
+      const parts=tz.split('/');
+      const region=parts.length>1?parts[1].replace(/_/g,' '):tz;
+      const tzCountry={
+        'Rome':'Italy','Berlin':'Germany','Vienna':'Austria','Paris':'France',
+        'London':'United Kingdom','Madrid':'Spain','Amsterdam':'Netherlands',
+        'Brussels':'Belgium','Zurich':'Switzerland','Dublin':'Ireland',
+        'New_York':'United States','Los_Angeles':'United States','Chicago':'United States',
+        'Tokyo':'Japan','Sydney':'Australia','Toronto':'Canada','Dubai':'UAE',
+        'Istanbul':'Turkey','Warsaw':'Poland','Bucharest':'Romania'
+      };
+      const label=tzCountry[parts[1]]||region;
+      showLoc(label,'','tz');
+    }
+  },9000);
+}
+function sizeGhostPhoto(){
+  requestAnimationFrame(()=>{
+    const ghost=document.querySelector('.ghost-photo');
+    const phwrap=document.getElementById('phWrap');
+    const sigrow=document.querySelector('.sigrow');
+    if(!ghost||!phwrap||!sigrow)return;
+    const phBottom=phwrap.getBoundingClientRect().bottom;
+    const sigTop=sigrow.getBoundingClientRect().top;
+    const gap=sigTop-phBottom-6;
+    if(gap>10)ghost.style.height=Math.max(40,gap)+'px';
+  });
+}
+function trimC1(){
+  if(window._layoutSnap) return; /* frozen after snapshot */
+  setTimeout(()=>{
+    const mrzzone=document.querySelector('.mrzzone');
+    const c1=document.getElementById('c1');
+    const c2=document.getElementById('c2');
+    const stack=document.getElementById('cstack');
+    if(!mrzzone||!c1||!c2||!stack)return;
+    const stackH=stack.getBoundingClientRect().height||stack.offsetHeight;
+    if(stackH<200)return;
+    const c1R=c1.getBoundingClientRect();
+    const mrzR=mrzzone.getBoundingClientRect();
+    const contentH=Math.ceil(mrzR.bottom-c1R.top)+28;
+    /* c1 must be at least as tall as content, capped near stackH */
+    const c1H = Math.min(Math.max(contentH, stackH), stackH + 20);
+    c1.style.height=c1H+'px';
+    /* Fill gap below MRZ with navy bar (matching card bg) */
+    let filler=c1.querySelector('.c1Filler');
+    const gapH=c1H-contentH;
+    if(gapH>0){
+      if(!filler){
+        filler=document.createElement('div');
+        filler.className='c1Filler';
+        filler.style.cssText='width:100%;background:linear-gradient(180deg,var(--tan) 0%,#e8dfc4 100%);position:relative;z-index:6;overflow:hidden;border-radius:0 0 10px 10px;';
+        /* Inner decorative text */
+        /* Clean tan gradient — no text, matches passport paper */
+        c1.appendChild(filler);
+      }
+      filler.style.height=gapH+'px';
+    }
+    /* drawFrame called later in _snapshotLayout when height is final */
+    if(typeof drawHCJCWatermark==='function')setTimeout(drawHCJCWatermark,100);
+    /* Snapshot layout — called after trimC1 internal timeout settles */
+    window._snapshotLayout();
+    /* Belt-and-suspenders: take it again after 500ms in case MRZ canvas changed heights */
+    setTimeout(function(){ if(!window._layoutSnap) window._snapshotLayout(); }, 500);
+    /* c2 exactly one viewport */
+    /* c2 height: cap at stackH so it doesn't overflow, scrollable inside */
+    c2.style.height=stackH+'px';
+    c2.style.minHeight='';
+    c2.style.overflowY='auto';
+    c2.style.overflowX='hidden';
+  },700);
+}
+function drawHCJCWatermark(){
+  ['c1','c2'].forEach(function(id){
+    const card=document.getElementById(id);
+    if(!card)return;
+    let cv=card.querySelector('.hcjc-wm-cv');
+    if(!cv){cv=document.createElement('canvas');cv.className='hcjc-wm-cv';cv.style.cssText='position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:4;opacity:1';card.appendChild(cv);}
+    requestAnimationFrame(function(){
+      const dpr=window.devicePixelRatio||1;
+      const W=Math.round(card.offsetWidth)||420;
+      const H=Math.round(card.scrollHeight||card.offsetHeight||700);
+      cv.width=W*dpr;cv.height=H*dpr;
+      const ctx=cv.getContext('2d');ctx.scale(dpr,dpr);
+      ctx.clearRect(0,0,W,H);
+      ctx.save();
+      ctx.font='bold 7.5px "Space Mono",monospace';
+      const isNavy=(id==='c1');
+      ctx.fillStyle=isNavy?'rgba(12,27,68,0.17)':'rgba(201,168,76,0.17)';
+      ctx.rotate(-Math.PI/5);
+      const txt='HCJC  ';
+      const tw=ctx.measureText(txt).width;
+      const rowH=26;
+      const diag=Math.sqrt(W*W+H*H);
+      for(let row=-Math.ceil(diag/rowH);row<Math.ceil(diag/rowH)*2;row++){
+        let x=0;
+        while(x<diag*2){ctx.fillText(txt,x-diag*.4,row*rowH);x+=tw;}
+      }
+      ctx.restore();
+    });
+  });
+}
+function drawLandscapeWatermark(){
+  const cv=document.getElementById('landWmCv');
+  if(!cv)return;
+  requestAnimationFrame(function(){
+    const dpr=window.devicePixelRatio||1;
+    const W=Math.round(window.innerWidth)||400;
+    const H=Math.round(window.innerHeight)||300;
+    cv.width=W*dpr; cv.height=H*dpr;
+    const ctx=cv.getContext('2d'); ctx.scale(dpr,dpr);
+    ctx.clearRect(0,0,W,H);
+    ctx.save();
+    ctx.font='bold 8px "Space Mono",monospace';
+    ctx.fillStyle='rgba(201,168,76,0.11)';
+    ctx.rotate(-Math.PI/5);
+    const txt='HCJC  ';
+    const tw=ctx.measureText(txt).width;
+    const rowH=26;
+    const diag=Math.sqrt(W*W+H*H);
+    for(let row=-Math.ceil(diag/rowH);row<Math.ceil(diag/rowH)*2;row++){
+      let x=0;
+      while(x<diag*2){ctx.fillText(txt,x-diag*.4,row*rowH);x+=tw;}
+    }
+    ctx.restore();
+  });
+}
+function renderMRZLandscape(){
+  const cv=document.getElementById('mrzLandscapeCv');
+  if(!cv)return;
+  function draw(){
+    const dpr=window.devicePixelRatio||1;
+    /* Container width drives everything — stay inside the white zone */
+    const container=cv.parentElement;
+    if(!container)return;
+    const cssW=container.offsetWidth||Math.min(window.innerWidth,860);
+    const CHARS=44;
+    /* ICAO TD3: character pitch 2.54mm, line separation 5.08mm baseline-to-baseline
+       We map: each char = cssW/44 pixels.  Line height = charW * 2.0 */
+    const charW=cssW/CHARS;
+    const fontSize=charW*1.12;  /* stronger MRZ characters */
+    const lineH=charW*2.0;      /* 5.08/2.54 = 2.0 × charW */
+    const padV=Math.round(charW*0.7);
+    const totalH=Math.round(lineH*2+padV*2);
+    /* Set canvas pixel dimensions at full DPR */
+    cv.width=Math.round(cssW*dpr);
+    cv.height=Math.round(totalH*dpr);
+    cv.style.width=cssW+'px';
+    cv.style.height=totalH+'px';
+    const ctx=cv.getContext('2d');
+    ctx.scale(dpr,dpr);
+    ctx.imageSmoothingEnabled=false;
+    /* Transparent — renders on cream doc background */
+    ctx.clearRect(0,0,cssW,totalH);
+    /* Row tint on cream — very subtle */
+    ctx.fillStyle='rgba(12,27,68,0.03)';
+    ctx.fillRect(0,padV,cssW,lineH);
+    /* Font: OCR-B → Courier New fallback — monospaced, clean, readable */
+    const fsPx=fontSize.toFixed(2)+'px';
+    ctx.font='600 '+fsPx+' "OCR B MT","OCR-B","Courier New",Courier,monospace';
+    ctx.textBaseline='middle';
+    ctx.textAlign='left';
+    const prof=typeof currentProfile!=='undefined'?currentProfile:PINS['00030'];
+    const {r1,r2}=buildMRZ2(prof.given);
+    const line1=r1.slice(0,44).padEnd(44,'<');
+    const line2=r2.slice(0,44).padEnd(44,'<');
+    /* Draw each character individually in its fixed-width cell — zero kerning */
+    const y1=padV+lineH*0.5;
+    const y2=padV+lineH*1.5;
+    for(let i=0;i<44;i++){
+      const cx=i*charW;
+      const c1=line1[i], c2=line2[i];
+      /* Filler chars '<' slightly lighter; data chars full black */
+      ctx.fillStyle=c1==='<'?'rgba(12,27,68,0.35)':'rgba(12,27,68,0.95)';
+      ctx.fillText(c1,cx,y1);
+      ctx.fillStyle=c2==='<'?'rgba(12,27,68,0.35)':'rgba(12,27,68,0.95)';
+      ctx.fillText(c2,cx,y2);
+    }
+    /* Thin separator line between MRZ rows */
+    ctx.strokeStyle='rgba(0,0,0,0.06)';
+    ctx.lineWidth=0.5;
+    ctx.beginPath();ctx.moveTo(0,padV+lineH);ctx.lineTo(cssW,padV+lineH);ctx.stroke();
+  }
+  /* Load font first so first render is crisp */
+  const fontStr='normal 20px "OCR B MT","Courier New",Courier,monospace';
+  if(document.fonts&&document.fonts.load){
+    document.fonts.load(fontStr,'M').then(function(){draw();}).catch(function(){draw();});
+  } else {draw();}
+  if(!window._mrzLandR){
+    window._mrzLandR=true;
+    window.addEventListener('orientationchange',function(){setTimeout(draw,400);});
+    window.addEventListener('resize',function(){setTimeout(draw,150);});
+  }
+}
+
+/* ── LAYOUT SNAPSHOT / RESTORE ─────────────────────────────────
+   Captures exact portrait layout after initial render settles.
+   Portrait restore after landscape simply replays these values —
+   no recalculation, no fitCards, no trimC1. ──────────────────── */
+var _layoutSnap = null;
+
+/* visualViewport zoom handler removed — no layout disruption on zoom */
+
+window._snapshotLayout = function(){
+  var cs = document.getElementById('cstack');
+  var c1 = document.getElementById('c1');
+  var c2 = document.getElementById('c2');
+  if(!cs||!c1||!c2) return;
+  if(window.innerWidth > window.innerHeight) return;
+  _layoutSnap = {
+    csH:  cs.style.height,
+    c1H:  c1.style.height,
+    c1Min:c1.style.minHeight,
+    c2H:  c2.style.height,
+    c2Min:c2.style.minHeight,
+    c2Ov: c2.style.overflowY,
+    scroll: 0,
+  };
+  /* Redraw frame canvas now that c1 height is final */
+  if(typeof drawFrame==='function') drawFrame();
+  if(typeof drawHCJCWatermark==='function') drawHCJCWatermark();
+};
+
+window._restoreLayout = function(scrollToP2){
+  if(!_layoutSnap) return false;
+  var cs = document.getElementById('cstack');
+  var c1 = document.getElementById('c1');
+  var c2 = document.getElementById('c2');
+  if(!cs||!c1||!c2) return false;
+  /* Restore all inline styles exactly as snapshotted */
+  cs.style.height    = _layoutSnap.csH;
+  c1.style.height    = _layoutSnap.c1H;
+  c1.style.minHeight = _layoutSnap.c1Min;
+  c2.style.height    = _layoutSnap.c2H;
+  c2.style.minHeight = _layoutSnap.c2Min;
+  c2.style.overflowY = _layoutSnap.c2Ov;
+  /* Scroll position */
+  cs.style.scrollBehavior = 'auto';
+  cs.scrollTop = scrollToP2 ? (c2.offsetTop || 9999) : 0;
+  setTimeout(function(){ cs.style.scrollBehavior=''; }, 50);
+  return true;
+};
+
+function initOrientationWatch(){
+  /* mrzLandscape must live on body for position:fixed to work */
+  var mlEl = document.getElementById('mrzLandscape');
+  if(mlEl && mlEl.parentElement !== document.body) document.body.appendChild(mlEl);
+
+  var _lastIsLand = null;
+  var _timer = null;
+  var _onP2 = false;
+
+  /* ── LANDSCAPE: remember page, render canvas ─────────────────── */
+  function onLandscape(){
+    var cs = document.getElementById('cstack');
+    var c2 = document.getElementById('c2');
+    _onP2 = !!(cs && c2 && cs.scrollTop >= c2.offsetTop * 0.5);
+    try{ renderMRZLandscape(); }catch(e){}
+    try{ drawLandscapeWatermark(); }catch(e){}
+    /* Nothing else. CSS handles wallet hiding. */
+  }
+
+  /* ── PORTRAIT: restore snapshot, restart ghost ───────────────── */
+  function onPortrait(){
+    /* Restore exact layout from snapshot — guaranteed correct */
+    if(window._restoreLayout) window._restoreLayout(_onP2);
+    /* Restart ghost animation */
+    setTimeout(function(){
+      if(typeof restartGhost === 'function') restartGhost();
+    }, 50);
+    /* Redraw frame canvas (sizes may differ after rotation settle) */
+    setTimeout(function(){
+      if(typeof drawFrame === 'function') drawFrame();
+    }, 200);
+  }
+
+  /* ── CHECK ────────────────────────────────────────────────────── */
+  function check(){
+    var isLand = window.innerWidth > window.innerHeight;
+    if(isLand === _lastIsLand) return;
+    _lastIsLand = isLand;
+    if(isLand) onLandscape();
+    else       onPortrait();
+  }
+
+  /* Use both events for reliability across iOS versions */
+  window.addEventListener('orientationchange', function(){
+    _lastIsLand = null;
+    clearTimeout(_timer);
+    _timer = setTimeout(check, 120);
+  });
+  window.addEventListener('resize', function(){
+    clearTimeout(_timer);
+    _timer = setTimeout(check, 80);
+  });
+
+  setTimeout(check, 50);
+}
+(function(){function onVerified(){const el=document.getElementById('qrVB');if(el)el.style.display='flex';}try{const bc=new BroadcastChannel('kgd_2fa');bc.onmessage=e=>{if(e.data&&e.data.includes('verified_J74823721'))onVerified();};}catch(ex){}addEventListener('storage',e=>{if(e.key==='kgd_2fa_J74823721'&&e.newValue)onVerified();});})();
+(function(){
+  const gd=document.getElementById('ghostPhoto');
+  const gi=document.getElementById('ghostImg');
+  if(!gd||!gi)return;
+  gd.addEventListener('touchstart',()=>{
+    gi.style.animationPlayState='paused';
+  },{passive:true});
+  gd.addEventListener('touchend',()=>{
+    gi.style.animationPlayState='running';
+  },{passive:true});
+})();
+
+/* Language toggle system */
+const _T=JSON.parse("{\"EN\": {\"lang_name\": \"EN\", \"integrity\": \"INTEGRITY VERIFIED\", \"custody\": \"CUSTODY INTACT\", \"location_prefix\": \"LOCATION\", \"diplomatic_pass\": \"DIGITAL DIPLOMATIC PASS\", \"diplomatic_badge\": \"DIPLOMATIC PASS\", \"surname\": \"1. Surname\", \"given\": \"2. Given Name\", \"dob\": \"3. DOB\", \"sex\": \"4. Sex\", \"nat\": \"5. Nationality\", \"code6\": \"6. Country Code\", \"pob\": \"7. Place of Birth\", \"issued_f\": \"8. Issued\", \"expires\": \"9. Expires\", \"authority\": \"10. Authority\", \"signature\": \"11. Signature\", \"issued_loc\": \"ISSUED: NEW YORK CITY, USA\", \"valid\": \"✓ VALID\", \"page\": \"PAGE\", \"mrz_label\": \"Machine Readable Zone — ICAO 9303\", \"checksum\": \"CHECKSUM OK\", \"diplo_text\": \"Holder enjoys privileges and immunities per Vienna Convention on Diplomatic Relations (1969), Art. 29–31.\", \"sec_matrix\": \"DIGITAL SECURITY MATRIX\", \"sha\": \"SHA-256 FINGERPRINT\", \"issuer_seal\": \"ISSUER SEAL\", \"kingdom\": \"KINGDOM OF GOD\", \"sovereign\": \"SOVEREIGN AUTH.\", \"validity\": \"VALIDITY COUNTDOWN\", \"remaining\": \"REMAINING\", \"session\": \"SESSION LOG\", \"timestamp\": \"TIMESTAMP & LOCATION\", \"doc_auth\": \"DOCUMENT AUTH.\", \"authentic\": \"✓ AUTHENTIC\", \"treaty\": \"DIPLOMATIC TREATY FRAMEWORK\", \"primary\": \"PRIMARY BASIS\", \"primary_text\": \"Vienna Convention on Diplomatic Relations, 23 April 1961\", \"immunities\": \"IMMUNITIES\", \"immun_text\": \"Art. 29–31: Inviolability of person, residence & correspondence\", \"jurisdiction\": \"JURISDICTION\", \"juris_text\": \"Art. 31: Exempt from criminal, civil & administrative jurisdiction\", \"movement\": \"FREE MOVEMENT\", \"move_text\": \"Unrestricted. All borders. All transport. No charge.\", \"kgd_auth\": \"KGD SOVEREIGN AUTHORITY\", \"kgd_text\": \"Issued under supreme authority of the Creator of Heaven and Earth. Sealed in the presence of the heavenly army. Inviolable under all earthly jurisdiction.\", \"pin_label\": \"ENTER ACCESS PIN\", \"pin_error\": \"⚠ INCORRECT PIN\", \"ready_scan\": \"READY TO SCAN\", \"kingdom_hcjc\": \"KINGDOM OF GOD · HCJC\", \"land_passtype\": \"DIGITAL DIPLOMATIC PASS · TYPE PD\", \"land_icao\": \"ICAO DOC 9303 · PART 3 · TD3 SPECIFICATIONS\", \"checksum_valid\": \"CHECKSUM VALID\", \"mrz_zone\": \"MACHINE READABLE ZONE\", \"type_lbl\": \"TYPE\", \"code_lbl\": \"CODE\", \"passno_lbl\": \"PASS NO.\", \"integrity_lbl\": \"INTEGRITY\", \"remaining_lbl\": \"REMAINING\", \"issued_short\": \"ISSUED\", \"expires_short\": \"EXPIRES\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"TZ:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"Country:\", \"val_issued\": \"ISSUED:\", \"val_expires\": \"EXPIRES:\", \"c2foot_full\": \"Session-bound digital token for Diplomatic Pass J74823721. Non-transferable.\", \"log_auth\": \"AUTH\", \"log_cred\": \"CREDENTIAL\", \"log_rend\": \"RENDERED\", \"log_bio\": \"BIOMETRICS\"}, \"DE\": {\"lang_name\": \"DE\", \"integrity\": \"INTEGRITÄT BESTÄTIGT\", \"custody\": \"VERWAHRUNG INTAKT\", \"location_prefix\": \"STANDORT\", \"diplomatic_pass\": \"DIGITALER DIPLOMATISCHER PASS\", \"diplomatic_badge\": \"DIPLOMATISCHER PASS\", \"surname\": \"1. Nachname\", \"given\": \"2. Vorname\", \"dob\": \"3. Geburtsdatum\", \"sex\": \"4. Geschlecht\", \"nat\": \"5. Staatsangehörigkeit\", \"code6\": \"6. Länderkennzeichen\", \"pob\": \"7. Geburtsort\", \"issued_f\": \"8. Ausgestellt\", \"expires\": \"9. Gültig bis\", \"authority\": \"10. Behörde\", \"signature\": \"11. Unterschrift\", \"issued_loc\": \"AUSGESTELLT: NEW YORK CITY, USA\", \"valid\": \"✓ GÜLTIG\", \"page\": \"SEITE\", \"mrz_label\": \"Maschinenlesbare Zone — ICAO 9303\", \"checksum\": \"PRÜFSUMME OK\", \"diplo_text\": \"Inhaber geniesst Vorrechte gem. Wiener Übereinkommen Art. 29–31.\", \"sec_matrix\": \"DIGITALE SICHERHEITSMATRIX\", \"sha\": \"SHA-256 FINGERABDRUCK\", \"issuer_seal\": \"AUSSTELLERSIEGEL\", \"kingdom\": \"KÖNIGREICH GOTTES\", \"sovereign\": \"SOUVERÄNE AUTH.\", \"validity\": \"GÜLTIGKEITSCOUNTDOWN\", \"remaining\": \"VERBLEIBEND\", \"session\": \"SITZUNGSPROTOKOLL\", \"timestamp\": \"ZEITSTEMPEL & STANDORT\", \"doc_auth\": \"DOKUMENT AUTH.\", \"authentic\": \"✓ AUTHENTISCH\", \"treaty\": \"DIPLOMATISCHES VERTRAGSRAHMEN\", \"primary\": \"PRIMÄRE BASIS\", \"primary_text\": \"Wiener Übereinkommen über diplomatische Beziehungen, 23. April 1961\", \"immunities\": \"IMMUNITÄTEN\", \"immun_text\": \"Art. 29–31: Unverletzlichkeit von Person, Wohnsitz & Korrespondenz\", \"jurisdiction\": \"GERICHTSBARKEIT\", \"juris_text\": \"Art. 31: Befreiung von straf-, zivil- & verwaltungsrechtlicher Gerichtsbarkeit\", \"movement\": \"FREIZÜGIGKEIT\", \"move_text\": \"Unbeschränkt. Alle Grenzen. Alle Transportmittel. Kostenfrei.\", \"kgd_auth\": \"KGD SOUVERÄNE AUTORITÄT\", \"kgd_text\": \"Ausgestellt unter höchster Autorität des Schöpfers des Himmels und der Erde. Besiegelt in Gegenwart der himmlischen Heerschar. Unantastbar unter irdischer Rechtsprechung.\", \"pin_label\": \"ZUGANGSCODE EINGEBEN\", \"pin_error\": \"⚠ FALSCHER CODE\", \"ready_scan\": \"BEREIT ZUM SCANNEN\", \"kingdom_hcjc\": \"KÖNIGREICH GOTTES · HCJC\", \"land_passtype\": \"DIGITALER DIPLOMATISCHER PASS · TYP PD\", \"land_icao\": \"ICAO DOK 9303 · TEIL 3 · TD3 SPEZIFIKATIONEN\", \"checksum_valid\": \"PRÜFSUMME GÜLTIG\", \"mrz_zone\": \"MASCHINENLESBARE ZONE\", \"type_lbl\": \"TYP\", \"code_lbl\": \"CODE\", \"passno_lbl\": \"PASS-NR.\", \"integrity_lbl\": \"INTEGRITÄT\", \"remaining_lbl\": \"VERBLEIBEND\", \"issued_short\": \"AUSGESTELLT\", \"expires_short\": \"GÜLTIG BIS\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"ZZ:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"Land:\", \"val_issued\": \"AUSGESTELLT:\", \"val_expires\": \"GÜLTIG BIS:\", \"c2foot_full\": \"Sitzungsgebundenes digitales Token für Diplomatischen Pass J74823721. Nicht übertragbar.\", \"log_auth\": \"AUTH\", \"log_cred\": \"ANMELDEDATEN\", \"log_rend\": \"GERENDERT\", \"log_bio\": \"BIOMETRIE\"}, \"FR\": {\"lang_name\": \"FR\", \"integrity\": \"INTÉGRITÉ VÉRIFIÉE\", \"custody\": \"GARDE INTACTE\", \"location_prefix\": \"LIEU\", \"diplomatic_pass\": \"PASSEPORT DIPLOMATIQUE NUMÉRIQUE\", \"diplomatic_badge\": \"PASSEPORT DIPLOMATIQUE\", \"surname\": \"1. Nom\", \"given\": \"2. Prénom\", \"dob\": \"3. Naissance\", \"sex\": \"4. Sexe\", \"nat\": \"5. Nationalité\", \"code6\": \"6. Code pays\", \"pob\": \"7. Lieu de naissance\", \"issued_f\": \"8. Délivré le\", \"expires\": \"9. Expire le\", \"authority\": \"10. Autorité\", \"signature\": \"11. Signature\", \"issued_loc\": \"DÉLIVRÉ: NEW YORK, USA\", \"valid\": \"✓ VALIDE\", \"page\": \"Pg.\", \"mrz_label\": \"Zone de Lecture Optique — ICAO 9303\", \"checksum\": \"CONTRÔLE OK\", \"diplo_text\": \"Le titulaire bénéficie de privilèges conformément à la Convention de Vienne Art. 29–31.\", \"sec_matrix\": \"MATRICE DE SÉCURITÉ NUMÉRIQUE\", \"sha\": \"EMPREINTE SHA-256\", \"issuer_seal\": \"SCEAU ÉMETTEUR\", \"kingdom\": \"ROYAUME DE DIEU\", \"sovereign\": \"AUTH. SOUVERAINE\", \"validity\": \"COMPTE À REBOURS\", \"remaining\": \"RESTANT\", \"session\": \"JOURNAL DE SESSION\", \"timestamp\": \"HORODATAGE & LIEU\", \"doc_auth\": \"AUTH. DOCUMENT\", \"authentic\": \"✓ AUTHENTIQUE\", \"treaty\": \"CADRE DES TRAITÉS DIPLOMATIQUES\", \"primary\": \"BASE PRIMAIRE\", \"primary_text\": \"Convention de Vienne sur les relations diplomatiques, 23 avril 1961\", \"immunities\": \"IMMUNITÉS\", \"immun_text\": \"Art. 29–31: Inviolabilité de la personne, résidence & correspondance\", \"jurisdiction\": \"JURIDICTION\", \"juris_text\": \"Art. 31: Exempté des juridictions pénale, civile & administrative\", \"movement\": \"LIBRE CIRCULATION\", \"move_text\": \"Sans restriction. Toutes frontières. Tous transports. Sans frais.\", \"kgd_auth\": \"AUTORITÉ SOUVERAINE KGD\", \"kgd_text\": \"Émis sous l'autorité suprême du Créateur du Ciel et de la Terre. Scellé en présence de l'armée céleste. Inviolable sous toute juridiction terrestre.\", \"pin_label\": \"ENTRER LE CODE D'ACCÈS\", \"pin_error\": \"⚠ CODE INCORRECT\", \"ready_scan\": \"PRÊT À SCANNER\", \"kingdom_hcjc\": \"ROYAUME DE DIEU · HCJC\", \"land_passtype\": \"PASSEPORT DIPLOMATIQUE NUMÉRIQUE · TYPE PD\", \"land_icao\": \"ICAO DOC 9303 · PARTIE 3 · SPÉCIFICATIONS TD3\", \"checksum_valid\": \"SOMME DE CONTRÔLE VALIDE\", \"mrz_zone\": \"ZONE DE LECTURE OPTIQUE\", \"type_lbl\": \"TYPE\", \"code_lbl\": \"CODE\", \"passno_lbl\": \"N° PASSEPORT\", \"integrity_lbl\": \"INTÉGRITÉ\", \"remaining_lbl\": \"RESTANT\", \"issued_short\": \"DÉLIVRÉ\", \"expires_short\": \"EXPIRE\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"FH:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"Pays:\", \"val_issued\": \"DÉLIVRÉ:\", \"val_expires\": \"EXPIRE:\", \"c2foot_full\": \"Jeton numérique lié à la session pour Passeport Diplomatique J74823721. Non transférable.\", \"log_auth\": \"AUTH\", \"log_cred\": \"IDENTIFIANTS\", \"log_rend\": \"RENDU\", \"log_bio\": \"BIOMÉTRIE\"}, \"ES\": {\"lang_name\": \"ES\", \"integrity\": \"INTEGRIDAD VERIFICADA\", \"custody\": \"CUSTODIA INTACTA\", \"location_prefix\": \"UBICACIÓN\", \"diplomatic_pass\": \"PASAPORTE DIPLOMÁTICO DIGITAL\", \"diplomatic_badge\": \"PASAPORTE DIPLOMÁTICO\", \"surname\": \"1. Apellido\", \"given\": \"2. Nombre\", \"dob\": \"3. Nacimiento\", \"sex\": \"4. Sexo\", \"nat\": \"5. Nacionalidad\", \"code6\": \"6. Código país\", \"pob\": \"7. Lugar de nacimiento\", \"issued_f\": \"8. Expedido\", \"expires\": \"9. Caduca\", \"authority\": \"10. Autoridad\", \"signature\": \"11. Firma\", \"issued_loc\": \"EXPEDIDO: NEW YORK, USA\", \"valid\": \"✓ VÁLIDO\", \"page\": \"PÁGINA\", \"mrz_label\": \"Zona de Lectura Mecánica — ICAO 9303\", \"checksum\": \"SUMA VERIFICADA\", \"diplo_text\": \"El titular goza de privilegios conforme al Convenio de Viena Art. 29–31.\", \"sec_matrix\": \"MATRIZ DE SEGURIDAD DIGITAL\", \"sha\": \"HUELLA SHA-256\", \"issuer_seal\": \"SELLO EMISOR\", \"kingdom\": \"REINO DE DIOS\", \"sovereign\": \"AUT. SOBERANA\", \"validity\": \"CUENTA REGRESIVA\", \"remaining\": \"RESTANTE\", \"session\": \"REGISTRO DE SESIÓN\", \"timestamp\": \"MARCA TEMPORAL & LUGAR\", \"doc_auth\": \"AUT. DOCUMENTO\", \"authentic\": \"✓ AUTÉNTICO\", \"treaty\": \"MARCO DE TRATADOS DIPLOMÁTICOS\", \"primary\": \"BASE PRIMARIA\", \"primary_text\": \"Convención de Viena sobre Relaciones Diplomáticas, 23 de abril de 1961\", \"immunities\": \"INMUNIDADES\", \"immun_text\": \"Art. 29–31: Inviolabilidad de la persona, residencia y correspondencia\", \"jurisdiction\": \"JURISDICCIÓN\", \"juris_text\": \"Art. 31: Exento de jurisdicción penal, civil y administrativa\", \"movement\": \"LIBRE CIRCULACIÓN\", \"move_text\": \"Sin restricciones. Todas las fronteras. Todo transporte. Sin cargos.\", \"kgd_auth\": \"AUTORIDAD SOBERANA KGD\", \"kgd_text\": \"Emitido bajo la autoridad suprema del Creador del Cielo y la Tierra. Sellado en presencia del ejército celestial. Inviolable bajo toda jurisdicción terrenal.\", \"pin_label\": \"INGRESAR CÓDIGO DE ACCESO\", \"pin_error\": \"⚠ CÓDIGO INCORRECTO\", \"ready_scan\": \"LISTO PARA ESCANEAR\", \"kingdom_hcjc\": \"REINO DE DIOS · HCJC\", \"land_passtype\": \"PASAPORTE DIPLOMÁTICO DIGITAL · TIPO PD\", \"land_icao\": \"ICAO DOC 9303 · PARTE 3 · ESPECIFICACIONES TD3\", \"checksum_valid\": \"SUMA VERIFICADA VÁLIDA\", \"mrz_zone\": \"ZONA DE LECTURA MECÁNICA\", \"type_lbl\": \"TIPO\", \"code_lbl\": \"CÓDIGO\", \"passno_lbl\": \"N° PASAPORTE\", \"integrity_lbl\": \"INTEGRIDAD\", \"remaining_lbl\": \"RESTANTE\", \"issued_short\": \"EXPEDIDO\", \"expires_short\": \"CADUCA\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"HU:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"País:\", \"val_issued\": \"EXPEDIDO:\", \"val_expires\": \"CADUCA:\", \"c2foot_full\": \"Token digital vinculado a la sesión para Pasaporte Diplomático J74823721. No transferible.\", \"log_auth\": \"AUTH\", \"log_cred\": \"CREDENCIAL\", \"log_rend\": \"RENDERIZADO\", \"log_bio\": \"BIOMETRÍA\"}, \"IT\": {\"lang_name\": \"IT\", \"integrity\": \"INTEGRITÀ VERIFICATA\", \"custody\": \"CUSTODIA INTATTA\", \"location_prefix\": \"POSIZIONE\", \"diplomatic_pass\": \"PASSAPORTO DIPLOMATICO DIGITALE\", \"diplomatic_badge\": \"PASSAPORTO DIPLOMATICO\", \"surname\": \"1. Cognome\", \"given\": \"2. Nome\", \"dob\": \"3. Nascita\", \"sex\": \"4. Sesso\", \"nat\": \"5. Nazionalità\", \"code6\": \"6. Codice paese\", \"pob\": \"7. Luogo di nascita\", \"issued_f\": \"8. Rilasciato\", \"expires\": \"9. Scadenza\", \"authority\": \"10. Autorità\", \"signature\": \"11. Firma\", \"issued_loc\": \"RILASCIATO: NEW YORK, USA\", \"valid\": \"✓ VALIDO\", \"page\": \"Pag.\", \"mrz_label\": \"Zona di Lettura Meccanica — ICAO 9303\", \"checksum\": \"VERIFICA OK\", \"diplo_text\": \"Il titolare gode di privilegi ai sensi della Convenzione di Vienna Art. 29–31.\", \"sec_matrix\": \"MATRICE DI SICUREZZA DIGITALE\", \"sha\": \"IMPRONTA SHA-256\", \"issuer_seal\": \"SIGILLO EMITTENTE\", \"kingdom\": \"REGNO DI DIO\", \"sovereign\": \"AUT. SOVRANA\", \"validity\": \"CONTO ALLA ROVESCIA\", \"remaining\": \"RIMANENTE\", \"session\": \"REGISTRO DI SESSIONE\", \"timestamp\": \"TIMESTAMP & POSIZIONE\", \"doc_auth\": \"AUT. DOCUMENTO\", \"authentic\": \"✓ AUTENTICO\", \"treaty\": \"QUADRO DEI TRATTATI DIPLOMATICI\", \"primary\": \"BASE PRIMARIA\", \"primary_text\": \"Convenzione di Vienna sulle Relazioni Diplomatiche, 23 aprile 1961\", \"immunities\": \"IMMUNITÀ\", \"immun_text\": \"Art. 29–31: Inviolabilità della persona, residenza e corrispondenza\", \"jurisdiction\": \"GIURISDIZIONE\", \"juris_text\": \"Art. 31: Esente da giurisdizione penale, civile e amministrativa\", \"movement\": \"LIBERA CIRCOLAZIONE\", \"move_text\": \"Senza restrizioni. Tutte le frontiere. Tutti i trasporti. Senza costi.\", \"kgd_auth\": \"AUTORITÀ SOVRANA KGD\", \"kgd_text\": \"Emesso sotto la suprema autorità del Creatore del Cielo e della Terra. Sigillato alla presenza dell'esercito celeste. Inviolabile sotto ogni giurisdizione terrena.\", \"pin_label\": \"INSERIRE CODICE DI ACCESSO\", \"pin_error\": \"⚠ CODICE ERRATO\", \"ready_scan\": \"PRONTO PER LA SCANSIONE\", \"kingdom_hcjc\": \"REGNO DI DIO · HCJC\", \"land_passtype\": \"PASSAPORTO DIPLOMATICO DIGITALE · TIPO PD\", \"land_icao\": \"ICAO DOC 9303 · PARTE 3 · SPECIFICHE TD3\", \"checksum_valid\": \"CHECKSUM VALIDO\", \"mrz_zone\": \"ZONA DI LETTURA MECCANICA\", \"type_lbl\": \"TIPO\", \"code_lbl\": \"CODICE\", \"passno_lbl\": \"N° PASSAPORTO\", \"integrity_lbl\": \"INTEGRITÀ\", \"remaining_lbl\": \"RIMANENTE\", \"issued_short\": \"RILASCIATO\", \"expires_short\": \"SCADENZA\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"FO:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"Paese:\", \"val_issued\": \"RILASCIATO:\", \"val_expires\": \"SCADENZA:\", \"c2foot_full\": \"Token digitale legato alla sessione per Passaporto Diplomatico J74823721. Non trasferibile.\", \"log_auth\": \"AUTH\", \"log_cred\": \"CREDENZIALI\", \"log_rend\": \"RENDERIZZATO\", \"log_bio\": \"BIOMETRIA\"}, \"PT\": {\"lang_name\": \"PT\", \"integrity\": \"INTEGRIDADE VERIFICADA\", \"custody\": \"CUSTÓDIA INTACTA\", \"location_prefix\": \"LOCALIZAÇÃO\", \"diplomatic_pass\": \"PASSAPORTE DIPLOMÁTICO DIGITAL\", \"diplomatic_badge\": \"PASSAPORTE DIPLOMÁTICO\", \"surname\": \"1. Sobrenome\", \"given\": \"2. Nome próprio\", \"dob\": \"3. Nascimento\", \"sex\": \"4. Sexo\", \"nat\": \"5. Nacionalidade\", \"code6\": \"6. Código país\", \"pob\": \"7. Local de nascimento\", \"issued_f\": \"8. Emitido em\", \"expires\": \"9. Validade\", \"authority\": \"10. Autoridade\", \"signature\": \"11. Assinatura\", \"issued_loc\": \"EMITIDO: NOVA YORK, EUA\", \"valid\": \"✓ VÁLIDO\", \"page\": \"Pág.\", \"mrz_label\": \"Zona de Leitura Mecânica — ICAO 9303\", \"checksum\": \"SOMA DE VERIFICAÇÃO OK\", \"diplo_text\": \"O titular goza de privilégios conforme a Convenção de Viena Art. 29–31.\", \"sec_matrix\": \"MATRIZ DE SEGURANÇA DIGITAL\", \"sha\": \"IMPRESSÃO SHA-256\", \"issuer_seal\": \"SELO EMISSOR\", \"kingdom\": \"REINO DE DEUS\", \"sovereign\": \"AUT. SOBERANA\", \"validity\": \"CONTAGEM REGRESSIVA\", \"remaining\": \"RESTANTE\", \"session\": \"REGISTO DE SESSÃO\", \"timestamp\": \"MARCA TEMPORAL & LOCAL\", \"doc_auth\": \"AUT. DOCUMENTO\", \"authentic\": \"✓ AUTÊNTICO\", \"treaty\": \"QUADRO DE TRATADOS DIPLOMÁTICOS\", \"primary\": \"BASE PRIMÁRIA\", \"primary_text\": \"Convenção de Viena sobre Relações Diplomáticas, 23 de abril de 1961\", \"immunities\": \"IMUNIDADES\", \"immun_text\": \"Art. 29–31: Inviolabilidade da pessoa, residência e correspondência\", \"jurisdiction\": \"JURISDIÇÃO\", \"juris_text\": \"Art. 31: Isento de jurisdição penal, civil e administrativa\", \"movement\": \"LIVRE CIRCULAÇÃO\", \"move_text\": \"Sem restrições. Todas as fronteiras. Todos os transportes. Sem custos.\", \"kgd_auth\": \"AUTORIDADE SOBERANA KGD\", \"kgd_text\": \"Emitido sob a suprema autoridade do Criador do Céu e da Terra. Selado na presença do exército celestial. Inviolável sob toda jurisdição terrena.\", \"pin_label\": \"INSERIR CÓDIGO DE ACESSO\", \"pin_error\": \"⚠ CÓDIGO INCORRETO\", \"ready_scan\": \"PRONTO PARA DIGITALIZAR\", \"kingdom_hcjc\": \"REINO DE DEUS · HCJC\", \"land_passtype\": \"PASSAPORTE DIPLOMÁTICO DIGITAL · TIPO PD\", \"land_icao\": \"ICAO DOC 9303 · PARTE 3 · ESPECIFICAÇÕES TD3\", \"checksum_valid\": \"SOMA DE VERIFICAÇÃO VÁLIDA\", \"mrz_zone\": \"ZONA DE LEITURA MECÂNICA\", \"type_lbl\": \"TIPO\", \"code_lbl\": \"CÓDIGO\", \"passno_lbl\": \"N° PASSAPORTE\", \"integrity_lbl\": \"INTEGRIDADE\", \"remaining_lbl\": \"RESTANTE\", \"issued_short\": \"EMITIDO\", \"expires_short\": \"VALIDADE\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"FH:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"País:\", \"val_issued\": \"EMITIDO:\", \"val_expires\": \"VALIDADE:\", \"c2foot_full\": \"Token digital vinculado à sessão para Passaporte Diplomático J74823721. Não transferível.\", \"log_auth\": \"AUTH\", \"log_cred\": \"CREDENCIAL\", \"log_rend\": \"RENDERIZADO\", \"log_bio\": \"BIOMETRIA\"}, \"RU\": {\"lang_name\": \"RU\", \"integrity\": \"ЦЕЛОСТНОСТЬ ПОДТВЕРЖДЕНА\", \"custody\": \"ХРАНЕНИЕ НЕТРОНУТО\", \"location_prefix\": \"МЕСТОПОЛОЖЕНИЕ\", \"diplomatic_pass\": \"ЦИФРОВОЙ ДИПЛОМАТИЧЕСКИЙ ПАСПОРТ\", \"diplomatic_badge\": \"ДИПЛОМАТИЧЕСКИЙ ПАСПОРТ\", \"surname\": \"1. Фамилия\", \"given\": \"2. Имя\", \"dob\": \"3. Дата рождения\", \"sex\": \"4. Пол\", \"nat\": \"5. Гражданство\", \"code6\": \"6. Код страны\", \"pob\": \"7. Место рождения\", \"issued_f\": \"8. Выдан\", \"expires\": \"9. Действителен до\", \"authority\": \"10. Орган выдачи\", \"signature\": \"11. Подпись\", \"issued_loc\": \"ВЫДАН: НЬЮ-ЙОРК, США\", \"valid\": \"✓ ДЕЙСТВИТЕЛЕН\", \"page\": \"СТРАНИЦА\", \"mrz_label\": \"Машиночитаемая Зона — ИКАО 9303\", \"checksum\": \"КОНТРОЛЬНАЯ СУММА OK\", \"diplo_text\": \"Владелец пользуется привилегиями по Венской конвенции ст. 29–31.\", \"sec_matrix\": \"ЦИФРОВАЯ МАТРИЦА БЕЗОПАСНОСТИ\", \"sha\": \"SHA-256 ОТПЕЧАТОК\", \"issuer_seal\": \"ПЕЧАТЬ ЭМИТЕНТА\", \"kingdom\": \"ЦАРСТВО БОЖИЕ\", \"sovereign\": \"СУВЕРЕННАЯ АУТ.\", \"validity\": \"ОБРАТНЫЙ ОТСЧЁТ\", \"remaining\": \"ОСТАЛОСЬ\", \"session\": \"ЖУРНАЛ СЕССИИ\", \"timestamp\": \"МЕТКА ВРЕМЕНИ И МЕСТОПОЛОЖЕНИЕ\", \"doc_auth\": \"АУТ. ДОКУМЕНТА\", \"authentic\": \"✓ ПОДЛИННЫЙ\", \"treaty\": \"ДИПЛОМАТИЧЕСКАЯ ДОГОВОРНАЯ БАЗА\", \"primary\": \"ОСНОВНАЯ БАЗА\", \"primary_text\": \"Венская конвенция о дипломатических сношениях, 23 апреля 1961 г.\", \"immunities\": \"ИММУНИТЕТЫ\", \"immun_text\": \"Ст. 29–31: Неприкосновенность личности, резиденции и корреспонденции\", \"jurisdiction\": \"ЮРИСДИКЦИЯ\", \"juris_text\": \"Ст. 31: Освобождён от уголовной, гражданской и административной юрисдикции\", \"movement\": \"СВОБОДНОЕ ПЕРЕДВИЖЕНИЕ\", \"move_text\": \"Неограниченно. Все границы. Весь транспорт. Бесплатно.\", \"kgd_auth\": \"СУВЕРЕННАЯ ВЛАСТЬ KGD\", \"kgd_text\": \"Выдан под верховной властью Творца Неба и Земли. Скреплён в присутствии небесного воинства. Неприкосновенен под любой земной юрисдикцией.\", \"pin_label\": \"ВВЕДИТЕ КОД ДОСТУПА\", \"pin_error\": \"⚠ НЕВЕРНЫЙ КОД\", \"ready_scan\": \"ГОТОВО К СКАНИРОВАНИЮ\", \"kingdom_hcjc\": \"ЦАРСТВО БОЖИЕ · ХСХС\", \"land_passtype\": \"ЦИФРОВОЙ ДИП. ПАСПОРТ · ТИП PD\", \"land_icao\": \"ИКАО ДОК 9303 · ЧАСТЬ 3 · СПЕЦИФИКАЦИИ TD3\", \"checksum_valid\": \"КОНТРОЛЬНАЯ СУММА ВЕРНА\", \"mrz_zone\": \"МАШИНОЧИТАЕМАЯ ЗОНА\", \"type_lbl\": \"ТИП\", \"code_lbl\": \"КОД\", \"passno_lbl\": \"НОМЕР ПАСПОРТА\", \"integrity_lbl\": \"ЦЕЛОСТНОСТЬ\", \"remaining_lbl\": \"ОСТАЛОСЬ\", \"issued_short\": \"ВЫДАН\", \"expires_short\": \"ДЕЙСТВИТЕЛЕН ДО\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"ЧП:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"Страна:\", \"val_issued\": \"ВЫДАН:\", \"val_expires\": \"ДЕЙСТВ. ДО:\", \"c2foot_full\": \"Привязанный к сессии токен для Дипломатического Паспорта J74823721. Не передаётся.\", \"log_auth\": \"АУТ\", \"log_cred\": \"ДАННЫЕ\", \"log_rend\": \"РЕНДЕР\", \"log_bio\": \"БИОМЕТРИЯ\"}, \"AR\": {\"lang_name\": \"عر\", \"integrity\": \"التكامل محقق\", \"custody\": \"الحراسة سليمة\", \"location_prefix\": \"الموقع\", \"diplomatic_pass\": \"جواز السفر الدبلوماسي الرقمي\", \"diplomatic_badge\": \"جواز دبلوماسي\", \"surname\": \"1. اللقب\", \"given\": \"2. الاسم\", \"dob\": \"3. تاريخ الميلاد\", \"sex\": \"4. الجنس\", \"nat\": \"5. الجنسية\", \"code6\": \"6. رمز الدولة\", \"pob\": \"7. مكان الميلاد\", \"issued_f\": \"8. تاريخ الإصدار\", \"expires\": \"9. تاريخ الانتهاء\", \"authority\": \"10. الجهة المصدرة\", \"signature\": \"11. التوقيع\", \"issued_loc\": \"صدر في: نيويورك، الولايات المتحدة\", \"valid\": \"✓ ساري\", \"page\": \"صفحة\", \"mrz_label\": \"منطقة القراءة الآلية — ICAO 9303\", \"checksum\": \"المجموع التحقق صحيح\", \"diplo_text\": \"يتمتع الحامل بالامتيازات وفق اتفاقية فيينا المواد 29-31.\", \"sec_matrix\": \"مصفوفة الأمان الرقمية\", \"sha\": \"بصمة SHA-256\", \"issuer_seal\": \"ختم المصدر\", \"kingdom\": \"ملكوت الله\", \"sovereign\": \"السلطة السيادية\", \"validity\": \"العد التنازلي للصلاحية\", \"remaining\": \"المتبقي\", \"session\": \"سجل الجلسة\", \"timestamp\": \"الطابع الزمني والموقع\", \"doc_auth\": \"مصادقة المستند\", \"authentic\": \"✓ أصيل\", \"treaty\": \"إطار المعاهدات الدبلوماسية\", \"primary\": \"الأساس الأولي\", \"primary_text\": \"اتفاقية فيينا للعلاقات الدبلوماسية، 23 أبريل 1961\", \"immunities\": \"الحصانات\", \"immun_text\": \"المواد 29-31: حصانة الشخص والمسكن والمراسلات\", \"jurisdiction\": \"الاختصاص القضائي\", \"juris_text\": \"المادة 31: الإعفاء من الولاية القضائية الجنائية والمدنية والإدارية\", \"movement\": \"حرية التنقل\", \"move_text\": \"غير مقيد. جميع الحدود. جميع وسائل النقل. مجانا.\", \"kgd_auth\": \"السلطة السيادية KGD\", \"kgd_text\": \"صدر بموجب السلطة العليا لخالق السماوات والأرض. مختوم بحضور الجيش السماوي. لا تنتهك تحت أي ولاية قضائية أرضية.\", \"pin_label\": \"أدخل رمز الدخول\", \"pin_error\": \"⚠ رمز غير صحيح\", \"ready_scan\": \"جاهز للمسح\", \"kingdom_hcjc\": \"ملكوت الله · HCJC\", \"land_passtype\": \"جواز السفر الدبلوماسي الرقمي · النوع PD\", \"land_icao\": \"ICAO وثيقة 9303 · الجزء 3 · مواصفات TD3\", \"checksum_valid\": \"مجموع التحقق صحيح\", \"mrz_zone\": \"منطقة القراءة الآلية\", \"type_lbl\": \"النوع\", \"code_lbl\": \"الرمز\", \"passno_lbl\": \"رقم الجواز\", \"integrity_lbl\": \"التكامل\", \"remaining_lbl\": \"المتبقي\", \"issued_short\": \"صدر في\", \"expires_short\": \"ينتهي في\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"المنطقة:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"الدولة:\", \"val_issued\": \"صدر:\", \"val_expires\": \"ينتهي:\", \"c2foot_full\": \"رمز رقمي مرتبط بالجلسة لجواز السفر الدبلوماسي J74823721. غير قابل للتحويل.\", \"log_auth\": \"توثيق\", \"log_cred\": \"بيانات\", \"log_rend\": \"معالجة\", \"log_bio\": \"بيومتري\"}, \"ZH\": {\"lang_name\": \"中文\", \"integrity\": \"完整性已验证\", \"custody\": \"监管完好\", \"location_prefix\": \"位置\", \"diplomatic_pass\": \"数字外交护照\", \"diplomatic_badge\": \"外交护照\", \"surname\": \"1. 姓\", \"given\": \"2. 名\", \"dob\": \"3. 出生日期\", \"sex\": \"4. 性别\", \"nat\": \"5. 国籍\", \"code6\": \"6. 国家代码\", \"pob\": \"7. 出生地\", \"issued_f\": \"8. 签发日期\", \"expires\": \"9. 有效期至\", \"authority\": \"10. 签发机关\", \"signature\": \"11. 签名\", \"issued_loc\": \"签发地: 美国纽约市\", \"valid\": \"✓ 有效\", \"page\": \"页\", \"mrz_label\": \"机器可读区 — ICAO 9303\", \"checksum\": \"校验和正确\", \"diplo_text\": \"持有人依维也纳外交关系公约第29-31条享有特权与豁免。\", \"sec_matrix\": \"数字安全矩阵\", \"sha\": \"SHA-256 指纹\", \"issuer_seal\": \"签发印章\", \"kingdom\": \"上帝之国\", \"sovereign\": \"主权认证\", \"validity\": \"有效期倒计时\", \"remaining\": \"剩余\", \"session\": \"会话日志\", \"timestamp\": \"时间戳与位置\", \"doc_auth\": \"文件认证\", \"authentic\": \"✓ 真实\", \"treaty\": \"外交条约框架\", \"primary\": \"主要依据\", \"primary_text\": \"1961年4月23日维也纳外交关系公约\", \"immunities\": \"豁免权\", \"immun_text\": \"第29-31条：人身、住所及通信不可侵犯\", \"jurisdiction\": \"司法管辖\", \"juris_text\": \"第31条：豁免刑事、民事及行政司法管辖\", \"movement\": \"自由流动\", \"move_text\": \"不受限制。所有边境。所有交通。免费。\", \"kgd_auth\": \"KGD主权权威\", \"kgd_text\": \"依天地造物主最高权威签发。在天军见证下加印。在所有世俗司法管辖下不可侵犯。\", \"pin_label\": \"输入访问密码\", \"pin_error\": \"⚠ 密码错误\", \"ready_scan\": \"准备扫描\", \"kingdom_hcjc\": \"上帝之国 · HCJC\", \"land_passtype\": \"数字外交护照 · PD型\", \"land_icao\": \"ICAO文件9303 · 第3部分 · TD3规范\", \"checksum_valid\": \"校验和有效\", \"mrz_zone\": \"机器可读区\", \"type_lbl\": \"类型\", \"code_lbl\": \"代码\", \"passno_lbl\": \"护照号\", \"integrity_lbl\": \"完整性\", \"remaining_lbl\": \"剩余\", \"issued_short\": \"签发\", \"expires_short\": \"到期\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"时区:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"国家:\", \"val_issued\": \"签发:\", \"val_expires\": \"到期:\", \"c2foot_full\": \"会话绑定数字令牌，适用于外交护照J74823721。不可转让。\", \"log_auth\": \"认证\", \"log_cred\": \"凭证\", \"log_rend\": \"渲染\", \"log_bio\": \"生物特征\"}, \"JA\": {\"lang_name\": \"日本語\", \"integrity\": \"整合性確認済み\", \"custody\": \"保管完全\", \"location_prefix\": \"位置\", \"diplomatic_pass\": \"デジタル外交旅券\", \"diplomatic_badge\": \"外交旅券\", \"surname\": \"1. 姓\", \"given\": \"2. 名\", \"dob\": \"3. 生年月日\", \"sex\": \"4. 性別\", \"nat\": \"5. 国籍\", \"code6\": \"6. 国コード\", \"pob\": \"7. 出生地\", \"issued_f\": \"8. 発行日\", \"expires\": \"9. 有効期限\", \"authority\": \"10. 発行機関\", \"signature\": \"11. 署名\", \"issued_loc\": \"発行地: ニューヨーク市, 米国\", \"valid\": \"✓ 有効\", \"page\": \"ページ\", \"mrz_label\": \"機械読取領域 — ICAO 9303\", \"checksum\": \"チェックサム OK\", \"diplo_text\": \"所持者はウィーン条約第29-31条に基づく特権を享有する。\", \"sec_matrix\": \"デジタルセキュリティマトリクス\", \"sha\": \"SHA-256 フィンガープリント\", \"issuer_seal\": \"発行者印章\", \"kingdom\": \"神の王国\", \"sovereign\": \"主権認証\", \"validity\": \"有効期限カウントダウン\", \"remaining\": \"残り\", \"session\": \"セッションログ\", \"timestamp\": \"タイムスタンプ & 位置\", \"doc_auth\": \"文書認証\", \"authentic\": \"✓ 真正\", \"treaty\": \"外交条約枠組み\", \"primary\": \"主要根拠\", \"primary_text\": \"1961年4月23日外交関係に関するウィーン条約\", \"immunities\": \"免除\", \"immun_text\": \"第29-31条: 身体・住居・通信の不可侵\", \"jurisdiction\": \"裁判管轄\", \"juris_text\": \"第31条: 刑事・民事・行政管轄からの免除\", \"movement\": \"自由移動\", \"move_text\": \"無制限。すべての国境。すべての交通手段。無料。\", \"kgd_auth\": \"KGD主権権威\", \"kgd_text\": \"天地の創造者の最高権威のもとで発行。天の軍勢の前で封印。あらゆる地上の管轄下で不可侵。\", \"pin_label\": \"アクセスコードを入力\", \"pin_error\": \"⚠ コードが違います\", \"ready_scan\": \"スキャン準備完了\", \"kingdom_hcjc\": \"神の王国 · HCJC\", \"land_passtype\": \"デジタル外交旅券 · PD型\", \"land_icao\": \"ICAO文書9303 · 第3部 · TD3仕様\", \"checksum_valid\": \"チェックサム有効\", \"mrz_zone\": \"機械読取領域\", \"type_lbl\": \"種別\", \"code_lbl\": \"コード\", \"passno_lbl\": \"旅券番号\", \"integrity_lbl\": \"整合性\", \"remaining_lbl\": \"残り\", \"issued_short\": \"発行\", \"expires_short\": \"有効期限\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"TZ:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"国:\", \"val_issued\": \"発行:\", \"val_expires\": \"有効期限:\", \"c2foot_full\": \"セッション連携デジタルトークン、外交旅券J74823721用。譲渡不可。\", \"log_auth\": \"認証\", \"log_cred\": \"資格情報\", \"log_rend\": \"レンダリング\", \"log_bio\": \"生体認証\"}, \"TR\": {\"lang_name\": \"TR\", \"integrity\": \"BÜTÜNLÜK DOĞRULANDI\", \"custody\": \"GÖZETİM SAĞLAM\", \"location_prefix\": \"KONUM\", \"diplomatic_pass\": \"DİJİTAL DİPLOMATİK PASAPORT\", \"diplomatic_badge\": \"DİPLOMATİK PASAPORT\", \"surname\": \"1. Soyadı\", \"given\": \"2. Ad\", \"dob\": \"3. Doğum Tarihi\", \"sex\": \"4. Cinsiyet\", \"nat\": \"5. Uyruk\", \"code6\": \"6. Ülke Kodu\", \"pob\": \"7. Doğum Yeri\", \"issued_f\": \"8. Veriliş Tarihi\", \"expires\": \"9. Son Geçerlilik\", \"authority\": \"10. Makam\", \"signature\": \"11. İmza\", \"issued_loc\": \"VERİLDİĞİ YER: NEW YORK, ABD\", \"valid\": \"✓ GEÇERLİ\", \"page\": \"SAYFA\", \"mrz_label\": \"Makine Okunabilir Bölge — ICAO 9303\", \"checksum\": \"KONTROL TOPLAMI OK\", \"diplo_text\": \"Hamil, Viyana Sözleşmesi Madde 29-31 kapsamında ayrıcalıklardan yararlanır.\", \"sec_matrix\": \"DİJİTAL GÜVENLİK MATRİSİ\", \"sha\": \"SHA-256 PARMAK İZİ\", \"issuer_seal\": \"İHRAÇCI MÜHÜR\", \"kingdom\": \"TANRI KRALLIGI\", \"sovereign\": \"EGEMEN YETKİ\", \"validity\": \"GEÇERLİLİK GERİ SAYIMI\", \"remaining\": \"KALAN\", \"session\": \"OTURUM GÜNLÜĞÜ\", \"timestamp\": \"ZAMAN DAMGASI & KONUM\", \"doc_auth\": \"BELGE YETKİLENDİRME\", \"authentic\": \"✓ ÖZGÜN\", \"treaty\": \"DİPLOMATİK ANTLAŞMA ÇERÇEVESİ\", \"primary\": \"BİRİNCİL DAYANAK\", \"primary_text\": \"Diplomatik İlişkiler Hakkında Viyana Sözleşmesi, 23 Nisan 1961\", \"immunities\": \"DOKUNULMAZLIKLAR\", \"immun_text\": \"Mad. 29-31: Kişi, konut ve yazışmanın dokunulmazlığı\", \"jurisdiction\": \"YETKİ ALANI\", \"juris_text\": \"Mad. 31: Cezai, medeni ve idari yargıdan muafiyet\", \"movement\": \"SERBEST DOLAŞIM\", \"move_text\": \"Kısıtlamasız. Tüm sınırlar. Tüm ulaşım. Ücretsiz.\", \"kgd_auth\": \"KGD EGEMEN OTORİTE\", \"kgd_text\": \"Gökyüzünün ve Yerin Yaratıcısının yüce otoritesi altında düzenlenmiştir. Göksel ordunun huzurunda mühürlenmiştir. Tüm dünyevi yargı yetkisi altında dokunulmazdır.\", \"pin_label\": \"ERİŞİM KODUNU GİRİN\", \"pin_error\": \"⚠ YANLIŞ KOD\", \"ready_scan\": \"TARAMAYA HAZIR\", \"kingdom_hcjc\": \"TANRI KRALLIGI · HCJC\", \"land_passtype\": \"DİJİTAL DİPLOMATİK PASAPORT · TÜR PD\", \"land_icao\": \"ICAO BEL 9303 · BÖLÜM 3 · TD3 ÖZELLİKLERİ\", \"checksum_valid\": \"KONTROL TOPLAMI GEÇERLİ\", \"mrz_zone\": \"MAKİNE OKUNABİLİR BÖLGE\", \"type_lbl\": \"TÜR\", \"code_lbl\": \"KOD\", \"passno_lbl\": \"PASAPORT NO.\", \"integrity_lbl\": \"BÜTÜNLÜK\", \"remaining_lbl\": \"KALAN\", \"issued_short\": \"VERİLDİ\", \"expires_short\": \"SON GEÇ.\", \"sha_lbl\": \"SHA-256\", \"tz_lbl\": \"SD:\", \"gps_lbl\": \"GPS:\", \"country_lbl\": \"Ülke:\", \"val_issued\": \"VERİLDİ:\", \"val_expires\": \"SON GEÇ.:\", \"c2foot_full\": \"J74823721 numaralı Diplomatik Pasaport için oturum bağlantılı dijital token. Devredilemez.\", \"log_auth\": \"AUTH\", \"log_cred\": \"KİMLİK\", \"log_rend\": \"İŞLENDİ\", \"log_bio\": \"BİYOMETRİ\"}}");
+let _lang='EN';
+const _c2sub={"EN": "KGD Cryptographic Protocol v1.0 · Digital Diplomatic Pass", "DE": "KGD Kryptographisches Protokoll v1.0 · Digitaler Diplomatischer Pass", "FR": "Protocole Cryptographique KGD v1.0 · Passeport Diplomatique Numérique", "ES": "Protocolo Criptográfico KGD v1.0 · Pasaporte Diplomático Digital", "IT": "Protocollo Crittografico KGD v1.0 · Passaporto Diplomatico Digitale", "PT": "Protocolo Criptográfico KGD v1.0 · Passaporte Diplomático Digital", "RU": "Криптографический Протокол KGD v1.0 · Дипломатический Паспорт", "AR": "بروتوكول KGD التشفيري v1.0 · جواز السفر الدبلوماسي الرقمي", "ZH": "KGD加密协议 v1.0 · 数字外交护照", "JA": "KGD暗号プロトコル v1.0 · デジタル外交旅券", "TR": "KGD Kriptografik Protokol v1.0 · Dijital Diplomatik Pasaport"};
+const _treaty={"EN": "† Diplomatic Treaty Framework", "DE": "† Diplomatisches Vertragsrahmen", "FR": "† Cadre des Traités Diplomatiques", "ES": "† Marco de Tratados Diplomáticos", "IT": "† Quadro dei Trattati Diplomatici", "PT": "† Quadro de Tratados Diplomáticos", "RU": "† Дипломатическая Договорная База", "AR": "† إطار المعاهدات الدبلوماسية", "ZH": "† 外交条约框架", "JA": "† 外交条約枠組み", "TR": "† Diplomatik Antlaşma Çerçevesi"};
+const _cardSub={"EN": "DIGITAL DIPLOMATIC PASS", "DE": "DIGITALER DIPLOMATISCHER PASS", "FR": "PASSEPORT DIPLOMATIQUE NUMÉRIQUE", "ES": "PASAPORTE DIPLOMÁTICO DIGITAL", "IT": "PASSAPORTO DIPLOMATICO DIGITALE", "PT": "PASSAPORTE DIPLOMÁTICO DIGITAL", "RU": "ЦИФРОВОЙ ДИПЛОМАТИЧЕСКИЙ ПАСПОРТ", "AR": "جواز السفر الدبلوماسي الرقمي", "ZH": "数字外交护照", "JA": "デジタル外交旅券", "TR": "DİJİTAL DİPLOMATİK PASAPORT"};
+function _applyLang(lang){
+  if(!_T[lang])return;
+  _lang=lang;
+  const t=_T[lang];
+  const dir=(['AR'].includes(lang))?'rtl':'ltr';
+  function setId(id,txt){const el=document.getElementById(id);if(el)el.textContent=txt;}
+  function setIdHTML(id,h){const el=document.getElementById(id);if(el)el.innerHTML=h;}
+
+  /* Status bar */
+  setId('integrityTxt',t.integrity);
+  setId('custodyTxt',t.custody);
+  const sGeo=document.getElementById('sGeo');
+  if(sGeo){const city=document.getElementById('cityd');const ct=city?city.textContent:'DETERMINING…';sGeo.innerHTML='◎ '+t.location_prefix+': <span id="cityd">'+ct+'</span>';}
+
+  /* Card 1 header */
+  setId('cardSubtitle',_cardSub[lang]||t.diplomatic_pass);
+  const hbadge=document.querySelector('.hbadge');if(hbadge)hbadge.textContent=t.diplomatic_badge;
+
+  /* Field labels — map by index in DOM order */
+  const flabels=[t.surname,t.given,t.dob,t.sex,t.nat,t.code6,t.pob,t.issued_f,t.expires,t.authority];
+  document.querySelectorAll('.fl').forEach((el,i)=>{if(flabels[i])el.textContent=flabels[i];});
+
+  /* Signature */
+  const siglbl=document.querySelector('.siglbl');if(siglbl)siglbl.textContent=t.signature;
+
+  /* Issued location */
+  const ainfo=document.querySelector('.ainfo');
+  if(ainfo)ainfo.innerHTML=t.issued_loc+'<br><span style="font-size:5.5px;color:rgba(14,27,58,.28)">WÜD ART.29–31 WIEN 1969</span>';
+
+  /* Valid pill */
+  const vpill=document.querySelector('.vpill');if(vpill)vpill.textContent=t.valid;
+
+  /* Page indicator */
+  const pgInd=document.getElementById('pgInd');if(pgInd)pgInd.textContent=t.page+' 1 / 2 · J74823721';
+  const prefInd=document.getElementById('prefInd');if(prefInd)prefInd.textContent=(t.page||'PAGE')+' 1 / 2 · J74823721';
+
+  /* MRZ zone */
+  const mrzlbl=document.querySelector('.mrzlbl');if(mrzlbl)mrzlbl.textContent=t.mrz_label;
+  const mrzok=document.querySelector('.mrzok');if(mrzok)mrzok.innerHTML='<div class="mrztick"></div>'+t.checksum;
+
+  /* Diplo text */
+  setId('diploText',t.diplo_text);
+
+  /* Page 2 — Security Matrix */
+  setId('c2Title','❁ '+t.sec_matrix);
+  setId('c2Sub',_c2sub[lang]||'KGD Cryptographic Protocol v1.0');
+
+  /* SC cell labels */
+  const intBarLbl=document.getElementById('integrityBarLbl');if(intBarLbl&&t.integrity_lbl)intBarLbl.textContent=t.integrity_lbl;
+  const sclbls=document.querySelectorAll('.sclbl');
+  const scmap=[t.sha,t.issuer_seal,t.session,t.timestamp,t.validity,t.doc_auth];
+  sclbls.forEach((el,i)=>{if(scmap[i])el.textContent=scmap[i];});
+
+  /* Issuer seal */
+  const sealTxt=document.querySelector('.sealrow .sealtxt');
+  if(sealTxt)sealTxt.innerHTML=t.kingdom+'<br>'+t.sovereign+'<br><span style="color:var(--vfy)">● '+(t.valid.replace('✓ ','')||'VALID')+'</span>';
+
+  /* Authentic value */
+  setId('authenticVal', t.authentic||'✓ AUTHENTIC');
+
+  /* Timestamp labels — update TZ/GPS/Country label spans */
+  const tsBlock=document.querySelector('.sc:nth-child(4)');
+  if(tsBlock){
+    const lines=tsBlock.querySelectorAll('.tsline');
+    if(lines[1]&&lines[1].childNodes[0])lines[1].childNodes[0].textContent=t.tz+' ';
+    if(lines[2]&&lines[2].childNodes[0])lines[2].childNodes[0].textContent='GPS: ';
+    if(lines[3]&&lines[3].childNodes[0])lines[3].childNodes[0].textContent=t.country.replace(':','')+': ';
+  }
+
+  /* Treaty section */
+  setId('treatyTitle',_treaty[lang]||'† '+t.treaty);
+  const tis=document.querySelectorAll('.treatyitem');
+  const tdata=[[t.primary,t.primary_text],[t.immunities,t.immun_text],[t.jurisdiction,t.juris_text],[t.movement,t.move_text]];
+  tis.forEach((ti,i)=>{if(tdata[i])ti.innerHTML='<strong>'+tdata[i][0]+'</strong>'+tdata[i][1];});
+
+  /* KGD sovereign */
+  setId('kgdAuthTitle',t.kgd_auth);
+  setId('kgdAuthBody',' '+t.kgd_text);
+
+  /* Footer session text (c2foot) */
+  const c2ft=document.querySelector('.c2ft');
+  if(c2ft){
+    const passId='J74823721';
+    if(lang==='DE')c2ft.innerHTML='Sitzungsgebundenes digitales Token für Diplomatischen Pass '+passId+'. Nicht übertragbar.';
+    else if(lang==='FR')c2ft.innerHTML='Jeton numérique lié à la session pour Passeport Diplomatique '+passId+'. Non transférable.';
+    else if(lang==='ES')c2ft.innerHTML='Token digital vinculado a la sesión para Pasaporte Diplomático '+passId+'. No transferible.';
+    else c2ft.innerHTML='Session-bound digital token for Diplomatic Pass '+passId+'. Non-transferable.';
+  }
+
+  /* Landscape */
+  const lsub=document.querySelector('.mrz-land-sub');
+  if(lsub)lsub.textContent=t.diplomatic_pass+' · ICAO 9303 TD3';
+
+
+  /* Gate screen */
+  setId('gatePinLabel', t.pin_label||'ENTER ACCESS PIN');
+  const gErr=document.getElementById('gErr');
+  if(gErr&&t.pin_error)gErr.textContent=t.pin_error;
+
+  /* Landscape */
+  setId('landBadge', t.ready_scan||'READY TO SCAN');
+  setId('landIssuer', t.kingdom_hcjc||'KINGDOM OF GOD · HCJC');
+  setId('landPasstype', t.land_passtype||'DIGITAL DIPLOMATIC PASS · TYPE PD');
+  setId('landIcao', t.land_icao||'ICAO DOC 9303 · PART 3 · TD3 SPECIFICATIONS');
+  setId('landChecksum', t.checksum_valid||'CHECKSUM VALID');
+  setId('landMrzLabel', t.mrz_zone||'MACHINE READABLE ZONE');
+
+  /* Type/Code/PassNo header labels */
+  /* Type/code/passno by id */
+  setId('typeLbl',t.type_lbl||'TYPE');
+  setId('codeLbl',t.code_lbl||'CODE');
+  setId('passnoLbl',t.passno_lbl||'PASS NO.');
+
+  /* Integrity/progress bar labels */
+  const intlbl=document.querySelector('.pblbl');
+  if(intlbl&&t.integrity_lbl)intlbl.textContent=t.integrity_lbl;
+  /* Validity countdown label */
+  const vallbl=document.querySelector('.pbwrap .pbtop .pblbl');
+  /* Issued/Expires short labels in arow */
+  const ainfo_full=document.querySelector('.ainfo');
+  if(ainfo_full&&t.issued_loc)ainfo_full.innerHTML=t.issued_loc+'<br><span style="font-size:5.5px;color:rgba(14,27,58,.28)">WÜD ART.29–31 WIEN 1969</span>';
+  const remlbl=document.querySelector('.pbtop .pbpct');
+  if(remlbl&&remlbl.previousElementSibling&&t.remaining_lbl){
+    /* Remaining label next to progress bar */
+  }
+
+
+  /* Remaining label */
+  setId('remainingLbl', t.remaining_lbl||'REMAINING');
+  /* Re-run computeExpiry so the countdown text uses the new language */
+  if(typeof computeExpiry==='function') computeExpiry();
+  /* Re-run computeExpiry so the countdown text uses the new language */
+  if(typeof computeExpiry==='function') computeExpiry();
+  /* Session log labels */
+  setId('logAuth', t.log_auth||'AUTH');
+  setId('logCred', t.log_cred||'CREDENTIAL');
+  setId('logRend', t.log_rend||'RENDERED');
+  setId('logBio',  t.log_bio||'BIOMETRICS');
+
+  /* Type strip labels (TYPE/CODE/PASS NO.) */
+  setId('typeLbl', t.type_lbl||'TYPE');
+  setId('codeLbl', t.code_lbl||'CODE');
+  setId('passnoLbl', t.passno_lbl||'PASS NO.');
+
+  /* SHA-256 label */
+  setId('shaLbl', t.sha_lbl||'SHA-256');
+
+  /* TZ / GPS / Country labels */
+  setId('tzLbl', t.tz_lbl||'TZ:');
+  setId('gpsLbl', t.gps_lbl||'GPS:');
+  setId('countryLbl', t.country_lbl||'Country:');
+
+  /* ISSUED / EXPIRES in validity cell */
+  setId('valIssuedLbl', t.val_issued||'ISSUED:');
+  setId('valExpiresLbl', t.val_expires||'EXPIRES:');
+
+  /* c2 footer — full translation for all languages */
+  const c2ft2=document.querySelector('.c2ft');
+  if(c2ft2&&t.c2foot_full)c2ft2.textContent=t.c2foot_full;
+
+  /* Integrity bar label */
+  setId('integrityBarLbl', t.integrity_lbl||'INTEGRITY');
+
+  /* Name font — switch to appropriate script for CJK/Arabic */
+  const nameEls=document.querySelectorAll('#givenName,.fv[id="givenName"]');
+  const surnameEl=document.querySelector('.fv.lg:first-of-type')||document.querySelectorAll('.fv')[0];
+  /* Only the given name display changes for name rendering script */
+  /* Surname (CHRIST) stays in Latin regardless of language */
+
+  /* RTL */
+  const wallet=document.getElementById('wallet');
+  if(wallet)wallet.style.direction=dir;
+
+  /* Update toggle */
+  document.querySelectorAll('.lang-opt').forEach(o=>o.classList.toggle('active',o.dataset.lang===lang));
+  const btn=document.querySelector('.lang-btn');if(btn)btn.textContent=t.lang_name;
+}
+function _initLangToggle(){
+  const sbar=document.getElementById('sbar');
+  if(!sbar)return;
+  const wrapper=document.createElement('div');
+  wrapper.className='lang-toggle';
+  const btn=document.createElement('div');
+  btn.className='lang-btn';
+  btn.textContent='EN';
+  const drop=document.createElement('div');
+  drop.className='lang-drop';
+  /* Position dropdown correctly on iOS Safari (accounts for visual viewport offset) */
+  function positionDrop(){
+    const rect=btn.getBoundingClientRect();
+    /* On iOS Safari the visual viewport may be offset */
+    var vvTop=0;
+    if(window.visualViewport){vvTop=window.visualViewport.offsetTop||0;}
+    /* Place dropdown 6px BELOW the button */
+    drop.style.top=(rect.bottom+6+vvTop)+'px';
+    drop.style.right='10px';
+  }
+  const langs=[['EN','English'],['DE','German'],['FR','French'],['ES','Spanish'],['IT','Italian'],['PT','Portuguese'],['RU','Russian'],['AR','Arabic'],['ZH','Chinese'],['JA','Japanese'],['TR','Turkish']];
+  langs.forEach(([code,name])=>{
+    const opt=document.createElement('div');
+    opt.className='lang-opt'+(code==='EN'?' active':'');
+    opt.dataset.lang=code;
+    opt.textContent=name;
+    function selectLang(e){
+      if(e&&e.stopPropagation)e.stopPropagation();
+      _applyLang(code);
+      drop.classList.remove('open');
+    }
+    /* Use touchend for selection — avoids ghost-click issues */
+    opt.addEventListener('touchend',selectLang,{passive:true});
+    opt.addEventListener('click',selectLang);
+    drop.appendChild(opt);
+  });
+  var _dropJustOpened=false;
+  function toggleDrop(e){
+    if(e&&e.stopPropagation)e.stopPropagation();
+    if(e&&e.preventDefault)e.preventDefault();
+    positionDrop();
+    drop.classList.toggle('open');
+    if(drop.classList.contains('open')){
+      _dropJustOpened=true;
+      setTimeout(function(){_dropJustOpened=false;},200);
+    }
+  }
+  btn.addEventListener('touchend',toggleDrop,{passive:false});
+  btn.addEventListener('click',toggleDrop);
+  /* Close on outside tap — but not if we just opened it */
+  document.addEventListener('touchend',function(e){
+    if(_dropJustOpened)return;
+    if(!drop.contains(e.target)&&e.target!==btn){
+      drop.classList.remove('open');
+    }
+  },{passive:true});
+  document.addEventListener('click',function(e){
+    if(!drop.contains(e.target)&&e.target!==btn){
+      drop.classList.remove('open');
+    }
+  });
+  /* Reposition on viewport changes (iOS address bar show/hide) */
+  if(window.visualViewport){
+    window.visualViewport.addEventListener('scroll',function(){
+      if(drop.classList.contains('open'))positionDrop();
+    });
+  }
+  /* Append drop to body — escapes all overflow:hidden parents */
+  document.body.appendChild(drop);
+  wrapper.appendChild(btn);
+  sbar.style.position='relative';
+  sbar.appendChild(wrapper);
+}
+</script> </body></html>
